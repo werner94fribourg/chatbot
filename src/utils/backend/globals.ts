@@ -20,9 +20,9 @@ export const AZURE_BASE_MODEL = 'gpt-4o-mini-2024-07-18-enthusiastic-tone';
 export const OPENAI_MODEL = 'gpt-4o';
 
 export const SEARCH_ENDPOINT =
-  'https://review-chatbot-search.search.windows.net';
+  'https://bizbot-search-service.search.windows.net';
 
-export const SEARCH_INDEX_NAME = 'review-index';
+export const SEARCH_INDEX_NAME = 'recommendation-index-2';
 
 export const ROOT_FOLDER = nextConfig.serverRuntimeConfig.PROJECT_ROOT;
 
@@ -41,6 +41,8 @@ export const TRAINING_DATA_FILE = DATA_FOLDER + '/training_set.jsonl';
 export const VALIDATION_DATA_FILE = DATA_FOLDER + '/validation_set.jsonl';
 
 export const FINETUNE_BASE_MODEL = 'gpt-4o-mini-2024-07-18';
+
+export const EMBEDDING_MODEL = 'text-embedding-ada-002';
 
 export const RECOMMENDATIONS_PINECONE_INDEX = 'recommendation-index';
 
