@@ -1,0 +1,28 @@
+import { generate } from '@/data_generation/businesses';
+import {
+  BUSINESSES_DATA_FILE,
+  BUSINESSES_DATA_TXT,
+} from '@/utils/backend/globals';
+import { Business } from '@/utils/backend/utils';
+import { readFile } from 'fs';
+import { NextRequest, NextResponse } from 'next/server';
+import { promisify } from 'util';
+
+export async function GET(_: NextRequest) {
+  const businesses = JSON.parse(
+    (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf-8')).toString()
+  ) as Business[];
+
+  return NextResponse.json({ status: 'success', data: { businesses } });
+}
+
+export function PATCH(_: NextRequest) {
+  try {
+    generate();
+  } finally {
+    return NextResponse.json({
+      status: 'success',
+      message: 'Businesses generation successfully started.',
+    });
+  }
+}

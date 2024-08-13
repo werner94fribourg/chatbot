@@ -1,0 +1,3222 @@
+[
+  {
+    "id": 1,
+    "businessId": 1,
+    "username": "bakerlover87",
+    "rating": 5,
+    "comment": "Absolutely loved the pastries at Delights Bakery. Fresh and delicious!"
+  },
+  {
+    "id": 2,
+    "businessId": 2,
+    "username": "martshopper",
+    "rating": 4,
+    "comment": "Fresh Market has a good selection of produce and household items."
+  },
+  {
+    "id": 3,
+    "businessId": 3,
+    "username": "healthguru",
+    "rating": 3,
+    "comment": "Wellness Pharmacy has a decent range of products, but the service could be better."
+  },
+  {
+    "id": 4,
+    "businessId": 4,
+    "username": "fashionista",
+    "rating": 5,
+    "comment": "Chic Boutique offers trendy and fashionable clothing. Loved it!"
+  },
+  {
+    "id": 5,
+    "businessId": 5,
+    "username": "technerd42",
+    "rating": 4,
+    "comment": "Tech Hub has great gadgets, but the prices are a bit high."
+  },
+  {
+    "id": 6,
+    "businessId": 6,
+    "username": "kidatheart",
+    "rating": 5,
+    "comment": "Toy Store is a paradise for kids and adults alike. Wonderful collection!"
+  },
+  {
+    "id": 7,
+    "businessId": 7,
+    "username": "printmeout",
+    "rating": 4,
+    "comment": "Print Shop is efficient and reliable for all printing needs."
+  },
+  {
+    "id": 8,
+    "businessId": 8,
+    "username": "homelover",
+    "rating": 5,
+    "comment": "Furniture Store has beautifully crafted furniture. Highly recommend!"
+  },
+  {
+    "id": 9,
+    "businessId": 9,
+    "username": "autofix",
+    "rating": 3,
+    "comment": "Car Repair service was okay. The work took longer than expected."
+  },
+  {
+    "id": 10,
+    "businessId": 10,
+    "username": "hairaffair",
+    "rating": 4,
+    "comment": "Hair Salon did a good job with my haircut. Friendly staff too."
+  },
+  {
+    "id": 11,
+    "businessId": 11,
+    "username": "shopaholic",
+    "rating": 4,
+    "comment": "SuperMart has a wide variety of products. Convenient location."
+  },
+  {
+    "id": 12,
+    "businessId": 12,
+    "username": "foodie",
+    "rating": 5,
+    "comment": "GourmetBite serves delicious food. Exceptional taste and presentation!"
+  },
+  {
+    "id": 13,
+    "businessId": 13,
+    "username": "funseeker",
+    "rating": 5,
+    "comment": "FunZone is amazing for family entertainment. Tons of fun activities!"
+  },
+  {
+    "id": 14,
+    "businessId": 14,
+    "username": "workaholic",
+    "rating": 4,
+    "comment": "WorkHub is a great place to get work done. Quiet and well-equipped."
+  },
+  {
+    "id": 15,
+    "businessId": 15,
+    "username": "nightowl",
+    "rating": 5,
+    "comment": "NightOwl has vibrant nightlife. Great music and atmosphere!"
+  },
+  {
+    "id": 16,
+    "businessId": 16,
+    "username": "martshopper",
+    "rating": 3,
+    "comment": "SuperMart in Baden is good, but it gets really crowded at times."
+  },
+  {
+    "id": 17,
+    "businessId": 17,
+    "username": "partylover",
+    "rating": 4,
+    "comment": "Bender is a fun place to party. Good drinks and great crowd."
+  },
+  {
+    "id": 18,
+    "businessId": 18,
+    "username": "funseeker",
+    "rating": 5,
+    "comment": "FunZone in Meilen is packed with exciting games and activities!"
+  },
+  {
+    "id": 19,
+    "businessId": 19,
+    "username": "officespace",
+    "rating": 4,
+    "comment": "WorkHub in Gümmenen offers a productive environment. Quite helpful for professionals."
+  },
+  {
+    "id": 20,
+    "businessId": 20,
+    "username": "funseeker",
+    "rating": 5,
+    "comment": "Another great experience at FunZone. Never a dull moment!"
+  },
+  {
+    "id": 21,
+    "businessId": 1,
+    "username": "BakeryLover24",
+    "rating": 5,
+    "comment": "Delights Bakery always has the freshest pastries. Highly recommend!"
+  },
+  {
+    "id": 22,
+    "businessId": 2,
+    "username": "ShopUntilUDrop",
+    "rating": 3,
+    "comment": "Fresh Market has a decent selection, but the pricing could be better."
+  },
+  {
+    "id": 23,
+    "businessId": 3,
+    "username": "HealthyLiving88",
+    "rating": 4,
+    "comment": "Wellness Pharmacy is quite comprehensive; they have everything I need."
+  },
+  {
+    "id": 24,
+    "businessId": 4,
+    "username": "Fashionista",
+    "rating": 5,
+    "comment": "Chic Boutique has the latest styles and the friendliest staff!"
+  },
+  {
+    "id": 25,
+    "businessId": 5,
+    "username": "TechGuru",
+    "rating": 2,
+    "comment": "Tech Hub has great products but the service was a bit slow."
+  },
+  {
+    "id": 26,
+    "businessId": 6,
+    "username": "ToyCollector",
+    "rating": 4,
+    "comment": "Toy Store has an amazing variety of toys. My kids love it."
+  },
+  {
+    "id": 27,
+    "businessId": 7,
+    "username": "PrintMaster",
+    "rating": 3,
+    "comment": "Print Shop is good for quick prints but quality can vary."
+  },
+  {
+    "id": 28,
+    "businessId": 8,
+    "username": "FurnitureFan",
+    "rating": 5,
+    "comment": "Furniture Store has the best deals and the quality is top-notch!"
+  },
+  {
+    "id": 29,
+    "businessId": 9,
+    "username": "CarRepairGuy",
+    "rating": 4,
+    "comment": "Car Repair service is efficient and reasonably priced."
+  },
+  {
+    "id": 30,
+    "businessId": 10,
+    "username": "BeautyQueen",
+    "rating": 5,
+    "comment": "Hair Salon is fantastic! The stylists are very skilled."
+  },
+  {
+    "id": 31,
+    "businessId": 11,
+    "username": "SuperMartShopper",
+    "rating": 3,
+    "comment": "SuperMart is okay for regular groceries but nothing special."
+  },
+  {
+    "id": 32,
+    "businessId": 12,
+    "username": "Foodie",
+    "rating": 4,
+    "comment": "GourmetBite offers a delightful menu. Must try their specials!"
+  },
+  {
+    "id": 33,
+    "businessId": 13,
+    "username": "EntertainmentLover",
+    "rating": 5,
+    "comment": "FunZone is the place to be! So many exciting activities."
+  },
+  {
+    "id": 34,
+    "businessId": 14,
+    "username": "OfficeWorker",
+    "rating": 4,
+    "comment": "WorkHub is a great place to get work done. Very productive atmosphere."
+  },
+  {
+    "id": 35,
+    "businessId": 15,
+    "username": "NightOwl",
+    "rating": 5,
+    "comment": "NightOwl is the best nightlife spot! Amazing vibes and music."
+  },
+  {
+    "id": 36,
+    "businessId": 16,
+    "username": "SuperMartFan",
+    "rating": 3,
+    "comment": "Another SuperMart location. It's okay for basic shopping needs."
+  },
+  {
+    "id": 37,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 4,
+    "comment": "Bender is awesome for a night out with friends. Highly recommend."
+  },
+  {
+    "id": 38,
+    "businessId": 18,
+    "username": "AdventureSeeker",
+    "rating": 5,
+    "comment": "FunZone has it all - games, rides, and endless fun!"
+  },
+  {
+    "id": 39,
+    "businessId": 19,
+    "username": "RemoteWorker",
+    "rating": 4,
+    "comment": "WorkHub offers reliable facilities for remote working."
+  },
+  {
+    "id": 40,
+    "businessId": 20,
+    "username": "FunLover",
+    "rating": 5,
+    "comment": "Another fantastic FunZone outlet. Always a good time!"
+  },
+  {
+    "id": 41,
+    "businessId": 1,
+    "username": "Alice99",
+    "rating": 5,
+    "comment": "Delicious pastries and excellent coffee. Highly recommend!"
+  },
+  {
+    "id": 42,
+    "businessId": 2,
+    "username": "JohnDoe",
+    "rating": 4,
+    "comment": "Fresh Market has a great selection, but it can be a bit crowded at times."
+  },
+  {
+    "id": 43,
+    "businessId": 3,
+    "username": "MedicMike",
+    "rating": 5,
+    "comment": "Wellness Pharmacy always has what I need, and the staff are incredibly helpful."
+  },
+  {
+    "id": 44,
+    "businessId": 4,
+    "username": "Fashionista22",
+    "rating": 3,
+    "comment": "Chic Boutique has some unique items, but the prices are a bit steep."
+  },
+  {
+    "id": 45,
+    "businessId": 5,
+    "username": "GadgetGuy",
+    "rating": 4,
+    "comment": "Tech Hub is a great place for the latest tech gadgets. Friendly staff too!"
+  },
+  {
+    "id": 46,
+    "businessId": 6,
+    "username": "ToyLover",
+    "rating": 5,
+    "comment": "My kids love Toy Store! Always a joy to visit."
+  },
+  {
+    "id": 47,
+    "businessId": 7,
+    "username": "PrintMaster",
+    "rating": 4,
+    "comment": "Reliable printing services, but it can be slow during peak hours."
+  },
+  {
+    "id": 48,
+    "businessId": 8,
+    "username": "HomeSweetHome",
+    "rating": 2,
+    "comment": "Furniture Store has nice items, but the delivery service needs improvement."
+  },
+  {
+    "id": 49,
+    "businessId": 9,
+    "username": "CarFixer",
+    "rating": 5,
+    "comment": "Excellent car repair service. They fixed my car quickly and efficiently."
+  },
+  {
+    "id": 50,
+    "businessId": 10,
+    "username": "HairQueen",
+    "rating": 4,
+    "comment": "Hair Salon offers great cuts, but appointments are hard to get."
+  },
+  {
+    "id": 51,
+    "businessId": 11,
+    "username": "Shopper123",
+    "rating": 5,
+    "comment": "SuperMart is my go-to for all my shopping needs. Great variety!"
+  },
+  {
+    "id": 52,
+    "businessId": 12,
+    "username": "FoodieBob",
+    "rating": 4,
+    "comment": "GourmetBite serves delicious meals, but the wait time can be long."
+  },
+  {
+    "id": 53,
+    "businessId": 13,
+    "username": "EntertainmentFan",
+    "rating": 5,
+    "comment": "FunZone is the best place for family entertainment. We had a blast!"
+  },
+  {
+    "id": 54,
+    "businessId": 14,
+    "username": "WorkFromAnywhere",
+    "rating": 3,
+    "comment": "WorkHub is a decent place to work, but the internet speed can be slow."
+  },
+  {
+    "id": 55,
+    "businessId": 15,
+    "username": "NightLifeLover",
+    "rating": 4,
+    "comment": "NightOwl is a fun spot for nightlife, but it can get very crowded."
+  },
+  {
+    "id": 56,
+    "businessId": 16,
+    "username": "SuperMartFan",
+    "rating": 4,
+    "comment": "SuperMart has good deals, but parking is always full."
+  },
+  {
+    "id": 57,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 5,
+    "comment": "Bender is the best nightclub around! Great music and atmosphere."
+  },
+  {
+    "id": 58,
+    "businessId": 18,
+    "username": "FunLover",
+    "rating": 4,
+    "comment": "Had a great time at FunZone. Wish there were more food options."
+  },
+  {
+    "id": 59,
+    "businessId": 19,
+    "username": "BusinessMan",
+    "rating": 4,
+    "comment": "WorkHub is convenient, but a bit pricey for the services offered."
+  },
+  {
+    "id": 60,
+    "businessId": 20,
+    "username": "Playtime",
+    "rating": 5,
+    "comment": "FunZone is fantastic! My kids had the best birthday party here."
+  },
+  {
+    "id": 71,
+    "businessId": 4,
+    "username": "FabFashionista",
+    "rating": 5,
+    "comment": "Chic Boutique has an amazing selection of trendy clothes. Always find something new!"
+  },
+  {
+    "id": 72,
+    "businessId": 34,
+    "username": "Foodie321",
+    "rating": 4,
+    "comment": "The view at Lakeview Bistro is breathtaking, and the food is delicious. A must-visit."
+  },
+  {
+    "id": 73,
+    "businessId": 22,
+    "username": "CaffeLover",
+    "rating": 3,
+    "comment": "WaveCafe is nice, but the service can be slow sometimes."
+  },
+  {
+    "id": 74,
+    "businessId": 60,
+    "username": "OutdoorEnthusiast",
+    "rating": 5,
+    "comment": "Summit Gear has everything you need for your outdoor adventures. Highly recommend!"
+  },
+  {
+    "id": 75,
+    "businessId": 12,
+    "username": "DineWithMe",
+    "rating": 5,
+    "comment": "GourmetBite offers an exquisite dining experience. The chef's special is to die for."
+  },
+  {
+    "id": 76,
+    "businessId": 41,
+    "username": "QuickBite",
+    "rating": 4,
+    "comment": "Quick Eats is perfect for a fast yet tasty meal. Convenient and delicious."
+  },
+  {
+    "id": 77,
+    "businessId": 25,
+    "username": "Craftsy",
+    "rating": 4,
+    "comment": "WonderCrafts is a paradise for DIY lovers. Great selection of materials."
+  },
+  {
+    "id": 78,
+    "businessId": 6,
+    "username": "ToysGalore",
+    "rating": 3,
+    "comment": "Toy Store has a wide variety, but some items are overpriced."
+  },
+  {
+    "id": 79,
+    "businessId": 48,
+    "username": "DecorQueen",
+    "rating": 5,
+    "comment": "Home Comforts offers beautiful and unique home decor items. Love shopping here."
+  },
+  {
+    "id": 80,
+    "businessId": 73,
+    "username": "Bookworm89",
+    "rating": 5,
+    "comment": "Reutlingen Books is a cozy bookstore with a fantastic selection of reads."
+  },
+  {
+    "id": 81,
+    "businessId": 28,
+    "username": "CafeAddict",
+    "rating": 4,
+    "comment": "WaveCafe in Unterschachen has a charming atmosphere. Perfect for relaxing."
+  },
+  {
+    "id": 82,
+    "businessId": 40,
+    "username": "MovieBuff",
+    "rating": 5,
+    "comment": "Starlight Cinema offers a great movie experience with comfortable seating."
+  },
+  {
+    "id": 83,
+    "businessId": 51,
+    "username": "BreadLover",
+    "rating": 5,
+    "comment": "Sunrise Bakery has the best freshly baked bread. Highly recommend!"
+  },
+  {
+    "id": 84,
+    "businessId": 18,
+    "username": "FunTimes",
+    "rating": 4,
+    "comment": "FunZone is great for a family day out. Lots of activities for kids and adults."
+  },
+  {
+    "id": 85,
+    "businessId": 19,
+    "username": "WorkspaceGuru",
+    "rating": 4,
+    "comment": "WorkHub offers a productive environment. Good facilities and amenities."
+  },
+  {
+    "id": 86,
+    "businessId": 32,
+    "username": "ShopTillIDrop",
+    "rating": 5,
+    "comment": "Pont-Rouge Plaza is a shopping haven. Everything you need in one place."
+  },
+  {
+    "id": 87,
+    "businessId": 37,
+    "username": "DelightfulEater",
+    "rating": 4,
+    "comment": "Riviera Deli offers delicious delicacies. Perfect for food lovers."
+  },
+  {
+    "id": 88,
+    "businessId": 56,
+    "username": "FitFreak",
+    "rating": 5,
+    "comment": "Peak Performance Gym has all the equipment and classes you need. Very clean and well-maintained."
+  },
+  {
+    "id": 89,
+    "businessId": 58,
+    "username": "FlyHigh",
+    "rating": 4,
+    "comment": "Horizon Aviation offers great flying experiences. Professional staff."
+  },
+  {
+    "id": 90,
+    "businessId": 50,
+    "username": "SweetTooth",
+    "rating": 5,
+    "comment": "Baking Bliss has the most delightful pastries. A must-visit for anyone with a sweet tooth."
+  },
+  {
+    "id": 91,
+    "businessId": 1,
+    "username": "BakerFan123",
+    "rating": 5,
+    "comment": "Delights Bakery has the best pastries in town! Highly recommend the croissants."
+  },
+  {
+    "id": 92,
+    "businessId": 2,
+    "username": "Shopaholic",
+    "rating": 4,
+    "comment": "Fresh Market has a great selection of fresh produce. A bit pricey but worth it."
+  },
+  {
+    "id": 93,
+    "businessId": 3,
+    "username": "HealthGuru",
+    "rating": 5,
+    "comment": "Wellness Pharmacy is very well stocked and the staff is super helpful."
+  },
+  {
+    "id": 94,
+    "businessId": 4,
+    "username": "Fashionista",
+    "rating": 3,
+    "comment": "Chic Boutique has nice clothes, but the prices are steep."
+  },
+  {
+    "id": 95,
+    "businessId": 5,
+    "username": "TechSavvy",
+    "rating": 5,
+    "comment": "Tech Hub has all the latest gadgets. Love shopping here!"
+  },
+  {
+    "id": 96,
+    "businessId": 6,
+    "username": "ToyLover",
+    "rating": 4,
+    "comment": "Toy Store has a fantastic range of toys. My kids love it!"
+  },
+  {
+    "id": 97,
+    "businessId": 7,
+    "username": "PrintMaster",
+    "rating": 5,
+    "comment": "Print Shop did a fantastic job on my business cards!"
+  },
+  {
+    "id": 98,
+    "businessId": 8,
+    "username": "HomeMaker",
+    "rating": 4,
+    "comment": "Furniture Store has lovely items but the delivery was a bit slow."
+  },
+  {
+    "id": 99,
+    "businessId": 9,
+    "username": "CarGuy",
+    "rating": 5,
+    "comment": "Car Repair provides excellent service. My car feels brand new!"
+  },
+  {
+    "id": 100,
+    "businessId": 10,
+    "username": "StylishDiva",
+    "rating": 4,
+    "comment": "Hair Salon gave me a nice haircut. Will visit again."
+  },
+  {
+    "id": 101,
+    "businessId": 11,
+    "username": "BudgetShopper",
+    "rating": 3,
+    "comment": "SuperMart has good deals but can get very crowded."
+  },
+  {
+    "id": 102,
+    "businessId": 12,
+    "username": "Foodie",
+    "rating": 5,
+    "comment": "GourmetBite serves delicious food. Loved the ambiance."
+  },
+  {
+    "id": 103,
+    "businessId": 13,
+    "username": "FunLover",
+    "rating": 4,
+    "comment": "FunZone is a great place for family outings. Lots of activities."
+  },
+  {
+    "id": 104,
+    "businessId": 14,
+    "username": "RemoteWorker",
+    "rating": 5,
+    "comment": "WorkHub provides an excellent working environment."
+  },
+  {
+    "id": 105,
+    "businessId": 15,
+    "username": "NightOwl",
+    "rating": 4,
+    "comment": "NightOwl is a fun place to hang out with friends."
+  },
+  {
+    "id": 106,
+    "businessId": 16,
+    "username": "ShopSmart",
+    "rating": 4,
+    "comment": "SuperMart in Baden is well-stocked and clean. Always a good shopping experience."
+  },
+  {
+    "id": 107,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 5,
+    "comment": "Bender is the best nightclub in the area. Great music and vibe."
+  },
+  {
+    "id": 108,
+    "businessId": 18,
+    "username": "Gamer",
+    "rating": 4,
+    "comment": "FunZone in Meilen is packed with fun arcade games. A must-visit for game lovers."
+  },
+  {
+    "id": 109,
+    "businessId": 19,
+    "username": "OfficeBee",
+    "rating": 5,
+    "comment": "WorkHub in Gümmenen is fantastic for coworking. Very professional setup."
+  },
+  {
+    "id": 110,
+    "businessId": 20,
+    "username": "EntertainmentExpert",
+    "rating": 4,
+    "comment": "FunZone in Steinhausen offers a variety of activities for all ages."
+  },
+  {
+    "id": 111,
+    "businessId": 1,
+    "username": "breadlover23",
+    "rating": 4,
+    "comment": "Freshly baked bread, delightful pastries. A lovely bakery!"
+  },
+  {
+    "id": 112,
+    "businessId": 2,
+    "username": "greenmarketfan",
+    "rating": 5,
+    "comment": "A great selection of fresh produce and local products."
+  },
+  {
+    "id": 113,
+    "businessId": 3,
+    "username": "healthguru",
+    "rating": 3,
+    "comment": "Helpful staff but found their prices a bit high."
+  },
+  {
+    "id": 114,
+    "businessId": 4,
+    "username": "fashionista99",
+    "rating": 5,
+    "comment": "Chic Boutique has the latest trends! Love their outfits."
+  },
+  {
+    "id": 115,
+    "businessId": 5,
+    "username": "techgeek101",
+    "rating": 4,
+    "comment": "Good place for electronics, had a few issues with warranty service."
+  },
+  {
+    "id": 116,
+    "businessId": 6,
+    "username": "happyparent",
+    "rating": 5,
+    "comment": "Amazing toy selection. My kids love it here!"
+  },
+  {
+    "id": 117,
+    "businessId": 7,
+    "username": "printmaster",
+    "rating": 3,
+    "comment": "Quality prints but very slow service."
+  },
+  {
+    "id": 118,
+    "businessId": 8,
+    "username": "homebody57",
+    "rating": 4,
+    "comment": "Nice variety of furniture, found exactly what I needed."
+  },
+  {
+    "id": 119,
+    "businessId": 9,
+    "username": "carfixer",
+    "rating": 5,
+    "comment": "Excellent car repair service. Very reliable!"
+  },
+  {
+    "id": 120,
+    "busine2sId": 10,
+    "username": "hairenthusiast",
+    "rating": 3,
+    "comment": "Friendly staff but not satisfied with the haircut."
+  },
+  {
+    "id": 121,
+    "busine2sId": 11,
+    "username": "savvysaver",
+    "rating": 5,
+    "comment": "SuperMart is my go-to store. Great deals and variety."
+  },
+  {
+    "id": 122,
+    "busine2sId": 12,
+    "username": "foodieheaven",
+    "rating": 4,
+    "comment": "Delicious food, but took a bit long to get the order."
+  },
+  {
+    "id": 123,
+    "busine2sId": 13,
+    "username": "funseeker",
+    "rating": 5,
+    "comment": "FunZone is always a blast! Perfect for family outings."
+  },
+  {
+    "id": 124,
+    "busine2sId": 14,
+    "username": "workingguy",
+    "rating": 4,
+    "comment": "Good working atmosphere but could use more amenities."
+  },
+  {
+    "id": 125,
+    "businessId": 15,
+    "username": "nightowl",
+    "rating": 5,
+    "comment": "NightOwl is the best place for nightlife fun!"
+  },
+  {
+    "id": 126,
+    "businessId": 16,
+    "username": "shopper123",
+    "rating": 4,
+    "comment": "Great variety of products, but it can get crowded."
+  },
+  {
+    "id": 127,
+    "businessId": 17,
+    "username": "partylover",
+    "rating": 5,
+    "comment": "Bender is fantastic! Great music and vibe."
+  },
+  {
+    "id": 128,
+    "businessId": 18,
+    "username": "gamefan",
+    "rating": 4,
+    "comment": "FunZone has lots of games, would love to see more updates."
+  },
+  {
+    "id": 129,
+    "businessId": 19,
+    "username": "officegoer",
+    "rating": 4,
+    "comment": "WorkHub is a productive space but could use better lighting."
+  },
+  {
+    "id": 130,
+    "businessId": 20,
+    "username": "gamer100",
+    "rating": 5,
+    "comment": "Love FunZone! Never had a dull moment."
+  },
+  {
+    "id": 131,
+    "businessId": 3,
+    "username": "HealthSeeker",
+    "rating": 5,
+    "comment": "Wellness Pharmacy always has what I need and the staff are very knowledgeable."
+  },
+  {
+    "id": 132,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 4,
+    "comment": "Bender has great music and drinks, but it gets really crowded on weekends."
+  },
+  {
+    "id": 133,
+    "businessId": 22,
+    "username": "CafeLover",
+    "rating": 3,
+    "comment": "WaveCafe has a nice ambiance but the coffee could be better."
+  },
+  {
+    "id": 134,
+    "businessId": 45,
+    "username": "Fashionista",
+    "rating": 4,
+    "comment": "The Fashion House has trendy clothes but the prices are a bit high."
+  },
+  {
+    "id": 135,
+    "businessId": 1,
+    "username": "SweetTooth",
+    "rating": 5,
+    "comment": "Delights Bakery has the best pastries in town!"
+  },
+  {
+    "id": 136,
+    "businessId": 7,
+    "username": "PrintExpert",
+    "rating": 4,
+    "comment": "Print Shop offers good quality printing but they can be slow."
+  },
+  {
+    "id": 137,
+    "businessId": 50,
+    "username": "BakerFan",
+    "rating": 5,
+    "comment": "Baking Bliss lives up to its name!"
+  },
+  {
+    "id": 138,
+    "businessId": 21,
+    "username": "OptiVision",
+    "rating": 4,
+    "comment": "OptiHealth provides great service, but the selection is limited."
+  },
+  {
+    "id": 139,
+    "businessId": 60,
+    "username": "HikerMike",
+    "rating": 5,
+    "comment": "Summit Gear has all the equipment you need for a great outdoor adventure."
+  },
+  {
+    "id": 140,
+    "businessId": 8,
+    "username": "HomeDecorator",
+    "rating": 3,
+    "comment": "Furniture Store has good pieces but some are overpriced."
+  },
+  {
+    "id": 141,
+    "businessId": 37,
+    "username": "DeliLover",
+    "rating": 4,
+    "comment": "Riviera Deli has delicious selections, but I wish they had more variety."
+  },
+  {
+    "id": 142,
+    "businessId": 29,
+    "username": "TechSavvy",
+    "rating": 5,
+    "comment": "ElectroWorld in Carona is fantastic; I found exactly what I needed."
+  },
+  {
+    "id": 143,
+    "businessId": 34,
+    "username": "Foodie",
+    "rating": 5,
+    "comment": "Lakeview Bistro offers stunning views and delicious food."
+  },
+  {
+    "id": 144,
+    "businessId": 49,
+    "username": "OutdoorFan",
+    "rating": 4,
+    "comment": "Great Outdoors has a wide range of products but the staff could be more helpful."
+  },
+  {
+    "id": 145,
+    "businessId": 53,
+    "username": "SeafoodLover",
+    "rating": 5,
+    "comment": "Ocean Delights Restaurant has amazing seafood dishes!"
+  },
+  {
+    "id": 146,
+    "businessId": 63,
+    "username": "CafeFan",
+    "rating": 4,
+    "comment": "Café Corner is a nice place for a quick coffee break."
+  },
+  {
+    "id": 147,
+    "businessId": 56,
+    "username": "GymRat",
+    "rating": 5,
+    "comment": "Peak Performance Gym has everything you need for a great workout."
+  },
+  {
+    "id": 148,
+    "businessId": 76,
+    "username": "Electronica",
+    "rating": 4,
+    "comment": "Combe Electronics has good products but the customer service needs improvement."
+  },
+  {
+    "id": 149,
+    "businessId": 11,
+    "username": "Shopaholic",
+    "rating": 5,
+    "comment": "SuperMart in Ricketwil is my go-to place for everything!"
+  },
+  {
+    "id": 150,
+    "businessId": 14,
+    "username": "RemoteWorker",
+    "rating": 4,
+    "comment": "WorkHub in Bex offers a nice working environment but the internet speed could be better."
+  },
+  {
+    "id": 151,
+    "businessId": 1,
+    "username": "bakerLover99",
+    "rating": 5,
+    "comment": "The pastries were delightful and fresh. Highly recommend Delights Bakery!"
+  },
+  {
+    "id": 152,
+    "businessId": 2,
+    "username": "shopperPro12",
+    "rating": 4,
+    "comment": "Fresh Market has a great variety of produce. A bit pricey but worth it."
+  },
+  {
+    "id": 153,
+    "businessId": 3,
+    "username": "healthNut34",
+    "rating": 5,
+    "comment": "Wellness Pharmacy has all the vitamins I need. Staff is very helpful."
+  },
+  {
+    "id": 154,
+    "businessId": 4,
+    "username": "fashionista87",
+    "rating": 4,
+    "comment": "Chic Boutique has a fantastic collection. Some items were a bit expensive though."
+  },
+  {
+    "id": 155,
+    "businessId": 5,
+    "username": "techDude42",
+    "rating": 5,
+    "comment": "Tech Hub had all the latest gadgets. The staff knew their stuff."
+  },
+  {
+    "id": 156,
+    "businessId": 6,
+    "username": "toyCollector23",
+    "rating": 3,
+    "comment": "Toy Store had a decent selection but could use more options."
+  },
+  {
+    "id": 157,
+    "businessId": 7,
+    "username": "printMaster89",
+    "rating": 4,
+    "comment": "Print Shop delivered my order on time. Good quality prints."
+  },
+  {
+    "id": 158,
+    "businessId": 8,
+    "username": "homeMaker55",
+    "rating": 5,
+    "comment": "Furniture Store has beautiful pieces. My living room has never looked better."
+  },
+  {
+    "id": 159,
+    "businessId": 9,
+    "username": "autoKing12",
+    "rating": 4,
+    "comment": "Car Repair fixed my car quickly. Pricing was fair."
+  },
+  {
+    "id": 160,
+    "businessId": 10,
+    "username": "hairDivine98",
+    "rating": 5,
+    "comment": "Hair Salon gave me the best haircut I've had in years."
+  },
+  {
+    "id": 161,
+    "businessId": 11,
+    "username": "groceryGuru75",
+    "rating": 5,
+    "comment": "SuperMart has everything I need and more. Great deals too!"
+  },
+  {
+    "id": 162,
+    "businessId": 12,
+    "username": "foodieForever66",
+    "rating": 4,
+    "comment": "GourmetBite served delicious food. Service was a tad slow."
+  },
+  {
+    "id": 163,
+    "businessId": 13,
+    "username": "funLover54",
+    "rating": 5,
+    "comment": "FunZone is my go-to place for entertainment. Always a fun time!"
+  },
+  {
+    "id": 164,
+    "businessId": 14,
+    "username": "workPro45",
+    "rating": 5,
+    "comment": "WorkHub is the perfect place for coworking. Great amenities."
+  },
+  {
+    "id": 165,
+    "businessId": 15,
+    "username": "nightOwl73",
+    "rating": 5,
+    "comment": "NightOwl is the best club in town! Great music and vibe."
+  },
+  {
+    "id": 166,
+    "businessId": 16,
+    "username": "retailTherapist88",
+    "rating": 4,
+    "comment": "SuperMart has a wide variety of products. Checkout lines can be a bit long."
+  },
+  {
+    "id": 167,
+    "businessId": 17,
+    "username": "partyAnimal99",
+    "rating": 5,
+    "comment": "Bender is an amazing place to end the week. Love the atmosphere!"
+  },
+  {
+    "id": 168,
+    "businessId": 18,
+    "username": "gameFreak21",
+    "rating": 5,
+    "comment": "FunZone has fantastic arcade games. I can spend hours here."
+  },
+  {
+    "id": 169,
+    "businessId": 19,
+    "username": "officeMan23",
+    "rating": 4,
+    "comment": "WorkHub offered a productive work environment. Could use more seating."
+  },
+  {
+    "id": 170,
+    "businessId": 20,
+    "username": "entertainmentJunkie",
+    "rating": 5,
+    "comment": "FunZone always has something new and exciting. Highly recommend!"
+  },
+  {
+    "id": 171,
+    "businessId": 1,
+    "username": "UserA",
+    "rating": 5,
+    "comment": "Delights Bakery has the best pastries in town! Always fresh and delicious."
+  },
+  {
+    "id": 172,
+    "businessId": 2,
+    "username": "Shopper101",
+    "rating": 4,
+    "comment": "Fresh Market is great for daily groceries. Sometimes a bit crowded though."
+  },
+  {
+    "id": 173,
+    "businessId": 3,
+    "username": "HealthGuru",
+    "rating": 5,
+    "comment": "Wellness Pharmacy has excellent customer service and knowledgeable staff."
+  },
+  {
+    "id": 174,
+    "businessId": 4,
+    "username": "Fashionista22",
+    "rating": 4,
+    "comment": "Chic Boutique has a lovely selection of clothes. Wish they had a bigger size range."
+  },
+  {
+    "id": 175,
+    "businessId": 5,
+    "username": "TechEnthusiast",
+    "rating": 3,
+    "comment": "Tech Hub has all the latest gadgets but prices can be high."
+  },
+  {
+    "id": 176,
+    "businessId": 6,
+    "username": "ToyLover",
+    "rating": 4,
+    "comment": "Toy Store is a fun place for kids. Great collection but a bit expensive."
+  },
+  {
+    "id": 177,
+    "businessId": 7,
+    "username": "PrintPro",
+    "rating": 5,
+    "comment": "Print Shop delivers high-quality prints and fast service."
+  },
+  {
+    "id": 178,
+    "businessId": 8,
+    "username": "HomeDesigner",
+    "rating": 4,
+    "comment": "Furniture Store has stylish furniture. Delivery was a bit delayed."
+  },
+  {
+    "id": 179,
+    "businessId": 9,
+    "username": "CarFanatic",
+    "rating": 5,
+    "comment": "Car Repair offers exceptional service. My car runs smoothly now!"
+  },
+  {
+    "id": 180,
+    "businessId": 10,
+    "username": "PrettyInPink",
+    "rating": 3,
+    "comment": "Hair Salon was okay. The haircut wasn't exactly what I wanted."
+  },
+  {
+    "id": 181,
+    "businessId": 11,
+    "username": "GroceryKing",
+    "rating": 4,
+    "comment": "SuperMart is convenient with a wide selection of products."
+  },
+  {
+    "id": 182,
+    "businessId": 12,
+    "username": "FoodieGal",
+    "rating": 5,
+    "comment": "GourmetBite has amazing food and cozy ambiance."
+  },
+  {
+    "id": 183,
+    "businessId": 13,
+    "username": "FunLover",
+    "rating": 5,
+    "comment": "FunZone is a fantastic place for kids and adults alike."
+  },
+  {
+    "id": 184,
+    "businessId": 14,
+    "username": "OfficeWorker123",
+    "rating": 4,
+    "comment": "WorkHub has great facilities but can get noisy at times."
+  },
+  {
+    "id": 185,
+    "businessId": 15,
+    "username": "NightOwlFan",
+    "rating": 4,
+    "comment": "NightOwl has great music and drinks. The dance floor is a bit small though."
+  },
+  {
+    "id": 186,
+    "businessId": 16,
+    "username": "ShopperChick",
+    "rating": 4,
+    "comment": "SuperMart in Baden is my go-to for quick shopping needs."
+  },
+  {
+    "id": 187,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 3,
+    "comment": "Bender has a fun atmosphere but the crowd can be a bit overwhelming."
+  },
+  {
+    "id": 188,
+    "businessId": 18,
+    "username": "FamilyFun",
+    "rating": 5,
+    "comment": "FunZone at Meilen is fantastic. Kids had a blast!"
+  },
+  {
+    "id": 189,
+    "businessId": 19,
+    "username": "Freelancer",
+    "rating": 4,
+    "comment": "WorkHub in Bern is a great space for freelancers."
+  },
+  {
+    "id": 190,
+    "businessId": 20,
+    "username": "ThrillSeeker",
+    "rating": 5,
+    "comment": "FunZone in Steinhausen has thrilling rides and games. Loved it!"
+  },
+  {
+    "id": 191,
+    "businessId": 1,
+    "username": "BakerLover23",
+    "rating": 5,
+    "comment": "Amazing baked goods! Best bakery in town."
+  },
+  {
+    "id": 192,
+    "businessId": 15,
+    "username": "NightOwlFan",
+    "rating": 4,
+    "comment": "Great atmosphere, but the music was a bit too loud."
+  },
+  {
+    "id": 193,
+    "businessId": 28,
+    "username": "CafeAddict89",
+    "rating": 2,
+    "comment": "Coffee was too bitter and service was slow."
+  },
+  {
+    "id": 194,
+    "businessId": 3,
+    "username": "HealthyLiving27",
+    "rating": 5,
+    "comment": "Friendly staff and great selection of health products."
+  },
+  {
+    "id": 195,
+    "businessId": 5,
+    "username": "TechGeek91",
+    "rating": 4,
+    "comment": "Found some great gadgets here. Prices are reasonable."
+  },
+  {
+    "id": 196,
+    "businessId": 7,
+    "username": "PrintMaster45",
+    "rating": 3,
+    "comment": "Print quality was okay, but took longer than expected."
+  },
+  {
+    "id": 197,
+    "businessId": 10,
+    "username": "StylishOne",
+    "rating": 4,
+    "comment": "Loved my haircut! The stylist was very professional."
+  },
+  {
+    "id": 198,
+    "businessId": 13,
+    "username": "FunLover88",
+    "rating": 5,
+    "comment": "Had a blast at FunZone! Lots of activities for everyone."
+  },
+  {
+    "id": 199,
+    "businessId": 16,
+    "username": "GroceryShopper77",
+    "rating": 4,
+    "comment": "Good variety of products and fresh produce."
+  },
+  {
+    "id": 200,
+    "businessId": 18,
+    "username": "EntertainmentGuru",
+    "rating": 5,
+    "comment": "The best place for family fun and entertainment."
+  },
+  {
+    "id": 201,
+    "businessId": 20,
+    "username": "EntertainmentLover",
+    "rating": 3,
+    "comment": "Some activities were closed, but still had a good time."
+  },
+  {
+    "id": 202,
+    "businessId": 22,
+    "username": "CoffeeConnoisseur",
+    "rating": 5,
+    "comment": "Best coffee and pastries in the area!"
+  },
+  {
+    "id": 203,
+    "businessId": 25,
+    "username": "CraftyCat",
+    "rating": 4,
+    "comment": "Lovely workshop with lots of creative supplies."
+  },
+  {
+    "id": 204,
+    "businessId": 29,
+    "username": "GadgetGuy",
+    "rating": 3,
+    "comment": "Good selection of electronics, but a bit pricey."
+  },
+  {
+    "id": 205,
+    "businessId": 31,
+    "username": "Traveler22",
+    "rating": 5,
+    "comment": "Charming retreat with beautiful views. Highly recommend!"
+  },
+  {
+    "id": 206,
+    "businessId": 34,
+    "username": "FoodieForever",
+    "rating": 4,
+    "comment": "Delicious food and great service at the bistro."
+  },
+  {
+    "id": 207,
+    "businessId": 37,
+    "username": "DeliLover",
+    "rating": 5,
+    "comment": "Amazing delicatessen with a wide variety of gourmet items."
+  },
+  {
+    "id": 208,
+    "businessId": 41,
+    "username": "QuickEatsFan",
+    "rating": 4,
+    "comment": "Quick and tasty meals. Perfect for a quick bite."
+  },
+  {
+    "id": 209,
+    "businessId": 44,
+    "username": "SportySpice",
+    "rating": 5,
+    "comment": "Great selection of sports gear and equipment."
+  },
+  {
+    "id": 210,
+    "businessId": 50,
+    "username": "PastryLover",
+    "rating": 4,
+    "comment": "Wonderful pastries and friendly service."
+  },
+  {
+    "id": 211,
+    "businessId": 1,
+    "username": "JohnDoe",
+    "rating": 5,
+    "comment": "Amazing pastries! Fresh and delightful."
+  },
+  {
+    "id": 212,
+    "businessId": 2,
+    "username": "JaneSmith",
+    "rating": 4,
+    "comment": "Great selection of fresh produce. Prices are reasonable."
+  },
+  {
+    "id": 213,
+    "businessId": 3,
+    "username": "HealthGuru",
+    "rating": 5,
+    "comment": "Excellent customer service and wide range of products."
+  },
+  {
+    "id": 214,
+    "businessId": 4,
+    "username": "Fashionista",
+    "rating": 3,
+    "comment": "Nice boutique but the prices are a bit high."
+  },
+  {
+    "id": 215,
+    "businessId": 5,
+    "username": "TechSavvy",
+    "rating": 4,
+    "comment": "Good place for electronics, staff are knowledgeable."
+  },
+  {
+    "id": 216,
+    "businessId": 6,
+    "username": "ToyLover",
+    "rating": 5,
+    "comment": "Great toys for kids! My children love this store."
+  },
+  {
+    "id": 217,
+    "businessId": 7,
+    "username": "PrintMaster",
+    "rating": 3,
+    "comment": "Quality prints but the service is a bit slow."
+  },
+  {
+    "id": 218,
+    "businessId": 8,
+    "username": "HomeDecorator",
+    "rating": 4,
+    "comment": "Beautiful furniture and home decor items."
+  },
+  {
+    "id": 219,
+    "businessId": 9,
+    "username": "CarFixer",
+    "rating": 5,
+    "comment": "Quick and reliable car repair service."
+  },
+  {
+    "id": 220,
+    "businessId": 10,
+    "username": "StyleWizard",
+    "rating": 4,
+    "comment": "Great haircuts and friendly staff."
+  },
+  {
+    "id": 221,
+    "businessId": 11,
+    "username": "MartShopper",
+    "rating": 4,
+    "comment": "Good variety and prices, but can be crowded."
+  },
+  {
+    "id": 222,
+    "businessId": 12,
+    "username": "Foodie",
+    "rating": 5,
+    "comment": "Delicious meals and great ambiance."
+  },
+  {
+    "id": 223,
+    "businessId": 13,
+    "username": "FunSeeker",
+    "rating": 4,
+    "comment": "Lots of fun activities for kids and adults alike."
+  },
+  {
+    "id": 224,
+    "businessId": 14,
+    "username": "OfficeWorker",
+    "rating": 3,
+    "comment": "Good working environment but could use better amenities."
+  },
+  {
+    "id": 225,
+    "businessId": 15,
+    "username": "NightOwl",
+    "rating": 5,
+    "comment": "Great place to hang out at night."
+  },
+  {
+    "id": 226,
+    "businessId": 16,
+    "username": "SuperShopper",
+    "rating": 4,
+    "comment": "Nice place to shop for groceries."
+  },
+  {
+    "id": 227,
+    "businessId": 17,
+    "username": "PartyAnimal",
+    "rating": 5,
+    "comment": "Best nightlife spot in town!"
+  },
+  {
+    "id": 228,
+    "businessId": 18,
+    "username": "EntertainmentFan",
+    "rating": 4,
+    "comment": "Good selection of entertainment options."
+  },
+  {
+    "id": 229,
+    "businessId": 19,
+    "username": "RemoteWorker",
+    "rating": 4,
+    "comment": "Nice co-working space with a calm environment."
+  },
+  {
+    "id": 230,
+    "businessId": 20,
+    "username": "GamerGuy",
+    "rating": 5,
+    "comment": "Great place for games and entertainment."
+  },
+  {
+    "id": 231,
+    "businessId": 3,
+    "username": "healthGuru123",
+    "rating": 5,
+    "comment": "Wellness Pharmacy has the friendliest staff and a great selection of health products. Highly recommend!"
+  },
+  {
+    "id": 232,
+    "businessId": 14,
+    "username": "officeWorker99",
+    "rating": 4,
+    "comment": "WorkHub provides a quiet and productive environment. However, it could use a better coffee machine."
+  },
+  {
+    "id": 233,
+    "businessId": 7,
+    "username": "printLover321",
+    "rating": 3,
+    "comment": "Print Shop's service is decent, but their prices are a bit high compared to other shops."
+  },
+  {
+    "id": 234,
+    "businessId": 1,
+    "username": "sweetTooth789",
+    "rating": 5,
+    "comment": "Delights Bakery offers the most delicious pastries! Totally satisfied every time."
+  },
+  {
+    "id": 235,
+    "businessId": 32,
+    "username": "shopaholic88",
+    "rating": 4,
+    "comment": "Pont-Rouge Plaza has a variety of stores and is very convenient. A bit crowded, though."
+  },
+  {
+    "id": 236,
+    "businessId": 20,
+    "username": "funSeeker456",
+    "rating": 5,
+    "comment": "FunZone in Steinhausen is a great place for families. Always fun activities for kids!"
+  },
+  {
+    "id": 237,
+    "businessId": 30,
+    "username": "foodieLover",
+    "rating": 4,
+    "comment": "RestoLuxe has great food but the service can be a bit slow on busy days."
+  },
+  {
+    "id": 238,
+    "businessId": 5,
+    "username": "techGeek",
+    "rating": 5,
+    "comment": "Tech Hub always has the latest gadgets. The staff is very knowledgeable."
+  },
+  {
+    "id": 239,
+    "businessId": 18,
+    "username": "entertainmentBuff",
+    "rating": 4,
+    "comment": "FunZone in Meilen has great games but the food options are limited."
+  },
+  {
+    "id": 240,
+    "businessId": 44,
+    "username": "adventureJunkie",
+    "rating": 5,
+    "comment": "Mountain Gear has everything you need for outdoor adventures. Excellent quality products!"
+  },
+  {
+    "id": 241,
+    "businessId": 22,
+    "username": "coffeeLover",
+    "rating": 4,
+    "comment": "WaveCafe in Kleindietwil has good coffee but the seating area is quite small."
+  },
+  {
+    "id": 242,
+    "businessId": 10,
+    "username": "beautyQueen",
+    "rating": 5,
+    "comment": "Hair Salon in Provence gave me the best haircut ever! Will definitely return."
+  },
+  {
+    "id": 243,
+    "businessId": 2,
+    "username": "shopper45",
+    "rating": 4,
+    "comment": "Fresh Market in Mont-sur-Rolle has fresh produce but could be more organized."
+  },
+  {
+    "id": 244,
+    "businessId": 40,
+    "username": "movieBuff",
+    "rating": 5,
+    "comment": "Starlight Cinema in Chur offers a great movie experience with comfortable seats."
+  },
+  {
+    "id": 245,
+    "businessId": 50,
+    "username": "bakingFan",
+    "rating": 5,
+    "comment": "Baking Bliss in Oberlunkhofen has the best bread in town. A must-visit!"
+  },
+  {
+    "id": 246,
+    "businessId": 12,
+    "username": "gourmetLover",
+    "rating": 4,
+    "comment": "GourmetBite has delicious dishes but can be a bit pricey."
+  },
+  {
+    "id": 247,
+    "businessId": 35,
+    "username": "traveler",
+    "rating": 5,
+    "comment": "Mountain Lodge in Poschiavo is a charming place to stay with stunning views."
+  },
+  {
+    "id": 248,
+    "businessId": 51,
+    "username": "morningPerson",
+    "rating": 4,
+    "comment": "Sunrise Bakery has great morning pastries but sometimes there's a long wait."
+  },
+  {
+    "id": 249,
+    "businessId": 29,
+    "username": "gadgetLover",
+    "rating": 4,
+    "comment": "ElectroWorld in Carona has a wide range of electronics, but the staff could be more helpful."
+  },
+  {
+    "id": 250,
+    "businessId": 17,
+    "username": "nightOwl",
+    "rating": 5,
+    "comment": "Bender in Näfels is the perfect spot for a night out. Great music and atmosphere."
+  },
+  {
+    "id": 251,
+    "businessId": 1,
+    "username": "SwissChocoLover",
+    "rating": 5,
+    "comment": "Absolutely loved the fresh pastries at Delights Bakery!"
+  },
+  {
+    "id": 252,
+    "businessId": 2,
+    "username": "LocalShopper88",
+    "rating": 4,
+    "comment": "Fresh Market had a great variety of groceries. Will definitely shop here again."
+  },
+  {
+    "id": 253,
+    "businessId": 3,
+    "username": "HealthyLife",
+    "rating": 3,
+    "comment": "Wellness Pharmacy was alright, but the service was a bit slow."
+  },
+  {
+    "id": 254,
+    "businessId": 4,
+    "username": "Fashionista",
+    "rating": 5,
+    "comment": "Chic Boutique has the trendiest outfits. Loved my shopping experience!"
+  },
+  {
+    "id": 255,
+    "businessId": 5,
+    "username": "TechGeek",
+    "rating": 5,
+    "comment": "Tech Hub has all the latest gadgets. Very impressed!"
+  },
+  {
+    "id": 256,
+    "businessId": 6,
+    "username": "ToyLoverDad",
+    "rating": 4,
+    "comment": "Great selection of toys for kids. My son had a blast picking out his favorite!"
+  },
+  {
+    "id": 257,
+    "businessId": 7,
+    "username": "PrintMaster",
+    "rating": 4,
+    "comment": "Print Shop did a great job with my business cards. Fast service too."
+  },
+  {
+    "id": 258,
+    "businessId": 8,
+    "username": "HomeDecorFreak",
+    "rating": 3,
+    "comment": "Furniture Store had some nice pieces but a bit pricey."
+  },
+  {
+    "id": 259,
+    "businessId": 9,
+    "username": "AutoFixFan",
+    "rating": 5,
+    "comment": "Car Repair serviced my vehicle quickly and efficiently. Highly recommend!"
+  },
+  {
+    "id": 260,
+    "businessId": 10,
+    "username": "BeautyGuru",
+    "rating": 4,
+    "comment": "Hair Salon gave me a fab haircut. I'll definitely be back."
+  },
+  {
+    "id": 261,
+    "businessId": 11,
+    "username": "RetailTherapy121",
+    "rating": 4,
+    "comment": "SuperMart had everything I needed. Very convenient place for groceries."
+  },
+  {
+    "id": 262,
+    "businessId": 12,
+    "username": "FoodieEats",
+    "rating": 5,
+    "comment": "GourmetBite's dishes were delicious. A must-visit for any food lover!"
+  },
+  {
+    "id": 263,
+    "businessId": 13,
+    "username": "EntertainmentLover",
+    "rating": 4,
+    "comment": "FunZone is an amazing place for kids. Lots of activities to keep them busy."
+  },
+  {
+    "id": 264,
+    "businessId": 14,
+    "username": "OfficeWorker123",
+    "rating": 3,
+    "comment": "WorkHub was good for a quiet workspace but a bit cramped."
+  },
+  {
+    "id": 265,
+    "businessId": 15,
+    "username": "NightlifeAdventurer",
+    "rating": 5,
+    "comment": "NightOwl was the perfect spot for a fun night out. Great music and drinks!"
+  },
+  {
+    "id": 266,
+    "businessId": 16,
+    "username": "ShoppingExpress",
+    "rating": 4,
+    "comment": "SuperMart in Baden had friendly staff and good prices. Will visit again."
+  },
+  {
+    "id": 267,
+    "businessId": 17,
+    "username": "NightlifeVibes",
+    "rating": 3,
+    "comment": "Bender was okay. The ambience was nice but the drinks were average at best."
+  },
+  {
+    "id": 268,
+    "businessId": 18,
+    "username": "FunGuru",
+    "rating": 5,
+    "comment": "FunZone in Meilen is a top-notch entertainment place for families."
+  },
+  {
+    "id": 269,
+    "businessId": 19,
+    "username": "OfficeGuy456",
+    "rating": 4,
+    "comment": "WorkHub in Gümmenen provided a well-equipped workspace. Quite satisfactory."
+  },
+  {
+    "id": 270,
+    "businessId": 20,
+    "username": "FamilyFunTimes",
+    "rating": 4,
+    "comment": "FunZone in Steinhausen was great for the kids. They had a lot of fun."
+  },
+  {
+    "id": 271,
+    "businessId": 1,
+    "username": "bakerylover",
+    "rating": 5,
+    "comment": "Delights Bakery has the best pastries in town! Highly recommend."
+  },
+  {
+    "id": 272,
+    "businessId": 2,
+    "username": "shopaholic123",
+    "rating": 4,
+    "comment": "Fresh Market is great for organic produce but can be a bit pricey."
+  },
+  {
+    "id": 273,
+    "businessId": 3,
+    "username": "healthconscious",
+    "rating": 5,
+    "comment": "Wellness Pharmacy staff are very helpful and knowledgeable."
+  },
+  {
+    "id": 274,
+    "businessId": 4,
+    "username": "fashionista",
+    "rating": 3,
+    "comment": "Chic Boutique has a nice collection but some items are outdated."
+  },
+  {
+    "id": 275,
+    "businessId": 5,
+    "username": "techgeek",
+    "rating": 4,
+    "comment": "Tech Hub has the latest gadgets, but the service is slow."
+  },
+  {
+    "id": 276,
+    "businessId": 6,
+    "username": "toylover",
+    "rating": 5,
+    "comment": "Toy Store has a great variety of toys for all ages!"
+  },
+  {
+    "id": 277,
+    "businessId": 7,
+    "username": "printmaster",
+    "rating": 4,
+    "comment": "Print Shop provides quality prints but sometimes there is a wait."
+  },
+  {
+    "id": 278,
+    "businessId": 8,
+    "username": "homemaker",
+    "rating": 3,
+    "comment": "Furniture Store has decent furniture but lacks unique pieces."
+  },
+  {
+    "id": 279,
+    "businessId": 9,
+    "username": "carenthusiast",
+    "rating": 5,
+    "comment": "Car Repair offers excellent service and fair prices."
+  },
+  {
+    "id": 280,
+    "businessId": 10,
+    "username": "hairstylist",
+    "rating": 4,
+    "comment": "Hair Salon has skilled stylists but booking an appointment can be tough."
+  },
+  {
+    "id": 281,
+    "businessId": 11,
+    "username": "bargainhunter",
+    "rating": 5,
+    "comment": "SuperMart has everything you need at affordable prices."
+  },
+  {
+    "id": 282,
+    "businessId": 12,
+    "username": "foodie",
+    "rating": 5,
+    "comment": "GourmetBite offers delicious meals and excellent customer service."
+  },
+  {
+    "id": 283,
+    "businessId": 13,
+    "username": "funseeker",
+    "rating": 4,
+    "comment": "FunZone is a great place for family entertainment, but can get crowded."
+  },
+  {
+    "id": 284,
+    "businessId": 14,
+    "username": "entrepreneur",
+    "rating": 3,
+    "comment": "WorkHub is okay for co-working, but the Wi-Fi is occasionally unreliable."
+  },
+  {
+    "id": 285,
+    "businessId": 15,
+    "username": "nightowl",
+    "rating": 5,
+    "comment": "NightOwl has an amazing vibe and fantastic music!"
+  },
+  {
+    "id": 286,
+    "businessId": 16,
+    "username": "shopper",
+    "rating": 4,
+    "comment": "SuperMart in Baden is well-stocked, but the parking space is limited."
+  },
+  {
+    "id": 287,
+    "businessId": 17,
+    "username": "partyanimal",
+    "rating": 5,
+    "comment": "Bender is the best place for nightlife! Great drinks and music."
+  },
+  {
+    "id": 288,
+    "businessId": 18,
+    "username": "adventurer",
+    "rating": 4,
+    "comment": "FunZone in Meilen is fun, but a bit pricey for some of the activities."
+  },
+  {
+    "id": 289,
+    "businessId": 19,
+    "username": "remoteworker",
+    "rating": 3,
+    "comment": "WorkHub is convenient, but sometimes too noisy for focused work."
+  },
+  {
+    "id": 290,
+    "businessId": 20,
+    "username": "eventplanner",
+    "rating": 5,
+    "comment": "FunZone in Steinhausen is perfect for kids' parties! Lots of activities."
+  },
+  {
+    "id": 291,
+    "businessId": 1,
+    "username": "happy_baker",
+    "rating": 5,
+    "comment": "Best pastries in town! Love the tarts!"
+  },
+  {
+    "id": 292,
+    "businessId": 12,
+    "username": "food_lover88",
+    "rating": 4,
+    "comment": "Great food but a bit pricey."
+  },
+  {
+    "id": 293,
+    "businessId": 22,
+    "username": "vivacious_vegan",
+    "rating": 4,
+    "comment": "Lovely ambiance and delicious vegan options."
+  },
+  {
+    "id": 294,
+    "businessId": 28,
+    "username": "coffee_addict",
+    "rating": 3,
+    "comment": "Decent coffee but customer service could use improvement."
+  },
+  {
+    "id": 295,
+    "businessId": 35,
+    "username": "mountain_lover",
+    "rating": 5,
+    "comment": "A perfect retreat in the mountains. Highly recommend!"
+  },
+  {
+    "id": 296,
+    "businessId": 44,
+    "username": "adventure_guy",
+    "rating": 5,
+    "comment": "Great place to get high-quality outdoor gear."
+  },
+  {
+    "id": 297,
+    "businessId": 56,
+    "username": "fitness_fanatic",
+    "rating": 4,
+    "comment": "Solid gym with all the necessary equipment."
+  },
+  {
+    "id": 298,
+    "businessId": 67,
+    "username": "sweet_tooth",
+    "rating": 4,
+    "comment": "Delicious pastries, but a bit overpriced."
+  },
+  {
+    "id": 299,
+    "businessId": 74,
+    "username": "cafe_critiq",
+    "rating": 2,
+    "comment": "Not happy with the quality of coffee."
+  },
+  {
+    "id": 300,
+    "businessId": 83,
+    "username": "bread_lover",
+    "rating": 5,
+    "comment": "Absolutely love their fresh bread!"
+  },
+  {
+    "id": 301,
+    "businessId": 88,
+    "username": "daily_shopper",
+    "rating": 3,
+    "comment": "Good selection but customer service needs improvement."
+  },
+  {
+    "id": 302,
+    "businessId": 91,
+    "username": "bargain_hunter",
+    "rating": 4,
+    "comment": "Great deals but the store layout is confusing."
+  },
+  {
+    "id": 303,
+    "businessId": 95,
+    "username": "pastry_enthusiast",
+    "rating": 5,
+    "comment": "They have the best pastries in town!"
+  },
+  {
+    "id": 304,
+    "businessId": 93,
+    "username": "spiritual_seeker",
+    "rating": 5,
+    "comment": "A peaceful and serene place for reflection."
+  },
+  {
+    "id": 305,
+    "businessId": 96,
+    "username": "sweetest_things",
+    "rating": 4,
+    "comment": "Yummy pastries, but the shop is a bit small."
+  },
+  {
+    "id": 306,
+    "businessId": 96,
+    "username": "pastry_love",
+    "rating": 5,
+    "comment": "Heaven for pastry lovers!"
+  },
+  {
+    "id": 307,
+    "businessId": 100,
+    "username": "latte_lover",
+    "rating": 4,
+    "comment": "Great lattes, but a bit crowded."
+  },
+  {
+    "id": 308,
+    "businessId": 55,
+    "username": "green_thumb",
+    "rating": 5,
+    "comment": "Best place for all your gardening needs!"
+  },
+  {
+    "id": 309,
+    "businessId": 59,
+    "username": "morning_coffee",
+    "rating": 4,
+    "comment": "Nice place for a morning coffee."
+  },
+  {
+    "id": 310,
+    "businessId": 49,
+    "username": "outdoor_enthusiast",
+    "rating": 5,
+    "comment": "Fantastic store for outdoor equipment!"
+  },
+  {
+    "id": 311,
+    "businessId": 1,
+    "username": "SweetTooth99",
+    "rating": 5,
+    "comment": "The pastries here are to die for! Highly recommend the chocolate croissant."
+  },
+  {
+    "id": 312,
+    "businessId": 2,
+    "username": "VeggieLover01",
+    "rating": 4,
+    "comment": "Great selection of fresh produce, but the prices are a bit high."
+  },
+  {
+    "id": 313,
+    "businessId": 3,
+    "username": "HealthyLife2023",
+    "rating": 5,
+    "comment": "Excellent pharmacy with knowledgeable staff and a great range of products."
+  },
+  {
+    "id": 314,
+    "businessId": 4,
+    "username": "Fashionista09",
+    "rating": 3,
+    "comment": "Nice collection of clothes although a bit too pricey for my taste."
+  },
+  {
+    "id": 315,
+    "businessId": 5,
+    "username": "TechJunkie88",
+    "rating": 4,
+    "comment": "Good variety of electronics, but I think they can do better with customer service."
+  },
+  {
+    "id": 316,
+    "businessId": 6,
+    "username": "ToyCollector99",
+    "rating": 5,
+    "comment": "Fantastic toy store with a wide range of options for all ages!"
+  },
+  {
+    "id": 317,
+    "businessId": 7,
+    "username": "PrintMaster22",
+    "rating": 4,
+    "comment": "Great quality prints, but they need to speed up their delivery time."
+  },
+  {
+    "id": 318,
+    "businessId": 8,
+    "username": "FurnitureFan123",
+    "rating": 3,
+    "comment": "Good options for furniture but the prices are on the higher side."
+  },
+  {
+    "id": 319,
+    "businessId": 9,
+    "username": "CarGuy77",
+    "rating": 5,
+    "comment": "Excellent service and very reliable repairs at a reasonable price."
+  },
+  {
+    "id": 320,
+    "businessId": 10,
+    "username": "HairCraze88",
+    "rating": 4,
+    "comment": "Friendly staff, decent prices but could improve on wait times."
+  },
+  {
+    "id": 321,
+    "businessId": 11,
+    "username": "Shopaholic2023",
+    "rating": 4,
+    "comment": "Wide variety of products, but the store can get quite crowded."
+  },
+  {
+    "id": 322,
+    "businessId": 12,
+    "username": "Foodie99",
+    "rating": 5,
+    "comment": "Amazing food and great ambiance! Would definitely come back."
+  },
+  {
+    "id": 323,
+    "businessId": 13,
+    "username": "FunSeeker01",
+    "rating": 5,
+    "comment": "Best place for a fun day out! Highly recommend for families."
+  },
+  {
+    "id": 324,
+    "businessId": 14,
+    "username": "WorkFromHome2023",
+    "rating": 4,
+    "comment": "Good office space, but parking can be a bit of a hassle."
+  },
+  {
+    "id": 325,
+    "businessId": 15,
+    "username": "NightOwl88",
+    "rating": 5,
+    "comment": "Amazing atmosphere and great music. Perfect for a night out."
+  },
+  {
+    "id": 326,
+    "businessId": 16,
+    "username": "RetailTherapy99",
+    "rating": 3,
+    "comment": "Decent selection of products, but customer service could improve."
+  },
+  {
+    "id": 327,
+    "businessId": 17,
+    "username": "PartyAnimal01",
+    "rating": 5,
+    "comment": "Great place to let loose and have fun! Loved the vibe here."
+  },
+  {
+    "id": 328,
+    "businessId": 1,
+    "username": "FreshBaker2023",
+    "rating": 4,
+    "comment": "Good bakery with hard-to-find items, but needs more variety."
+  },
+  {
+    "id": 329,
+    "businessId": 2,
+    "username": "MarketLover88",
+    "rating": 4,
+    "comment": "Great market for organic foods, though it can get crowded."
+  },
+  {
+    "id": 330,
+    "businessId": 3,
+    "username": "HealthNut99",
+    "rating": 5,
+    "comment": "Excellent pharmacy with great staff and quick service."
+  },
+  {
+    "id": 331,
+    "businessId": 1,
+    "username": "user123",
+    "rating": 5,
+    "comment": "The pastries at Delights Bakery are absolutely amazing! I'll definitely come back."
+  },
+  {
+    "id": 332,
+    "businessId": 2,
+    "username": "shopper321",
+    "rating": 4,
+    "comment": "Fresh Market has a great variety of products but is sometimes crowded during peak hours."
+  },
+  {
+    "id": 333,
+    "businessId": 3,
+    "username": "healthGuru",
+    "rating": 5,
+    "comment": "Wellness Pharmacy provided excellent advice and service. Very professional staff."
+  },
+  {
+    "id": 334,
+    "businessId": 4,
+    "username": "fashionista",
+    "rating": 3,
+    "comment": "Chic Boutique has nice clothing but they are a bit overpriced."
+  },
+  {
+    "id": 335,
+    "businessId": 5,
+    "username": "techSavvy",
+    "rating": 4,
+    "comment": "Tech Hub has all the latest gadgets, but their customer service could be improved."
+  },
+  {
+    "id": 336,
+    "businessId": 6,
+    "username": "toyLover",
+    "rating": 5,
+    "comment": "Toy Store is a paradise for kids. Highly recommended!"
+  },
+  {
+    "id": 337,
+    "businessId": 7,
+    "username": "printPro",
+    "rating": 4,
+    "comment": "Print Shop offers great services for printing needs but can be a bit slow at times."
+  },
+  {
+    "id": 338,
+    "businessId": 10,
+    "username": "hairGuru",
+    "rating": 5,
+    "comment": "Hair Salon did a fantastic job with my haircut. Very skilled stylists."
+  },
+  {
+    "id": 339,
+    "businessId": 15,
+    "username": "nightOwl",
+    "rating": 5,
+    "comment": "NightOwl is my favorite place to unwind. Great atmosphere and drinks!"
+  },
+  {
+    "id": 340,
+    "businessId": 26,
+    "username": "coffeeAddict",
+    "rating": 4,
+    "comment": "WaveCafe serves excellent coffee but sometimes the seating is limited."
+  },
+  {
+    "id": 341,
+    "businessId": 19,
+    "username": "officeWorker",
+    "rating": 5,
+    "comment": "WorkHub provides a perfect environment for productivity. Very modern facilities."
+  },
+  {
+    "id": 342,
+    "businessId": 30,
+    "username": "foodieLover",
+    "rating": 5,
+    "comment": "RestoLuxe offers delicious food with an incredible ambiance. Truly luxurious dining experience."
+  },
+  {
+    "id": 343,
+    "businessId": 22,
+    "username": "cafeLover",
+    "rating": 4,
+    "comment": "WaveCafe has a cozy environment but could improve on their dessert options."
+  },
+  {
+    "id": 344,
+    "businessId": 35,
+    "username": "natureLover",
+    "rating": 5,
+    "comment": "Mountain Lodge is perfect for a retreat. Stunning views and great service."
+  },
+  {
+    "id": 345,
+    "businessId": 38,
+    "username": "pharmaFan",
+    "rating": 5,
+    "comment": "Wellness Pharmacy in Oekingen has friendly staff and is always well-stocked."
+  },
+  {
+    "id": 346,
+    "businessId": 42,
+    "username": "bookworm",
+    "rating": 5,
+    "comment": "Cozy Books has an excellent selection of books and a very welcoming atmosphere."
+  },
+  {
+    "id": 347,
+    "businessId": 52,
+    "username": "techGeek",
+    "rating": 4,
+    "comment": "Alpine Tech is great for tech products but the prices are a bit high."
+  },
+  {
+    "id": 348,
+    "businessId": 48,
+    "username": "homeStylist",
+    "rating": 5,
+    "comment": "Home Comforts offers beautiful home decor items. Love shopping there."
+  },
+  {
+    "id": 349,
+    "businessId": 53,
+    "username": "seafoodLover",
+    "rating": 5,
+    "comment": "Ocean Delights Restaurant serves the best seafood in town. Must-try!"
+  },
+  {
+    "id": 350,
+    "businessId": 64,
+    "username": "avidReader",
+    "rating": 5,
+    "comment": "Book Haven is a paradise for book lovers. Great collection and friendly staff."
+  },
+  {
+    "id": 351,
+    "businessId": 1,
+    "username": "happy_baker",
+    "rating": 5,
+    "comment": "The best bakery in town! Their croissants are to die for."
+  },
+  {
+    "id": 352,
+    "businessId": 2,
+    "username": "market_lover",
+    "rating": 4,
+    "comment": "Fresh Market has a wide selection of fresh produce. Could have more organic options."
+  },
+  {
+    "id": 353,
+    "businessId": 3,
+    "username": "healthy_life",
+    "rating": 5,
+    "comment": "Excellent service and a great variety of health products."
+  },
+  {
+    "id": 354,
+    "businessId": 4,
+    "username": "fashionista78",
+    "rating": 4,
+    "comment": "Chic Boutique is a gem. Unique pieces but a bit pricey."
+  },
+  {
+    "id": 355,
+    "businessId": 5,
+    "username": "tech_guru",
+    "rating": 5,
+    "comment": "Tech Hub has all the latest gadgets. Friendly staff and great service."
+  },
+  {
+    "id": 356,
+    "businessId": 6,
+    "username": "toy_enthusiast",
+    "rating": 3,
+    "comment": "A decent toy store with a good selection, but could use more educational toys."
+  },
+  {
+    "id": 357,
+    "businessId": 7,
+    "username": "print_master",
+    "rating": 4,
+    "comment": "Quick and efficient printing services. Affordable prices."
+  },
+  {
+    "id": 358,
+    "businessId": 8,
+    "username": "home_decorator",
+    "rating": 5,
+    "comment": "Great selection of furniture. Found exactly what I needed for my home."
+  },
+  {
+    "id": 359,
+    "businessId": 9,
+    "username": "car_guy",
+    "rating": 4,
+    "comment": "Reliable car repair service. Could improve the waiting area for customers."
+  },
+  {
+    "id": 360,
+    "businessId": 10,
+    "username": "style_seeker",
+    "rating": 5,
+    "comment": "Love my new haircut from Hair Salon. Very professional stylists."
+  },
+  {
+    "id": 361,
+    "businessId": 11,
+    "username": "shopaholic",
+    "rating": 4,
+    "comment": "SuperMart has everything you need. The checkout lines can be long though."
+  },
+  {
+    "id": 362,
+    "businessId": 12,
+    "username": "foodie123",
+    "rating": 5,
+    "comment": "GourmetBite offers delicious dishes and excellent service."
+  },
+  {
+    "id": 363,
+    "businessId": 13,
+    "username": "fun_time",
+    "rating": 3,
+    "comment": "FunZone is a good place for kids but limited activities for adults."
+  },
+  {
+    "id": 364,
+    "businessId": 14,
+    "username": "workaholic",
+    "rating": 4,
+    "comment": "WorkHub provides great workspaces. Internet speed could be better."
+  },
+  {
+    "id": 365,
+    "businessId": 15,
+    "username": "night_owl",
+    "rating": 5,
+    "comment": "Best nightlife experience at NightOwl. Great music and crowd."
+  },
+  {
+    "id": 366,
+    "businessId": 16,
+    "username": "super_shopper",
+    "rating": 4,
+    "comment": "SuperMart in Baden is well-stocked but could use more organic options."
+  },
+  {
+    "id": 367,
+    "businessId": 17,
+    "username": "party_animal",
+    "rating": 5,
+    "comment": "Had an amazing time at Bender. The atmosphere is fantastic!"
+  },
+  {
+    "id": 368,
+    "businessId": 18,
+    "username": "fun_seeker",
+    "rating": 4,
+    "comment": "FunZone in Meilen is a great place for kids. Needs more activities for teens."
+  },
+  {
+    "id": 369,
+    "businessId": 19,
+    "username": "work_hard",
+    "rating": 4,
+    "comment": "Great co-working space at WorkHub. Could use more coffee options."
+  },
+  {
+    "id": 370,
+    "businessId": 20,
+    "username": "entertainment_buff",
+    "rating": 5,
+    "comment": "Love spending time at FunZone in Steinhausen. So many fun activities!"
+  },
+  {
+    "id": 371,
+    "businessId": 1,
+    "username": "foodie123",
+    "rating": 5,
+    "comment": "Delights Bakery has the best pastries in town! Always fresh and delicious."
+  },
+  {
+    "id": 372,
+    "businessId": 2,
+    "username": "shopaholic89",
+    "rating": 4,
+    "comment": "Fresh Market has a great selection of products. Love the organic section."
+  },
+  {
+    "id": 373,
+    "businessId": 3,
+    "username": "healthguru",
+    "rating": 3,
+    "comment": "Wellness Pharmacy is okay, but the wait time is a bit long."
+  },
+  {
+    "id": 374,
+    "businessId": 4,
+    "username": "fashionista77",
+    "rating": 5,
+    "comment": "Chic Boutique has the latest fashion trends. Absolutely love shopping here!"
+  },
+  {
+    "id": 375,
+    "businessId": 5,
+    "username": "techgeek42",
+    "rating": 4,
+    "comment": "Tech Hub has all the latest gadgets. Friendly staff and reasonable prices."
+  },
+  {
+    "id": 376,
+    "businessId": 6,
+    "username": "momof3",
+    "rating": 5,
+    "comment": "Toy Store is a paradise for kids. Great variety of toys."
+  },
+  {
+    "id": 377,
+    "businessId": 7,
+    "username": "printmaster",
+    "rating": 3,
+    "comment": "Print Shop has good quality prints but the service can be slow at times."
+  },
+  {
+    "id": 378,
+    "businessId": 8,
+    "username": "homeowner123",
+    "rating": 4,
+    "comment": "Furniture Store has beautiful furniture. Quality is top-notch."
+  },
+  {
+    "id": 379,
+    "businessId": 9,
+    "username": "carfixer",
+    "rating": 2,
+    "comment": "Car Repair did not meet my expectations. The repair took longer than estimated."
+  },
+  {
+    "id": 380,
+    "businessId": 10,
+    "username": "beautylover",
+    "rating": 5,
+    "comment": "Hair Salon gives the best haircuts. Highly recommend!"
+  },
+  {
+    "id": 381,
+    "businessId": 11,
+    "username": "shopaholic89",
+    "rating": 4,
+    "comment": "SuperMart has everything you need. Good prices and friendly staff."
+  },
+  {
+    "id": 382,
+    "businessId": 12,
+    "username": "foodlover",
+    "rating": 3,
+    "comment": "GourmetBite has tasty food but the portions are small."
+  },
+  {
+    "id": 383,
+    "businessId": 13,
+    "username": "gamer97",
+    "rating": 5,
+    "comment": "FunZone is the best place for family entertainment. So much fun!"
+  },
+  {
+    "id": 384,
+    "businessId": 14,
+    "username": "workaholic",
+    "rating": 4,
+    "comment": "WorkHub is a nice co-working space. Very professional environment."
+  },
+  {
+    "id": 385,
+    "businessId": 15,
+    "username": "nightowl",
+    "rating": 5,
+    "comment": "NightOwl is the best place to hang out at night. Great ambiance!"
+  },
+  {
+    "id": 386,
+    "businessId": 16,
+    "username": "shopper90",
+    "rating": 4,
+    "comment": "SuperMart has a good variety of products. Conveniently located."
+  },
+  {
+    "id": 387,
+    "businessId": 17,
+    "username": "partyking",
+    "rating": 5,
+    "comment": "Bender is the ultimate nightlife spot. Always a great time!"
+  },
+  {
+    "id": 388,
+    "businessId": 18,
+    "username": "gamer97",
+    "rating": 3,
+    "comment": "FunZone is fun but can get crowded on weekends."
+  },
+  {
+    "id": 389,
+    "businessId": 19,
+    "username": "workaholic",
+    "rating": 4,
+    "comment": "WorkHub is a decent place for working. Clean and quiet."
+  },
+  {
+    "id": 390,
+    "businessId": 20,
+    "username": "gamer97",
+    "rating": 5,
+    "comment": "FunZone at Steinhausen is my favorite! So many games to choose from."
+  },
+  {
+    "id": 391,
+    "businessId": 1,
+    "username": "bakeryLover123",
+    "rating": 5,
+    "comment": "Absolutely love the pastries here! Always fresh and delicious."
+  },
+  {
+    "id": 392,
+    "businessId": 2,
+    "username": "shopperX",
+    "rating": 4,
+    "comment": "Great selection of produce. Prices are reasonable."
+  },
+  {
+    "id": 393,
+    "businessId": 3,
+    "username": "healthGuru",
+    "rating": 3,
+    "comment": "The staff is kind, but the prices are quite high."
+  },
+  {
+    "id": 394,
+    "businessId": 4,
+    "username": "fashionista89",
+    "rating": 4,
+    "comment": "Trendy clothes, but wish they had more sizes available."
+  },
+  {
+    "id": 395,
+    "businessId": 5,
+    "username": "techGeek",
+    "rating": 2,
+    "comment": "Tech support could be better. Products are decent though."
+  },
+  {
+    "id": 396,
+    "businessId": 6,
+    "username": "parentlife",
+    "rating": 5,
+    "comment": "Perfect place to find toys for my kids. They love it!"
+  },
+  {
+    "id": 397,
+    "businessId": 7,
+    "username": "printMaster",
+    "rating": 4,
+    "comment": "Efficient printing service. Slightly long wait times."
+  },
+  {
+    "id": 398,
+    "businessId": 8,
+    "username": "homeLover",
+    "rating": 3,
+    "comment": "Nice furniture selection. Prices are a bit steep."
+  },
+  {
+    "id": 399,
+    "businessId": 9,
+    "username": "autoFix",
+    "rating": 4,
+    "comment": "Reliable repair service. Fixed my car issue promptly."
+  },
+  {
+    "id": 400,
+    "businessId": 10,
+    "username": "beautyBoss",
+    "rating": 5,
+    "comment": "Best hair salon in the area! Loved the haircut I got."
+  },
+  {
+    "id": 401,
+    "businessId": 11,
+    "username": "shopperX",
+    "rating": 4,
+    "comment": "Convenient grocery store with everything I need."
+  },
+  {
+    "id": 402,
+    "businessId": 12,
+    "username": "foodie44",
+    "rating": 5,
+    "comment": "A hidden gem! Delicious food and great atmosphere."
+  },
+  {
+    "id": 403,
+    "businessId": 13,
+    "username": "funSeeker",
+    "rating": 3,
+    "comment": "Fun activities but a bit crowded at times."
+  },
+  {
+    "id": 404,
+    "businessId": 14,
+    "username": "remoteWorker",
+    "rating": 4,
+    "comment": "Great coworking space. Would be perfect with more amenities."
+  },
+  {
+    "id": 405,
+    "businessId": 15,
+    "username": "nightOwl",
+    "rating": 5,
+    "comment": "Love this place! Great vibes and music all night."
+  },
+  {
+    "id": 406,
+    "businessId": 16,
+    "username": "shopperX",
+    "rating": 5,
+    "comment": "Solid retail store with fantastic customer service."
+  },
+  {
+    "id": 407,
+    "businessId": 17,
+    "username": "partyAnimal",
+    "rating": 4,
+    "comment": "Had an amazing time here! Drinks were a bit pricey."
+  },
+  {
+    "id": 408,
+    "businessId": 18,
+    "username": "thrillSeeker",
+    "rating": 3,
+    "comment": "A lot of fun but could use some updates."
+  },
+  {
+    "id": 409,
+    "businessId": 19,
+    "username": "freelancer",
+    "rating": 4,
+    "comment": "Convenient workspace with great internet."
+  },
+  {
+    "id": 410,
+    "businessId": 20,
+    "username": "familyFun",
+    "rating": 5,
+    "comment": "Always fun for the kids! A great family spot."
+  },
+  {
+    "id": 411,
+    "businessId": 1,
+    "username": "john_doe",
+    "rating": 5,
+    "comment": "The bread here is absolutely amazing! Fresh and delicious."
+  },
+  {
+    "id": 412,
+    "businessId": 2,
+    "username": "jane_smith",
+    "rating": 4,
+    "comment": "Great selection of fresh produce, but a bit pricey."
+  },
+  {
+    "id": 413,
+    "businessId": 3,
+    "username": "health_enthusiast",
+    "rating": 5,
+    "comment": "The pharmacists are very knowledgeable and helpful."
+  },
+  {
+    "id": 414,
+    "businessId": 4,
+    "username": "fashionista77",
+    "rating": 3,
+    "comment": "Nice boutique, but the selection could be larger."
+  },
+  {
+    "id": 415,
+    "businessId": 5,
+    "username": "tech_guru",
+    "rating": 5,
+    "comment": "Best place to find the latest tech gadgets!"
+  },
+  {
+    "id": 416,
+    "businessId": 6,
+    "username": "toy_collector",
+    "rating": 4,
+    "comment": "Great variety of toys, but some are a bit overpriced."
+  },
+  {
+    "id": 417,
+    "businessId": 7,
+    "username": "print_master",
+    "rating": 5,
+    "comment": "Excellent print quality and fast service."
+  },
+  {
+    "id": 418,
+    "businessId": 8,
+    "username": "home_decorator",
+    "rating": 4,
+    "comment": "Beautiful furniture but delivery took a bit long."
+  },
+  {
+    "id": 419,
+    "businessId": 9,
+    "username": "car_lover",
+    "rating": 5,
+    "comment": "Very reliable car repair service. Highly recommend."
+  },
+  {
+    "id": 420,
+    "businessId": 10,
+    "username": "beauty_queen",
+    "rating": 3,
+    "comment": "Average service at the hair salon, nothing special."
+  },
+  {
+    "id": 421,
+    "businessId": 11,
+    "username": "shopper123",
+    "rating": 4,
+    "comment": "Good selection of items, but the store can get crowded."
+  },
+  {
+    "id": 422,
+    "businessId": 12,
+    "username": "foodie_lover",
+    "rating": 5,
+    "comment": "Delicious food with a great ambiance. A must-visit!"
+  },
+  {
+    "id": 423,
+    "businessId": 13,
+    "username": "fun_seeker",
+    "rating": 5,
+    "comment": "Amazing entertainment zone with lots of activities."
+  },
+  {
+    "id": 424,
+    "businessId": 14,
+    "username": "work_enthusiast",
+    "rating": 4,
+    "comment": "Great place to work with excellent facilities."
+  },
+  {
+    "id": 425,
+    "businessId": 15,
+    "username": "night_owl",
+    "rating": 4,
+    "comment": "Fun nightlife spot, but can get too crowded."
+  },
+  {
+    "id": 426,
+    "businessId": 16,
+    "username": "super_shopper",
+    "rating": 5,
+    "comment": "Good variety, clean store, and friendly staff."
+  },
+  {
+    "id": 427,
+    "businessId": 17,
+    "username": "party_animal",
+    "rating": 4,
+    "comment": "Great place to party, but the drinks are expensive."
+  },
+  {
+    "id": 428,
+    "businessId": 18,
+    "username": "game_lover",
+    "rating": 5,
+    "comment": "Fantastic place to have fun with friends!"
+  },
+  {
+    "id": 429,
+    "businessId": 19,
+    "username": "office_worker",
+    "rating": 4,
+    "comment": "Good office space, but the internet can be slow."
+  },
+  {
+    "id": 430,
+    "businessId": 20,
+    "username": "arcade_enthusiast",
+    "rating": 5,
+    "comment": "Best arcade ever! Lots of games and great prizes."
+  },
+  {
+    "id": 431,
+    "businessId": 1,
+    "username": "ChocoLover22",
+    "rating": 5,
+    "comment": "Delights Bakery has the best croissants I've ever tasted! Highly recommend."
+  },
+  {
+    "id": 432,
+    "businessId": 3,
+    "username": "HealthGuru",
+    "rating": 4,
+    "comment": "Wellness Pharmacy is well-stocked and the staff are very knowledgeable."
+  },
+  {
+    "id": 433,
+    "businessId": 5,
+    "username": "GadgetGal",
+    "rating": 4,
+    "comment": "Tech Hub offers a great selection of electronics at reasonable prices."
+  },
+  {
+    "id": 434,
+    "businessId": 8,
+    "username": "FurnitureFanatic",
+    "rating": 3,
+    "comment": "Furniture Store has quality items but the prices are a bit high."
+  },
+  {
+    "id": 435,
+    "businessId": 12,
+    "username": "Foodie123",
+    "rating": 5,
+    "comment": "GourmetBite is an absolute gem! The food is exquisite and the ambiance is perfect."
+  },
+  {
+    "id": 436,
+    "businessId": 18,
+    "username": "FunLover9",
+    "rating": 4,
+    "comment": "FunZone is a great place for a fun family day out with many entertaining options."
+  },
+  {
+    "id": 437,
+    "businessId": 20,
+    "username": "AdventureSeeker",
+    "rating": 5,
+    "comment": "FunZone in Steinhausen is spectacular! My kids had a blast."
+  },
+  {
+    "id": 438,
+    "businessId": 22,
+    "username": "CaffeineAddict",
+    "rating": 4,
+    "comment": "WaveCafe offers great coffee and a cozy atmosphere. Perfect for catching up with friends."
+  },
+  {
+    "id": 439,
+    "businessId": 24,
+    "username": "CoffeeConnoisseur",
+    "rating": 5,
+    "comment": "WaveCafe in Escholzmatt is a hidden gem! The pastries are divine."
+  },
+  {
+    "id": 440,
+    "businessId": 26,
+    "username": "LatteLover",
+    "rating": 4,
+    "comment": "WaveCafe in Braunau has great lattes and a relaxing environment."
+  },
+  {
+    "id": 441,
+    "businessId": 28,
+    "username": "CafeCritic",
+    "rating": 3,
+    "comment": "WaveCafe in Unterschachen is nice but a bit small."
+  },
+  {
+    "id": 442,
+    "businessId": 30,
+    "username": "FineDiner007",
+    "rating": 5,
+    "comment": "RestoLuxe offers an amazing dining experience with gourmet dishes."
+  },
+  {
+    "id": 443,
+    "businessId": 36,
+    "username": "NatureLover51",
+    "rating": 4,
+    "comment": "Green Meadow Cafe has a lovely view and fresh, organic food."
+  },
+  {
+    "id": 444,
+    "businessId": 37,
+    "username": "DeliDiva",
+    "rating": 5,
+    "comment": "Riviera Deli has an excellent selection of high-quality meats and cheeses."
+  },
+  {
+    "id": 445,
+    "businessId": 40,
+    "username": "MovieBuff88",
+    "rating": 4,
+    "comment": "Starlight Cinema is a great place to catch a movie with comfortable seating."
+  },
+  {
+    "id": 446,
+    "businessId": 42,
+    "username": "Bookworm101",
+    "rating": 5,
+    "comment": "Cozy Books is a wonderful bookstore with a wide selection of books."
+  },
+  {
+    "id": 447,
+    "businessId": 63,
+    "username": "CafeLover",
+    "rating": 5,
+    "comment": "Café Corner in Willisau is fantastic! Great coffee and ambiance."
+  },
+  {
+    "id": 448,
+    "businessId": 64,
+    "username": "BookNerd",
+    "rating": 4,
+    "comment": "Book Haven has a great selection of both new and used books."
+  },
+  {
+    "id": 449,
+    "businessId": 66,
+    "username": "FlowerFan",
+    "rating": 4,
+    "comment": "Floral Boutique in Auw has beautiful arrangements but is a bit pricey."
+  },
+  {
+    "id": 450,
+    "businessId": 74,
+    "username": "CaféLover",
+    "rating": 5,
+    "comment": "Bruchhüttli Café in Glarus Süd serves the best coffee in town!"
+  },
+  {
+    "id": 451,
+    "businessId": 1,
+    "username": "happy_baker",
+    "rating": 5,
+    "comment": "Amazing bakery! Everything is always fresh and delicious."
+  },
+  {
+    "id": 452,
+    "businessId": 2,
+    "username": "shopaholic23",
+    "rating": 4,
+    "comment": "Great selection and friendly staff."
+  },
+  {
+    "id": 453,
+    "businessId": 3,
+    "username": "health_nut",
+    "rating": 4,
+    "comment": "Very knowledgeable pharmacists. Always a pleasure to visit."
+  },
+  {
+    "id": 454,
+    "businessId": 4,
+    "username": "fashionista",
+    "rating": 5,
+    "comment": "Chic Boutique is my go-to place for the latest trends."
+  },
+  {
+    "id": 455,
+    "businessId": 5,
+    "username": "tech_guru",
+    "rating": 3,
+    "comment": "Good variety of electronics, but prices could be better."
+  },
+  {
+    "id": 456,
+    "businessId": 6,
+    "username": "toylover",
+    "rating": 5,
+    "comment": "My kids love this store. So many toys to choose from!"
+  },
+  {
+    "id": 457,
+    "businessId": 7,
+    "username": "print_master",
+    "rating": 4,
+    "comment": "Fast and reliable printing services."
+  },
+  {
+    "id": 458,
+    "businessId": 8,
+    "username": "home_enthusiast",
+    "rating": 4,
+    "comment": "Beautiful furniture pieces. High quality!"
+  },
+  {
+    "id": 459,
+    "businessId": 9,
+    "username": "carbuff",
+    "rating": 5,
+    "comment": "Excellent car repair service! Highly recommend."
+  },
+  {
+    "id": 460,
+    "businessId": 10,
+    "username": "beautyqueen",
+    "rating": 4,
+    "comment": "Lovely salon with friendly staff. I always leave feeling pampered."
+  },
+  {
+    "id": 461,
+    "businessId": 11,
+    "username": "martmaniac",
+    "rating": 4,
+    "comment": "SuperMart has everything I need in one place."
+  },
+  {
+    "id": 462,
+    "businessId": 12,
+    "username": "foodie101",
+    "rating": 5,
+    "comment": "GourmetBite serves the best dishes in town."
+  },
+  {
+    "id": 463,
+    "businessId": 13,
+    "username": "funseeker",
+    "rating": 5,
+    "comment": "FunZone is the best place for family entertainment."
+  },
+  {
+    "id": 464,
+    "businessId": 14,
+    "username": "remote_worker",
+    "rating": 4,
+    "comment": "Great place to get work done. Very quiet and comfortable."
+  },
+  {
+    "id": 465,
+    "businessId": 15,
+    "username": "nightowl21",
+    "rating": 5,
+    "comment": "NightOwl is the perfect spot for a night out."
+  },
+  {
+    "id": 466,
+    "businessId": 16,
+    "username": "shopholicqueen",
+    "rating": 3,
+    "comment": "Good variety but some products are overpriced."
+  },
+  {
+    "id": 467,
+    "businessId": 17,
+    "username": "partylover",
+    "rating": 4,
+    "comment": "Bender is fantastic for nightlife. Great atmosphere!"
+  },
+  {
+    "id": 468,
+    "businessId": 18,
+    "username": "gamingfan",
+    "rating": 4,
+    "comment": "FunZone never disappoints. Always a great time."
+  },
+  {
+    "id": 469,
+    "businessId": 19,
+    "username": "workspaceaddict",
+    "rating": 5,
+    "comment": "WorkHub offers the best co-working spaces."
+  },
+  {
+    "id": 470,
+    "businessId": 20,
+    "username": "entertainmentjunkie",
+    "rating": 5,
+    "comment": "Every visit to FunZone is a new adventure. Love it!"
+  }
+]

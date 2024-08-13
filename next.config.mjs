@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  serverRuntimeConfig: {
+    PROJECT_ROOT: process.cwd(),
+  },
+};
 
 export default nextConfig;
