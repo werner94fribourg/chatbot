@@ -6,6 +6,8 @@ export const BUSINESS_URL = API_URL + '/businesses';
 
 export const REVIEW_URL = API_URL + '/reviews';
 
+export const RECOMMENDATIONS_URL = API_URL + '/recommendations';
+
 export const BUSINESS_COLUMNS: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 100 },
   { field: 'name', headerName: 'Name', width: 220 },

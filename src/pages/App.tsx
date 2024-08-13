@@ -1,7 +1,7 @@
 'use client';
 
 import { NextPage } from 'next';
-import Table from './components/Table';
+import Table from './components/Table/Table';
 import { useDispatch } from 'react-redux';
 import { useEffect } from 'react';
 import { storeAllBusinesses, StoredBusiness } from '@/store/slices/businesses';
@@ -10,6 +10,7 @@ import { BUSINESS_COLUMNS, REVIEWS_COLUMNS } from '@/utils/frontend/globals';
 import { Typography } from '@mui/material';
 import { storeAllReviews } from '@/store/slices/reviews';
 import { Review } from '@/utils/frontend/utils';
+import Chat from './components/Chat/Chat';
 
 const App: NextPage = () => {
   const businesses = useSelector(
@@ -38,6 +39,7 @@ const App: NextPage = () => {
         List of the existing reviews
       </Typography>
       <Table rows={reviews} columns={REVIEWS_COLUMNS} />
+      <Chat />
     </>
   );
 };

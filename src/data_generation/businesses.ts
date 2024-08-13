@@ -5,12 +5,18 @@ import {
   getRandomCategory,
   generatorChat,
   Handler,
+  getDataString,
+  transformToString,
+  getCategoryType,
 } from '../utils/backend/utils';
 import {
   ChatCompletionMessageParam,
   ChatCompletionTool,
 } from 'openai/resources/index';
-import { BUSINESSES_DATA_FILE } from '../utils/backend/globals';
+import {
+  BUSINESSES_DATA_FILE,
+  BUSINESSES_DATA_TXT,
+} from '../utils/backend/globals';
 import { promisify } from 'util';
 import { readFile, writeFile } from 'fs';
 
@@ -92,4 +98,30 @@ export const generate = async () => {
   console.log(
     `Businesses' file updated at the location ${BUSINESSES_DATA_FILE}`
   );
+};
+
+export const generateTextFile = async () => {
+  const title =
+    'List of all existing businesses to search on (Each line correspond to a business):\n';
+
+  const businesses = (
+    await getDataString(BUSINESSES_DATA_FILE, (business: object) => {
+      const {
+        type,
+        address: {
+          coordinates: [lat, lng],
+        },
+      } = business as Business;
+
+      return transformToString({
+        ...business,
+        latitude: lat,
+        longitude: lng,
+        categories: getCategoryType(type),
+      });
+    })
+  ).join('\n');
+
+  await promisify(writeFile)(BUSINESSES_DATA_TXT, title + businesses, 'utf8');
+  return title + businesses;
 };

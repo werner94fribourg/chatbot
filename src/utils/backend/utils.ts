@@ -5,6 +5,7 @@ import {
   BUSINESS_TYPES,
   OPENAI,
   OPENAI_MODEL,
+  REVIEWS_DATA_FILE,
 } from './globals';
 import {
   ChatCompletionTool,
@@ -247,49 +248,14 @@ export const getCategoryType = (cat: string) => {
 
 export type ObjectHandler = () => Promise<Document[]>;
 
-/*
-export const businessHandler = async () => {
-  const businesses = (await JSON.parse(
-    (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf8')).toString(),
-  )) as Business[];
+type TransformationHandler = (obj: object) => string;
 
-  return businesses.map(business => {
-    const {
-      id,
-      type,
-      address: {
-        coordinates: [lat, lng],
-        city,
-      },
-    } = business;
-
-    return new Document({
-      pageContent: transformToString({
-        ...business,
-        categories: getCategoryType(type),
-      }),
-      metadata: {
-        id,
-        categories: [type, ...getCategoryType(type)],
-        city,
-        coordinates: [lat.toString(), lng.toString()],
-      },
-    });
-  });
+export const getDataString = async (
+  path: string,
+  handler: TransformationHandler
+) => {
+  const data = (await JSON.parse(
+    (await promisify(readFile)(path, 'utf8')).toString()
+  )) as object[];
+  return data.map(item => handler(item));
 };
-
-export const reviewHandler = async () => {
-  const reviews = (await JSON.parse(
-    (await promisify(readFile)(REVIEWS_DATA_FILE, 'utf8')).toString(),
-  )) as Review[];
-
-  return reviews.map(review => {
-    const { id, businessId } = review;
-
-    return new Document({
-      pageContent: transformToString(review),
-      metadata: { id, businessId },
-    });
-  });
-};
-*/

@@ -13,6 +13,10 @@
     "@azure/search-documents": "^12.1.0",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/material": "^5.16.7",
     "@mui/x-data-grid": "^7.12.1",
     "@reduxjs/toolkit": "^2.2.7",
@@ -24,6 +28,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-redux": "^9.1.2",
+    "sass": "^1.77.8",
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5"
   },

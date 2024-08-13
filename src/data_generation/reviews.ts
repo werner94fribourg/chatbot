@@ -6,12 +6,14 @@ import {
   extractJSONString,
   generatorChat,
   getAllBusinesses,
+  getDataString,
   Handler,
   Review,
+  transformToString,
 } from '../utils/backend/utils';
 import { promisify } from 'util';
 import { readFile, writeFile } from 'fs';
-import { REVIEWS_DATA_FILE } from '../utils/backend/globals';
+import { REVIEWS_DATA_FILE, REVIEWS_DATA_TXT } from '../utils/backend/globals';
 
 export const CONTEXT: ChatCompletionMessageParam[] = [
   {
@@ -73,4 +75,16 @@ export const generate = async () => {
   );
 
   console.log(`Reviews' file updated at the location ${REVIEWS_DATA_FILE}`);
+};
+
+export const generateTextFile = async () => {
+  const title = 'List of all existing reviews to search on:\n';
+  const reviews = (
+    await getDataString(REVIEWS_DATA_FILE, (review: object) =>
+      transformToString(review)
+    )
+  ).join('\n');
+
+  await promisify(writeFile)(REVIEWS_DATA_TXT, title + reviews, 'utf8');
+  return title + reviews;
 };

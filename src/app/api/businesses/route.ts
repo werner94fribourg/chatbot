@@ -1,8 +1,5 @@
 import { generate } from '@/data_generation/businesses';
-import {
-  BUSINESSES_DATA_FILE,
-  BUSINESSES_DATA_TXT,
-} from '@/utils/backend/globals';
+import { BUSINESSES_DATA_FILE } from '@/utils/backend/globals';
 import { Business } from '@/utils/backend/utils';
 import { readFile } from 'fs';
 import { NextRequest, NextResponse } from 'next/server';

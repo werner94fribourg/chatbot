@@ -1,5 +1,9 @@
 import { Business } from '@/utils/frontend/utils';
-import { BUSINESS_URL, REVIEW_URL } from '@/utils/frontend/globals';
+import {
+  BUSINESS_URL,
+  RECOMMENDATIONS_URL,
+  REVIEW_URL,
+} from '@/utils/frontend/globals';
 import { makeApiCall } from '@/utils/frontend/utils';
 import { Review } from '@/utils/backend/utils';
 
@@ -42,6 +46,26 @@ export const fetchAllReviews = () => {
       } = data;
 
       return { valid: true, data: reviews };
+    }
+  );
+};
+
+export const fetchChatbotAnswer = (prompt: string) => {
+  return makeApiCall(
+    RECOMMENDATIONS_URL,
+    'post',
+    {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      data: { prompt },
+    },
+    (data: Response<{ answer: string }>) => {
+      const {
+        data: { answer },
+      } = data;
+
+      return { valid: true, data: answer };
     }
   );
 };
