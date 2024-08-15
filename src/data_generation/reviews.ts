@@ -24,7 +24,7 @@ export const CONTEXT: ChatCompletionMessageParam[] = [
   {
     role: 'user',
     content:
-      'Generate me a list of 20 reviews of the existing businesses in JSON format as such: id, businessId, username, rating (between 1 to 5) and comment.',
+      'Generate me a list of 20 reviews of the existing businesses in JSON format as such: username, rating (between 1 to 5), comment and businessId (as a ObjectId reference for Mongodb). businessID is a reference to oid in the business list and should be displayed as follows: businessId: {"$oid": "the value of the business id."}.',
   },
 ];
 
@@ -33,7 +33,8 @@ const TOOLS: ChatCompletionTool[] = [
     type: 'function',
     function: {
       name: 'getAllBusinesses',
-      description: 'Get all the existing businesses stored in the database.',
+      description:
+        'Get all the existing businesses stored in the mongodb database.',
       parameters: {
         type: 'object',
         properties: {},
@@ -51,22 +52,13 @@ const HANDLERS: Handler[] = [
 ];
 
 export const generate = async () => {
-  const content = await generatorChat(CONTEXT, HANDLERS, TOOLS);
+  const [content] = await generatorChat(CONTEXT, HANDLERS, TOOLS);
 
   const reviews = JSON.parse(extractJSONString(content)) as Review[];
 
   const previousReviews = JSON.parse(
     (await promisify(readFile)(REVIEWS_DATA_FILE, 'utf8')).toString()
   ) as Review[];
-
-  const maxId = previousReviews.reduce(
-    (max, review) => (review.id > max ? review.id : max),
-    -1
-  );
-
-  reviews.forEach(review => {
-    review.id += review.id + maxId;
-  });
 
   await promisify(writeFile)(
     REVIEWS_DATA_FILE,

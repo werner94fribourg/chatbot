@@ -1,23 +1,31 @@
 import {
+  generatorChat,
+  getAllBusinesses,
+  getAllReviews,
+  Handler,
+} from '@/utils/backend/utils';
+/*import {
   AZURE_BASE_MODEL,
   AZURE,
-  SEARCH_ENDPOINT,
-  SEARCH_INDEX_NAME,
   EMBEDDING_MODEL,
+  SEARCH_ENDPOINT,
+  SEARCH_KEYWORD_INDEX_NAME,
 } from '../utils/backend/globals';
-import Resources, {
-  ChatCompletion,
+*/ import Resources, {
+  //ChatCompletion,
   ChatCompletionMessageParam,
+  ChatCompletionTool,
 } from 'openai/resources/index';
 
 const CONTEXT: ChatCompletionMessageParam[] = [
   {
     role: 'system',
     content:
-      'You are a joyful assistant called Bizbot that help clients in researching businesses and reviews.',
+      'You are a joyful assistant called Bizbot that helps clients in researching businesses and reviews.',
   },
 ];
 
+/*
 interface DataSource {
   type: string;
   parameters: {
@@ -77,7 +85,7 @@ const DATA_SOURCE: DataSource[] = [
       },
       in_scope: true,
       role_information:
-        'You are a joyful assistant called Bizbot that help clients in researching businesses and reviews.',
+        'You are a joyful assistant called Bizbot that helps clients in researching businesses and reviews.',
       strictness: 3,
       top_n_documents: 5,
       authentication: {
@@ -92,6 +100,65 @@ const DATA_SOURCE: DataSource[] = [
   },
 ];
 
+const DATA_SOURCE_2: DataSource[] = [
+  {
+    type: 'azure_search',
+    parameters: {
+      endpoint: SEARCH_ENDPOINT,
+      index_name: SEARCH_KEYWORD_INDEX_NAME,
+      semantic_configuration: 'default',
+      query_type: 'simple',
+      in_scope: true,
+      role_information:
+        'You are a joyful assistant called Bizbot that helps clients in researching businesses and reviews.',
+      strictness: 3,
+      top_n_documents: 5,
+      authentication: {
+        type: 'api_key',
+        key: process.env.SEARCH_API_KEY!,
+      },
+    },
+  },
+];
+*/
+const TOOLS: ChatCompletionTool[] = [
+  {
+    type: 'function',
+    function: {
+      name: 'getAllBusinesses',
+      description:
+        'Get all the existing businesses stored in the mongodb database.',
+      parameters: {
+        type: 'object',
+        properties: {},
+        required: [],
+      },
+    },
+  },
+  {
+    type: 'function',
+    function: {
+      name: 'getAllReviews',
+      description:
+        'Get all the existing reviews stored in the mongodb database.',
+      parameters: {
+        type: 'object',
+        properties: {},
+        required: [],
+      },
+    },
+  },
+];
+
+const HANDLERS: Handler[] = [
+  {
+    name: 'getAllBusinesses',
+    func: getAllBusinesses,
+  },
+  { name: 'getAllReviews', func: getAllReviews },
+];
+
+/*
 export const getRecommendations = async (prompt: string) => {
   const {
     choices: [
@@ -108,8 +175,33 @@ export const getRecommendations = async (prompt: string) => {
         content: prompt,
       },
     ],
-    data_sources: DATA_SOURCE,
+    data_sources: DATA_SOURCE_2,
   })) as ChatCompletion;
 
   return content;
+};
+*/
+
+export const getRecommendations = async (prompt: string) => {
+  CONTEXT.push({
+    role: 'user',
+    content: prompt,
+  });
+  const [response, newContext] = await generatorChat(CONTEXT, HANDLERS, TOOLS);
+
+  CONTEXT.splice(1, CONTEXT.length - 1);
+
+  const filteredContext = newContext.filter(
+    ctx => ctx.content !== null && ctx.role !== 'tool' && ctx.role !== 'system'
+  );
+  CONTEXT.push(...filteredContext);
+
+  //CONTEXT.push({ role: 'assistant', content: response });
+
+  return response;
+};
+
+export const clearContext = () => {
+  if (CONTEXT.length === 1) return;
+  CONTEXT.splice(1, CONTEXT.length - 1);
 };

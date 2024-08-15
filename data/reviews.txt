@@ -1,461 +1,421 @@
 List of all existing reviews to search on:
-id: 1, businessId: 1, username: bakerlover87, rating: 5, comment: Absolutely loved the pastries at Delights Bakery. Fresh and delicious!
-id: 2, businessId: 2, username: martshopper, rating: 4, comment: Fresh Market has a good selection of produce and household items.
-id: 3, businessId: 3, username: healthguru, rating: 3, comment: Wellness Pharmacy has a decent range of products, but the service could be better.
-id: 4, businessId: 4, username: fashionista, rating: 5, comment: Chic Boutique offers trendy and fashionable clothing. Loved it!
-id: 5, businessId: 5, username: technerd42, rating: 4, comment: Tech Hub has great gadgets, but the prices are a bit high.
-id: 6, businessId: 6, username: kidatheart, rating: 5, comment: Toy Store is a paradise for kids and adults alike. Wonderful collection!
-id: 7, businessId: 7, username: printmeout, rating: 4, comment: Print Shop is efficient and reliable for all printing needs.
-id: 8, businessId: 8, username: homelover, rating: 5, comment: Furniture Store has beautifully crafted furniture. Highly recommend!
-id: 9, businessId: 9, username: autofix, rating: 3, comment: Car Repair service was okay. The work took longer than expected.
-id: 10, businessId: 10, username: hairaffair, rating: 4, comment: Hair Salon did a good job with my haircut. Friendly staff too.
-id: 11, businessId: 11, username: shopaholic, rating: 4, comment: SuperMart has a wide variety of products. Convenient location.
-id: 12, businessId: 12, username: foodie, rating: 5, comment: GourmetBite serves delicious food. Exceptional taste and presentation!
-id: 13, businessId: 13, username: funseeker, rating: 5, comment: FunZone is amazing for family entertainment. Tons of fun activities!
-id: 14, businessId: 14, username: workaholic, rating: 4, comment: WorkHub is a great place to get work done. Quiet and well-equipped.
-id: 15, businessId: 15, username: nightowl, rating: 5, comment: NightOwl has vibrant nightlife. Great music and atmosphere!
-id: 16, businessId: 16, username: martshopper, rating: 3, comment: SuperMart in Baden is good, but it gets really crowded at times.
-id: 17, businessId: 17, username: partylover, rating: 4, comment: Bender is a fun place to party. Good drinks and great crowd.
-id: 18, businessId: 18, username: funseeker, rating: 5, comment: FunZone in Meilen is packed with exciting games and activities!
-id: 19, businessId: 19, username: officespace, rating: 4, comment: WorkHub in Gümmenen offers a productive environment. Quite helpful for professionals.
-id: 20, businessId: 20, username: funseeker, rating: 5, comment: Another great experience at FunZone. Never a dull moment!
-id: 21, businessId: 1, username: BakeryLover24, rating: 5, comment: Delights Bakery always has the freshest pastries. Highly recommend!
-id: 22, businessId: 2, username: ShopUntilUDrop, rating: 3, comment: Fresh Market has a decent selection, but the pricing could be better.
-id: 23, businessId: 3, username: HealthyLiving88, rating: 4, comment: Wellness Pharmacy is quite comprehensive; they have everything I need.
-id: 24, businessId: 4, username: Fashionista, rating: 5, comment: Chic Boutique has the latest styles and the friendliest staff!
-id: 25, businessId: 5, username: TechGuru, rating: 2, comment: Tech Hub has great products but the service was a bit slow.
-id: 26, businessId: 6, username: ToyCollector, rating: 4, comment: Toy Store has an amazing variety of toys. My kids love it.
-id: 27, businessId: 7, username: PrintMaster, rating: 3, comment: Print Shop is good for quick prints but quality can vary.
-id: 28, businessId: 8, username: FurnitureFan, rating: 5, comment: Furniture Store has the best deals and the quality is top-notch!
-id: 29, businessId: 9, username: CarRepairGuy, rating: 4, comment: Car Repair service is efficient and reasonably priced.
-id: 30, businessId: 10, username: BeautyQueen, rating: 5, comment: Hair Salon is fantastic! The stylists are very skilled.
-id: 31, businessId: 11, username: SuperMartShopper, rating: 3, comment: SuperMart is okay for regular groceries but nothing special.
-id: 32, businessId: 12, username: Foodie, rating: 4, comment: GourmetBite offers a delightful menu. Must try their specials!
-id: 33, businessId: 13, username: EntertainmentLover, rating: 5, comment: FunZone is the place to be! So many exciting activities.
-id: 34, businessId: 14, username: OfficeWorker, rating: 4, comment: WorkHub is a great place to get work done. Very productive atmosphere.
-id: 35, businessId: 15, username: NightOwl, rating: 5, comment: NightOwl is the best nightlife spot! Amazing vibes and music.
-id: 36, businessId: 16, username: SuperMartFan, rating: 3, comment: Another SuperMart location. It's okay for basic shopping needs.
-id: 37, businessId: 17, username: PartyAnimal, rating: 4, comment: Bender is awesome for a night out with friends. Highly recommend.
-id: 38, businessId: 18, username: AdventureSeeker, rating: 5, comment: FunZone has it all - games, rides, and endless fun!
-id: 39, businessId: 19, username: RemoteWorker, rating: 4, comment: WorkHub offers reliable facilities for remote working.
-id: 40, businessId: 20, username: FunLover, rating: 5, comment: Another fantastic FunZone outlet. Always a good time!
-id: 41, businessId: 1, username: Alice99, rating: 5, comment: Delicious pastries and excellent coffee. Highly recommend!
-id: 42, businessId: 2, username: JohnDoe, rating: 4, comment: Fresh Market has a great selection, but it can be a bit crowded at times.
-id: 43, businessId: 3, username: MedicMike, rating: 5, comment: Wellness Pharmacy always has what I need, and the staff are incredibly helpful.
-id: 44, businessId: 4, username: Fashionista22, rating: 3, comment: Chic Boutique has some unique items, but the prices are a bit steep.
-id: 45, businessId: 5, username: GadgetGuy, rating: 4, comment: Tech Hub is a great place for the latest tech gadgets. Friendly staff too!
-id: 46, businessId: 6, username: ToyLover, rating: 5, comment: My kids love Toy Store! Always a joy to visit.
-id: 47, businessId: 7, username: PrintMaster, rating: 4, comment: Reliable printing services, but it can be slow during peak hours.
-id: 48, businessId: 8, username: HomeSweetHome, rating: 2, comment: Furniture Store has nice items, but the delivery service needs improvement.
-id: 49, businessId: 9, username: CarFixer, rating: 5, comment: Excellent car repair service. They fixed my car quickly and efficiently.
-id: 50, businessId: 10, username: HairQueen, rating: 4, comment: Hair Salon offers great cuts, but appointments are hard to get.
-id: 51, businessId: 11, username: Shopper123, rating: 5, comment: SuperMart is my go-to for all my shopping needs. Great variety!
-id: 52, businessId: 12, username: FoodieBob, rating: 4, comment: GourmetBite serves delicious meals, but the wait time can be long.
-id: 53, businessId: 13, username: EntertainmentFan, rating: 5, comment: FunZone is the best place for family entertainment. We had a blast!
-id: 54, businessId: 14, username: WorkFromAnywhere, rating: 3, comment: WorkHub is a decent place to work, but the internet speed can be slow.
-id: 55, businessId: 15, username: NightLifeLover, rating: 4, comment: NightOwl is a fun spot for nightlife, but it can get very crowded.
-id: 56, businessId: 16, username: SuperMartFan, rating: 4, comment: SuperMart has good deals, but parking is always full.
-id: 57, businessId: 17, username: PartyAnimal, rating: 5, comment: Bender is the best nightclub around! Great music and atmosphere.
-id: 58, businessId: 18, username: FunLover, rating: 4, comment: Had a great time at FunZone. Wish there were more food options.
-id: 59, businessId: 19, username: BusinessMan, rating: 4, comment: WorkHub is convenient, but a bit pricey for the services offered.
-id: 60, businessId: 20, username: Playtime, rating: 5, comment: FunZone is fantastic! My kids had the best birthday party here.
-id: 71, businessId: 4, username: FabFashionista, rating: 5, comment: Chic Boutique has an amazing selection of trendy clothes. Always find something new!
-id: 72, businessId: 34, username: Foodie321, rating: 4, comment: The view at Lakeview Bistro is breathtaking, and the food is delicious. A must-visit.
-id: 73, businessId: 22, username: CaffeLover, rating: 3, comment: WaveCafe is nice, but the service can be slow sometimes.
-id: 74, businessId: 60, username: OutdoorEnthusiast, rating: 5, comment: Summit Gear has everything you need for your outdoor adventures. Highly recommend!
-id: 75, businessId: 12, username: DineWithMe, rating: 5, comment: GourmetBite offers an exquisite dining experience. The chef's special is to die for.
-id: 76, businessId: 41, username: QuickBite, rating: 4, comment: Quick Eats is perfect for a fast yet tasty meal. Convenient and delicious.
-id: 77, businessId: 25, username: Craftsy, rating: 4, comment: WonderCrafts is a paradise for DIY lovers. Great selection of materials.
-id: 78, businessId: 6, username: ToysGalore, rating: 3, comment: Toy Store has a wide variety, but some items are overpriced.
-id: 79, businessId: 48, username: DecorQueen, rating: 5, comment: Home Comforts offers beautiful and unique home decor items. Love shopping here.
-id: 80, businessId: 73, username: Bookworm89, rating: 5, comment: Reutlingen Books is a cozy bookstore with a fantastic selection of reads.
-id: 81, businessId: 28, username: CafeAddict, rating: 4, comment: WaveCafe in Unterschachen has a charming atmosphere. Perfect for relaxing.
-id: 82, businessId: 40, username: MovieBuff, rating: 5, comment: Starlight Cinema offers a great movie experience with comfortable seating.
-id: 83, businessId: 51, username: BreadLover, rating: 5, comment: Sunrise Bakery has the best freshly baked bread. Highly recommend!
-id: 84, businessId: 18, username: FunTimes, rating: 4, comment: FunZone is great for a family day out. Lots of activities for kids and adults.
-id: 85, businessId: 19, username: WorkspaceGuru, rating: 4, comment: WorkHub offers a productive environment. Good facilities and amenities.
-id: 86, businessId: 32, username: ShopTillIDrop, rating: 5, comment: Pont-Rouge Plaza is a shopping haven. Everything you need in one place.
-id: 87, businessId: 37, username: DelightfulEater, rating: 4, comment: Riviera Deli offers delicious delicacies. Perfect for food lovers.
-id: 88, businessId: 56, username: FitFreak, rating: 5, comment: Peak Performance Gym has all the equipment and classes you need. Very clean and well-maintained.
-id: 89, businessId: 58, username: FlyHigh, rating: 4, comment: Horizon Aviation offers great flying experiences. Professional staff.
-id: 90, businessId: 50, username: SweetTooth, rating: 5, comment: Baking Bliss has the most delightful pastries. A must-visit for anyone with a sweet tooth.
-id: 91, businessId: 1, username: BakerFan123, rating: 5, comment: Delights Bakery has the best pastries in town! Highly recommend the croissants.
-id: 92, businessId: 2, username: Shopaholic, rating: 4, comment: Fresh Market has a great selection of fresh produce. A bit pricey but worth it.
-id: 93, businessId: 3, username: HealthGuru, rating: 5, comment: Wellness Pharmacy is very well stocked and the staff is super helpful.
-id: 94, businessId: 4, username: Fashionista, rating: 3, comment: Chic Boutique has nice clothes, but the prices are steep.
-id: 95, businessId: 5, username: TechSavvy, rating: 5, comment: Tech Hub has all the latest gadgets. Love shopping here!
-id: 96, businessId: 6, username: ToyLover, rating: 4, comment: Toy Store has a fantastic range of toys. My kids love it!
-id: 97, businessId: 7, username: PrintMaster, rating: 5, comment: Print Shop did a fantastic job on my business cards!
-id: 98, businessId: 8, username: HomeMaker, rating: 4, comment: Furniture Store has lovely items but the delivery was a bit slow.
-id: 99, businessId: 9, username: CarGuy, rating: 5, comment: Car Repair provides excellent service. My car feels brand new!
-id: 100, businessId: 10, username: StylishDiva, rating: 4, comment: Hair Salon gave me a nice haircut. Will visit again.
-id: 101, businessId: 11, username: BudgetShopper, rating: 3, comment: SuperMart has good deals but can get very crowded.
-id: 102, businessId: 12, username: Foodie, rating: 5, comment: GourmetBite serves delicious food. Loved the ambiance.
-id: 103, businessId: 13, username: FunLover, rating: 4, comment: FunZone is a great place for family outings. Lots of activities.
-id: 104, businessId: 14, username: RemoteWorker, rating: 5, comment: WorkHub provides an excellent working environment.
-id: 105, businessId: 15, username: NightOwl, rating: 4, comment: NightOwl is a fun place to hang out with friends.
-id: 106, businessId: 16, username: ShopSmart, rating: 4, comment: SuperMart in Baden is well-stocked and clean. Always a good shopping experience.
-id: 107, businessId: 17, username: PartyAnimal, rating: 5, comment: Bender is the best nightclub in the area. Great music and vibe.
-id: 108, businessId: 18, username: Gamer, rating: 4, comment: FunZone in Meilen is packed with fun arcade games. A must-visit for game lovers.
-id: 109, businessId: 19, username: OfficeBee, rating: 5, comment: WorkHub in Gümmenen is fantastic for coworking. Very professional setup.
-id: 110, businessId: 20, username: EntertainmentExpert, rating: 4, comment: FunZone in Steinhausen offers a variety of activities for all ages.
-id: 111, businessId: 1, username: breadlover23, rating: 4, comment: Freshly baked bread, delightful pastries. A lovely bakery!
-id: 112, businessId: 2, username: greenmarketfan, rating: 5, comment: A great selection of fresh produce and local products.
-id: 113, businessId: 3, username: healthguru, rating: 3, comment: Helpful staff but found their prices a bit high.
-id: 114, businessId: 4, username: fashionista99, rating: 5, comment: Chic Boutique has the latest trends! Love their outfits.
-id: 115, businessId: 5, username: techgeek101, rating: 4, comment: Good place for electronics, had a few issues with warranty service.
-id: 116, businessId: 6, username: happyparent, rating: 5, comment: Amazing toy selection. My kids love it here!
-id: 117, businessId: 7, username: printmaster, rating: 3, comment: Quality prints but very slow service.
-id: 118, businessId: 8, username: homebody57, rating: 4, comment: Nice variety of furniture, found exactly what I needed.
-id: 119, businessId: 9, username: carfixer, rating: 5, comment: Excellent car repair service. Very reliable!
-id: 120, busine2sId: 10, username: hairenthusiast, rating: 3, comment: Friendly staff but not satisfied with the haircut.
-id: 121, busine2sId: 11, username: savvysaver, rating: 5, comment: SuperMart is my go-to store. Great deals and variety.
-id: 122, busine2sId: 12, username: foodieheaven, rating: 4, comment: Delicious food, but took a bit long to get the order.
-id: 123, busine2sId: 13, username: funseeker, rating: 5, comment: FunZone is always a blast! Perfect for family outings.
-id: 124, busine2sId: 14, username: workingguy, rating: 4, comment: Good working atmosphere but could use more amenities.
-id: 125, businessId: 15, username: nightowl, rating: 5, comment: NightOwl is the best place for nightlife fun!
-id: 126, businessId: 16, username: shopper123, rating: 4, comment: Great variety of products, but it can get crowded.
-id: 127, businessId: 17, username: partylover, rating: 5, comment: Bender is fantastic! Great music and vibe.
-id: 128, businessId: 18, username: gamefan, rating: 4, comment: FunZone has lots of games, would love to see more updates.
-id: 129, businessId: 19, username: officegoer, rating: 4, comment: WorkHub is a productive space but could use better lighting.
-id: 130, businessId: 20, username: gamer100, rating: 5, comment: Love FunZone! Never had a dull moment.
-id: 131, businessId: 3, username: HealthSeeker, rating: 5, comment: Wellness Pharmacy always has what I need and the staff are very knowledgeable.
-id: 132, businessId: 17, username: PartyAnimal, rating: 4, comment: Bender has great music and drinks, but it gets really crowded on weekends.
-id: 133, businessId: 22, username: CafeLover, rating: 3, comment: WaveCafe has a nice ambiance but the coffee could be better.
-id: 134, businessId: 45, username: Fashionista, rating: 4, comment: The Fashion House has trendy clothes but the prices are a bit high.
-id: 135, businessId: 1, username: SweetTooth, rating: 5, comment: Delights Bakery has the best pastries in town!
-id: 136, businessId: 7, username: PrintExpert, rating: 4, comment: Print Shop offers good quality printing but they can be slow.
-id: 137, businessId: 50, username: BakerFan, rating: 5, comment: Baking Bliss lives up to its name!
-id: 138, businessId: 21, username: OptiVision, rating: 4, comment: OptiHealth provides great service, but the selection is limited.
-id: 139, businessId: 60, username: HikerMike, rating: 5, comment: Summit Gear has all the equipment you need for a great outdoor adventure.
-id: 140, businessId: 8, username: HomeDecorator, rating: 3, comment: Furniture Store has good pieces but some are overpriced.
-id: 141, businessId: 37, username: DeliLover, rating: 4, comment: Riviera Deli has delicious selections, but I wish they had more variety.
-id: 142, businessId: 29, username: TechSavvy, rating: 5, comment: ElectroWorld in Carona is fantastic; I found exactly what I needed.
-id: 143, businessId: 34, username: Foodie, rating: 5, comment: Lakeview Bistro offers stunning views and delicious food.
-id: 144, businessId: 49, username: OutdoorFan, rating: 4, comment: Great Outdoors has a wide range of products but the staff could be more helpful.
-id: 145, businessId: 53, username: SeafoodLover, rating: 5, comment: Ocean Delights Restaurant has amazing seafood dishes!
-id: 146, businessId: 63, username: CafeFan, rating: 4, comment: Café Corner is a nice place for a quick coffee break.
-id: 147, businessId: 56, username: GymRat, rating: 5, comment: Peak Performance Gym has everything you need for a great workout.
-id: 148, businessId: 76, username: Electronica, rating: 4, comment: Combe Electronics has good products but the customer service needs improvement.
-id: 149, businessId: 11, username: Shopaholic, rating: 5, comment: SuperMart in Ricketwil is my go-to place for everything!
-id: 150, businessId: 14, username: RemoteWorker, rating: 4, comment: WorkHub in Bex offers a nice working environment but the internet speed could be better.
-id: 151, businessId: 1, username: bakerLover99, rating: 5, comment: The pastries were delightful and fresh. Highly recommend Delights Bakery!
-id: 152, businessId: 2, username: shopperPro12, rating: 4, comment: Fresh Market has a great variety of produce. A bit pricey but worth it.
-id: 153, businessId: 3, username: healthNut34, rating: 5, comment: Wellness Pharmacy has all the vitamins I need. Staff is very helpful.
-id: 154, businessId: 4, username: fashionista87, rating: 4, comment: Chic Boutique has a fantastic collection. Some items were a bit expensive though.
-id: 155, businessId: 5, username: techDude42, rating: 5, comment: Tech Hub had all the latest gadgets. The staff knew their stuff.
-id: 156, businessId: 6, username: toyCollector23, rating: 3, comment: Toy Store had a decent selection but could use more options.
-id: 157, businessId: 7, username: printMaster89, rating: 4, comment: Print Shop delivered my order on time. Good quality prints.
-id: 158, businessId: 8, username: homeMaker55, rating: 5, comment: Furniture Store has beautiful pieces. My living room has never looked better.
-id: 159, businessId: 9, username: autoKing12, rating: 4, comment: Car Repair fixed my car quickly. Pricing was fair.
-id: 160, businessId: 10, username: hairDivine98, rating: 5, comment: Hair Salon gave me the best haircut I've had in years.
-id: 161, businessId: 11, username: groceryGuru75, rating: 5, comment: SuperMart has everything I need and more. Great deals too!
-id: 162, businessId: 12, username: foodieForever66, rating: 4, comment: GourmetBite served delicious food. Service was a tad slow.
-id: 163, businessId: 13, username: funLover54, rating: 5, comment: FunZone is my go-to place for entertainment. Always a fun time!
-id: 164, businessId: 14, username: workPro45, rating: 5, comment: WorkHub is the perfect place for coworking. Great amenities.
-id: 165, businessId: 15, username: nightOwl73, rating: 5, comment: NightOwl is the best club in town! Great music and vibe.
-id: 166, businessId: 16, username: retailTherapist88, rating: 4, comment: SuperMart has a wide variety of products. Checkout lines can be a bit long.
-id: 167, businessId: 17, username: partyAnimal99, rating: 5, comment: Bender is an amazing place to end the week. Love the atmosphere!
-id: 168, businessId: 18, username: gameFreak21, rating: 5, comment: FunZone has fantastic arcade games. I can spend hours here.
-id: 169, businessId: 19, username: officeMan23, rating: 4, comment: WorkHub offered a productive work environment. Could use more seating.
-id: 170, businessId: 20, username: entertainmentJunkie, rating: 5, comment: FunZone always has something new and exciting. Highly recommend!
-id: 171, businessId: 1, username: UserA, rating: 5, comment: Delights Bakery has the best pastries in town! Always fresh and delicious.
-id: 172, businessId: 2, username: Shopper101, rating: 4, comment: Fresh Market is great for daily groceries. Sometimes a bit crowded though.
-id: 173, businessId: 3, username: HealthGuru, rating: 5, comment: Wellness Pharmacy has excellent customer service and knowledgeable staff.
-id: 174, businessId: 4, username: Fashionista22, rating: 4, comment: Chic Boutique has a lovely selection of clothes. Wish they had a bigger size range.
-id: 175, businessId: 5, username: TechEnthusiast, rating: 3, comment: Tech Hub has all the latest gadgets but prices can be high.
-id: 176, businessId: 6, username: ToyLover, rating: 4, comment: Toy Store is a fun place for kids. Great collection but a bit expensive.
-id: 177, businessId: 7, username: PrintPro, rating: 5, comment: Print Shop delivers high-quality prints and fast service.
-id: 178, businessId: 8, username: HomeDesigner, rating: 4, comment: Furniture Store has stylish furniture. Delivery was a bit delayed.
-id: 179, businessId: 9, username: CarFanatic, rating: 5, comment: Car Repair offers exceptional service. My car runs smoothly now!
-id: 180, businessId: 10, username: PrettyInPink, rating: 3, comment: Hair Salon was okay. The haircut wasn't exactly what I wanted.
-id: 181, businessId: 11, username: GroceryKing, rating: 4, comment: SuperMart is convenient with a wide selection of products.
-id: 182, businessId: 12, username: FoodieGal, rating: 5, comment: GourmetBite has amazing food and cozy ambiance.
-id: 183, businessId: 13, username: FunLover, rating: 5, comment: FunZone is a fantastic place for kids and adults alike.
-id: 184, businessId: 14, username: OfficeWorker123, rating: 4, comment: WorkHub has great facilities but can get noisy at times.
-id: 185, businessId: 15, username: NightOwlFan, rating: 4, comment: NightOwl has great music and drinks. The dance floor is a bit small though.
-id: 186, businessId: 16, username: ShopperChick, rating: 4, comment: SuperMart in Baden is my go-to for quick shopping needs.
-id: 187, businessId: 17, username: PartyAnimal, rating: 3, comment: Bender has a fun atmosphere but the crowd can be a bit overwhelming.
-id: 188, businessId: 18, username: FamilyFun, rating: 5, comment: FunZone at Meilen is fantastic. Kids had a blast!
-id: 189, businessId: 19, username: Freelancer, rating: 4, comment: WorkHub in Bern is a great space for freelancers.
-id: 190, businessId: 20, username: ThrillSeeker, rating: 5, comment: FunZone in Steinhausen has thrilling rides and games. Loved it!
-id: 191, businessId: 1, username: BakerLover23, rating: 5, comment: Amazing baked goods! Best bakery in town.
-id: 192, businessId: 15, username: NightOwlFan, rating: 4, comment: Great atmosphere, but the music was a bit too loud.
-id: 193, businessId: 28, username: CafeAddict89, rating: 2, comment: Coffee was too bitter and service was slow.
-id: 194, businessId: 3, username: HealthyLiving27, rating: 5, comment: Friendly staff and great selection of health products.
-id: 195, businessId: 5, username: TechGeek91, rating: 4, comment: Found some great gadgets here. Prices are reasonable.
-id: 196, businessId: 7, username: PrintMaster45, rating: 3, comment: Print quality was okay, but took longer than expected.
-id: 197, businessId: 10, username: StylishOne, rating: 4, comment: Loved my haircut! The stylist was very professional.
-id: 198, businessId: 13, username: FunLover88, rating: 5, comment: Had a blast at FunZone! Lots of activities for everyone.
-id: 199, businessId: 16, username: GroceryShopper77, rating: 4, comment: Good variety of products and fresh produce.
-id: 200, businessId: 18, username: EntertainmentGuru, rating: 5, comment: The best place for family fun and entertainment.
-id: 201, businessId: 20, username: EntertainmentLover, rating: 3, comment: Some activities were closed, but still had a good time.
-id: 202, businessId: 22, username: CoffeeConnoisseur, rating: 5, comment: Best coffee and pastries in the area!
-id: 203, businessId: 25, username: CraftyCat, rating: 4, comment: Lovely workshop with lots of creative supplies.
-id: 204, businessId: 29, username: GadgetGuy, rating: 3, comment: Good selection of electronics, but a bit pricey.
-id: 205, businessId: 31, username: Traveler22, rating: 5, comment: Charming retreat with beautiful views. Highly recommend!
-id: 206, businessId: 34, username: FoodieForever, rating: 4, comment: Delicious food and great service at the bistro.
-id: 207, businessId: 37, username: DeliLover, rating: 5, comment: Amazing delicatessen with a wide variety of gourmet items.
-id: 208, businessId: 41, username: QuickEatsFan, rating: 4, comment: Quick and tasty meals. Perfect for a quick bite.
-id: 209, businessId: 44, username: SportySpice, rating: 5, comment: Great selection of sports gear and equipment.
-id: 210, businessId: 50, username: PastryLover, rating: 4, comment: Wonderful pastries and friendly service.
-id: 211, businessId: 1, username: JohnDoe, rating: 5, comment: Amazing pastries! Fresh and delightful.
-id: 212, businessId: 2, username: JaneSmith, rating: 4, comment: Great selection of fresh produce. Prices are reasonable.
-id: 213, businessId: 3, username: HealthGuru, rating: 5, comment: Excellent customer service and wide range of products.
-id: 214, businessId: 4, username: Fashionista, rating: 3, comment: Nice boutique but the prices are a bit high.
-id: 215, businessId: 5, username: TechSavvy, rating: 4, comment: Good place for electronics, staff are knowledgeable.
-id: 216, businessId: 6, username: ToyLover, rating: 5, comment: Great toys for kids! My children love this store.
-id: 217, businessId: 7, username: PrintMaster, rating: 3, comment: Quality prints but the service is a bit slow.
-id: 218, businessId: 8, username: HomeDecorator, rating: 4, comment: Beautiful furniture and home decor items.
-id: 219, businessId: 9, username: CarFixer, rating: 5, comment: Quick and reliable car repair service.
-id: 220, businessId: 10, username: StyleWizard, rating: 4, comment: Great haircuts and friendly staff.
-id: 221, businessId: 11, username: MartShopper, rating: 4, comment: Good variety and prices, but can be crowded.
-id: 222, businessId: 12, username: Foodie, rating: 5, comment: Delicious meals and great ambiance.
-id: 223, businessId: 13, username: FunSeeker, rating: 4, comment: Lots of fun activities for kids and adults alike.
-id: 224, businessId: 14, username: OfficeWorker, rating: 3, comment: Good working environment but could use better amenities.
-id: 225, businessId: 15, username: NightOwl, rating: 5, comment: Great place to hang out at night.
-id: 226, businessId: 16, username: SuperShopper, rating: 4, comment: Nice place to shop for groceries.
-id: 227, businessId: 17, username: PartyAnimal, rating: 5, comment: Best nightlife spot in town!
-id: 228, businessId: 18, username: EntertainmentFan, rating: 4, comment: Good selection of entertainment options.
-id: 229, businessId: 19, username: RemoteWorker, rating: 4, comment: Nice co-working space with a calm environment.
-id: 230, businessId: 20, username: GamerGuy, rating: 5, comment: Great place for games and entertainment.
-id: 231, businessId: 3, username: healthGuru123, rating: 5, comment: Wellness Pharmacy has the friendliest staff and a great selection of health products. Highly recommend!
-id: 232, businessId: 14, username: officeWorker99, rating: 4, comment: WorkHub provides a quiet and productive environment. However, it could use a better coffee machine.
-id: 233, businessId: 7, username: printLover321, rating: 3, comment: Print Shop's service is decent, but their prices are a bit high compared to other shops.
-id: 234, businessId: 1, username: sweetTooth789, rating: 5, comment: Delights Bakery offers the most delicious pastries! Totally satisfied every time.
-id: 235, businessId: 32, username: shopaholic88, rating: 4, comment: Pont-Rouge Plaza has a variety of stores and is very convenient. A bit crowded, though.
-id: 236, businessId: 20, username: funSeeker456, rating: 5, comment: FunZone in Steinhausen is a great place for families. Always fun activities for kids!
-id: 237, businessId: 30, username: foodieLover, rating: 4, comment: RestoLuxe has great food but the service can be a bit slow on busy days.
-id: 238, businessId: 5, username: techGeek, rating: 5, comment: Tech Hub always has the latest gadgets. The staff is very knowledgeable.
-id: 239, businessId: 18, username: entertainmentBuff, rating: 4, comment: FunZone in Meilen has great games but the food options are limited.
-id: 240, businessId: 44, username: adventureJunkie, rating: 5, comment: Mountain Gear has everything you need for outdoor adventures. Excellent quality products!
-id: 241, businessId: 22, username: coffeeLover, rating: 4, comment: WaveCafe in Kleindietwil has good coffee but the seating area is quite small.
-id: 242, businessId: 10, username: beautyQueen, rating: 5, comment: Hair Salon in Provence gave me the best haircut ever! Will definitely return.
-id: 243, businessId: 2, username: shopper45, rating: 4, comment: Fresh Market in Mont-sur-Rolle has fresh produce but could be more organized.
-id: 244, businessId: 40, username: movieBuff, rating: 5, comment: Starlight Cinema in Chur offers a great movie experience with comfortable seats.
-id: 245, businessId: 50, username: bakingFan, rating: 5, comment: Baking Bliss in Oberlunkhofen has the best bread in town. A must-visit!
-id: 246, businessId: 12, username: gourmetLover, rating: 4, comment: GourmetBite has delicious dishes but can be a bit pricey.
-id: 247, businessId: 35, username: traveler, rating: 5, comment: Mountain Lodge in Poschiavo is a charming place to stay with stunning views.
-id: 248, businessId: 51, username: morningPerson, rating: 4, comment: Sunrise Bakery has great morning pastries but sometimes there's a long wait.
-id: 249, businessId: 29, username: gadgetLover, rating: 4, comment: ElectroWorld in Carona has a wide range of electronics, but the staff could be more helpful.
-id: 250, businessId: 17, username: nightOwl, rating: 5, comment: Bender in Näfels is the perfect spot for a night out. Great music and atmosphere.
-id: 251, businessId: 1, username: SwissChocoLover, rating: 5, comment: Absolutely loved the fresh pastries at Delights Bakery!
-id: 252, businessId: 2, username: LocalShopper88, rating: 4, comment: Fresh Market had a great variety of groceries. Will definitely shop here again.
-id: 253, businessId: 3, username: HealthyLife, rating: 3, comment: Wellness Pharmacy was alright, but the service was a bit slow.
-id: 254, businessId: 4, username: Fashionista, rating: 5, comment: Chic Boutique has the trendiest outfits. Loved my shopping experience!
-id: 255, businessId: 5, username: TechGeek, rating: 5, comment: Tech Hub has all the latest gadgets. Very impressed!
-id: 256, businessId: 6, username: ToyLoverDad, rating: 4, comment: Great selection of toys for kids. My son had a blast picking out his favorite!
-id: 257, businessId: 7, username: PrintMaster, rating: 4, comment: Print Shop did a great job with my business cards. Fast service too.
-id: 258, businessId: 8, username: HomeDecorFreak, rating: 3, comment: Furniture Store had some nice pieces but a bit pricey.
-id: 259, businessId: 9, username: AutoFixFan, rating: 5, comment: Car Repair serviced my vehicle quickly and efficiently. Highly recommend!
-id: 260, businessId: 10, username: BeautyGuru, rating: 4, comment: Hair Salon gave me a fab haircut. I'll definitely be back.
-id: 261, businessId: 11, username: RetailTherapy121, rating: 4, comment: SuperMart had everything I needed. Very convenient place for groceries.
-id: 262, businessId: 12, username: FoodieEats, rating: 5, comment: GourmetBite's dishes were delicious. A must-visit for any food lover!
-id: 263, businessId: 13, username: EntertainmentLover, rating: 4, comment: FunZone is an amazing place for kids. Lots of activities to keep them busy.
-id: 264, businessId: 14, username: OfficeWorker123, rating: 3, comment: WorkHub was good for a quiet workspace but a bit cramped.
-id: 265, businessId: 15, username: NightlifeAdventurer, rating: 5, comment: NightOwl was the perfect spot for a fun night out. Great music and drinks!
-id: 266, businessId: 16, username: ShoppingExpress, rating: 4, comment: SuperMart in Baden had friendly staff and good prices. Will visit again.
-id: 267, businessId: 17, username: NightlifeVibes, rating: 3, comment: Bender was okay. The ambience was nice but the drinks were average at best.
-id: 268, businessId: 18, username: FunGuru, rating: 5, comment: FunZone in Meilen is a top-notch entertainment place for families.
-id: 269, businessId: 19, username: OfficeGuy456, rating: 4, comment: WorkHub in Gümmenen provided a well-equipped workspace. Quite satisfactory.
-id: 270, businessId: 20, username: FamilyFunTimes, rating: 4, comment: FunZone in Steinhausen was great for the kids. They had a lot of fun.
-id: 271, businessId: 1, username: bakerylover, rating: 5, comment: Delights Bakery has the best pastries in town! Highly recommend.
-id: 272, businessId: 2, username: shopaholic123, rating: 4, comment: Fresh Market is great for organic produce but can be a bit pricey.
-id: 273, businessId: 3, username: healthconscious, rating: 5, comment: Wellness Pharmacy staff are very helpful and knowledgeable.
-id: 274, businessId: 4, username: fashionista, rating: 3, comment: Chic Boutique has a nice collection but some items are outdated.
-id: 275, businessId: 5, username: techgeek, rating: 4, comment: Tech Hub has the latest gadgets, but the service is slow.
-id: 276, businessId: 6, username: toylover, rating: 5, comment: Toy Store has a great variety of toys for all ages!
-id: 277, businessId: 7, username: printmaster, rating: 4, comment: Print Shop provides quality prints but sometimes there is a wait.
-id: 278, businessId: 8, username: homemaker, rating: 3, comment: Furniture Store has decent furniture but lacks unique pieces.
-id: 279, businessId: 9, username: carenthusiast, rating: 5, comment: Car Repair offers excellent service and fair prices.
-id: 280, businessId: 10, username: hairstylist, rating: 4, comment: Hair Salon has skilled stylists but booking an appointment can be tough.
-id: 281, businessId: 11, username: bargainhunter, rating: 5, comment: SuperMart has everything you need at affordable prices.
-id: 282, businessId: 12, username: foodie, rating: 5, comment: GourmetBite offers delicious meals and excellent customer service.
-id: 283, businessId: 13, username: funseeker, rating: 4, comment: FunZone is a great place for family entertainment, but can get crowded.
-id: 284, businessId: 14, username: entrepreneur, rating: 3, comment: WorkHub is okay for co-working, but the Wi-Fi is occasionally unreliable.
-id: 285, businessId: 15, username: nightowl, rating: 5, comment: NightOwl has an amazing vibe and fantastic music!
-id: 286, businessId: 16, username: shopper, rating: 4, comment: SuperMart in Baden is well-stocked, but the parking space is limited.
-id: 287, businessId: 17, username: partyanimal, rating: 5, comment: Bender is the best place for nightlife! Great drinks and music.
-id: 288, businessId: 18, username: adventurer, rating: 4, comment: FunZone in Meilen is fun, but a bit pricey for some of the activities.
-id: 289, businessId: 19, username: remoteworker, rating: 3, comment: WorkHub is convenient, but sometimes too noisy for focused work.
-id: 290, businessId: 20, username: eventplanner, rating: 5, comment: FunZone in Steinhausen is perfect for kids' parties! Lots of activities.
-id: 291, businessId: 1, username: happy_baker, rating: 5, comment: Best pastries in town! Love the tarts!
-id: 292, businessId: 12, username: food_lover88, rating: 4, comment: Great food but a bit pricey.
-id: 293, businessId: 22, username: vivacious_vegan, rating: 4, comment: Lovely ambiance and delicious vegan options.
-id: 294, businessId: 28, username: coffee_addict, rating: 3, comment: Decent coffee but customer service could use improvement.
-id: 295, businessId: 35, username: mountain_lover, rating: 5, comment: A perfect retreat in the mountains. Highly recommend!
-id: 296, businessId: 44, username: adventure_guy, rating: 5, comment: Great place to get high-quality outdoor gear.
-id: 297, businessId: 56, username: fitness_fanatic, rating: 4, comment: Solid gym with all the necessary equipment.
-id: 298, businessId: 67, username: sweet_tooth, rating: 4, comment: Delicious pastries, but a bit overpriced.
-id: 299, businessId: 74, username: cafe_critiq, rating: 2, comment: Not happy with the quality of coffee.
-id: 300, businessId: 83, username: bread_lover, rating: 5, comment: Absolutely love their fresh bread!
-id: 301, businessId: 88, username: daily_shopper, rating: 3, comment: Good selection but customer service needs improvement.
-id: 302, businessId: 91, username: bargain_hunter, rating: 4, comment: Great deals but the store layout is confusing.
-id: 303, businessId: 95, username: pastry_enthusiast, rating: 5, comment: They have the best pastries in town!
-id: 304, businessId: 93, username: spiritual_seeker, rating: 5, comment: A peaceful and serene place for reflection.
-id: 305, businessId: 96, username: sweetest_things, rating: 4, comment: Yummy pastries, but the shop is a bit small.
-id: 306, businessId: 96, username: pastry_love, rating: 5, comment: Heaven for pastry lovers!
-id: 307, businessId: 100, username: latte_lover, rating: 4, comment: Great lattes, but a bit crowded.
-id: 308, businessId: 55, username: green_thumb, rating: 5, comment: Best place for all your gardening needs!
-id: 309, businessId: 59, username: morning_coffee, rating: 4, comment: Nice place for a morning coffee.
-id: 310, businessId: 49, username: outdoor_enthusiast, rating: 5, comment: Fantastic store for outdoor equipment!
-id: 311, businessId: 1, username: SweetTooth99, rating: 5, comment: The pastries here are to die for! Highly recommend the chocolate croissant.
-id: 312, businessId: 2, username: VeggieLover01, rating: 4, comment: Great selection of fresh produce, but the prices are a bit high.
-id: 313, businessId: 3, username: HealthyLife2023, rating: 5, comment: Excellent pharmacy with knowledgeable staff and a great range of products.
-id: 314, businessId: 4, username: Fashionista09, rating: 3, comment: Nice collection of clothes although a bit too pricey for my taste.
-id: 315, businessId: 5, username: TechJunkie88, rating: 4, comment: Good variety of electronics, but I think they can do better with customer service.
-id: 316, businessId: 6, username: ToyCollector99, rating: 5, comment: Fantastic toy store with a wide range of options for all ages!
-id: 317, businessId: 7, username: PrintMaster22, rating: 4, comment: Great quality prints, but they need to speed up their delivery time.
-id: 318, businessId: 8, username: FurnitureFan123, rating: 3, comment: Good options for furniture but the prices are on the higher side.
-id: 319, businessId: 9, username: CarGuy77, rating: 5, comment: Excellent service and very reliable repairs at a reasonable price.
-id: 320, businessId: 10, username: HairCraze88, rating: 4, comment: Friendly staff, decent prices but could improve on wait times.
-id: 321, businessId: 11, username: Shopaholic2023, rating: 4, comment: Wide variety of products, but the store can get quite crowded.
-id: 322, businessId: 12, username: Foodie99, rating: 5, comment: Amazing food and great ambiance! Would definitely come back.
-id: 323, businessId: 13, username: FunSeeker01, rating: 5, comment: Best place for a fun day out! Highly recommend for families.
-id: 324, businessId: 14, username: WorkFromHome2023, rating: 4, comment: Good office space, but parking can be a bit of a hassle.
-id: 325, businessId: 15, username: NightOwl88, rating: 5, comment: Amazing atmosphere and great music. Perfect for a night out.
-id: 326, businessId: 16, username: RetailTherapy99, rating: 3, comment: Decent selection of products, but customer service could improve.
-id: 327, businessId: 17, username: PartyAnimal01, rating: 5, comment: Great place to let loose and have fun! Loved the vibe here.
-id: 328, businessId: 1, username: FreshBaker2023, rating: 4, comment: Good bakery with hard-to-find items, but needs more variety.
-id: 329, businessId: 2, username: MarketLover88, rating: 4, comment: Great market for organic foods, though it can get crowded.
-id: 330, businessId: 3, username: HealthNut99, rating: 5, comment: Excellent pharmacy with great staff and quick service.
-id: 331, businessId: 1, username: user123, rating: 5, comment: The pastries at Delights Bakery are absolutely amazing! I'll definitely come back.
-id: 332, businessId: 2, username: shopper321, rating: 4, comment: Fresh Market has a great variety of products but is sometimes crowded during peak hours.
-id: 333, businessId: 3, username: healthGuru, rating: 5, comment: Wellness Pharmacy provided excellent advice and service. Very professional staff.
-id: 334, businessId: 4, username: fashionista, rating: 3, comment: Chic Boutique has nice clothing but they are a bit overpriced.
-id: 335, businessId: 5, username: techSavvy, rating: 4, comment: Tech Hub has all the latest gadgets, but their customer service could be improved.
-id: 336, businessId: 6, username: toyLover, rating: 5, comment: Toy Store is a paradise for kids. Highly recommended!
-id: 337, businessId: 7, username: printPro, rating: 4, comment: Print Shop offers great services for printing needs but can be a bit slow at times.
-id: 338, businessId: 10, username: hairGuru, rating: 5, comment: Hair Salon did a fantastic job with my haircut. Very skilled stylists.
-id: 339, businessId: 15, username: nightOwl, rating: 5, comment: NightOwl is my favorite place to unwind. Great atmosphere and drinks!
-id: 340, businessId: 26, username: coffeeAddict, rating: 4, comment: WaveCafe serves excellent coffee but sometimes the seating is limited.
-id: 341, businessId: 19, username: officeWorker, rating: 5, comment: WorkHub provides a perfect environment for productivity. Very modern facilities.
-id: 342, businessId: 30, username: foodieLover, rating: 5, comment: RestoLuxe offers delicious food with an incredible ambiance. Truly luxurious dining experience.
-id: 343, businessId: 22, username: cafeLover, rating: 4, comment: WaveCafe has a cozy environment but could improve on their dessert options.
-id: 344, businessId: 35, username: natureLover, rating: 5, comment: Mountain Lodge is perfect for a retreat. Stunning views and great service.
-id: 345, businessId: 38, username: pharmaFan, rating: 5, comment: Wellness Pharmacy in Oekingen has friendly staff and is always well-stocked.
-id: 346, businessId: 42, username: bookworm, rating: 5, comment: Cozy Books has an excellent selection of books and a very welcoming atmosphere.
-id: 347, businessId: 52, username: techGeek, rating: 4, comment: Alpine Tech is great for tech products but the prices are a bit high.
-id: 348, businessId: 48, username: homeStylist, rating: 5, comment: Home Comforts offers beautiful home decor items. Love shopping there.
-id: 349, businessId: 53, username: seafoodLover, rating: 5, comment: Ocean Delights Restaurant serves the best seafood in town. Must-try!
-id: 350, businessId: 64, username: avidReader, rating: 5, comment: Book Haven is a paradise for book lovers. Great collection and friendly staff.
-id: 351, businessId: 1, username: happy_baker, rating: 5, comment: The best bakery in town! Their croissants are to die for.
-id: 352, businessId: 2, username: market_lover, rating: 4, comment: Fresh Market has a wide selection of fresh produce. Could have more organic options.
-id: 353, businessId: 3, username: healthy_life, rating: 5, comment: Excellent service and a great variety of health products.
-id: 354, businessId: 4, username: fashionista78, rating: 4, comment: Chic Boutique is a gem. Unique pieces but a bit pricey.
-id: 355, businessId: 5, username: tech_guru, rating: 5, comment: Tech Hub has all the latest gadgets. Friendly staff and great service.
-id: 356, businessId: 6, username: toy_enthusiast, rating: 3, comment: A decent toy store with a good selection, but could use more educational toys.
-id: 357, businessId: 7, username: print_master, rating: 4, comment: Quick and efficient printing services. Affordable prices.
-id: 358, businessId: 8, username: home_decorator, rating: 5, comment: Great selection of furniture. Found exactly what I needed for my home.
-id: 359, businessId: 9, username: car_guy, rating: 4, comment: Reliable car repair service. Could improve the waiting area for customers.
-id: 360, businessId: 10, username: style_seeker, rating: 5, comment: Love my new haircut from Hair Salon. Very professional stylists.
-id: 361, businessId: 11, username: shopaholic, rating: 4, comment: SuperMart has everything you need. The checkout lines can be long though.
-id: 362, businessId: 12, username: foodie123, rating: 5, comment: GourmetBite offers delicious dishes and excellent service.
-id: 363, businessId: 13, username: fun_time, rating: 3, comment: FunZone is a good place for kids but limited activities for adults.
-id: 364, businessId: 14, username: workaholic, rating: 4, comment: WorkHub provides great workspaces. Internet speed could be better.
-id: 365, businessId: 15, username: night_owl, rating: 5, comment: Best nightlife experience at NightOwl. Great music and crowd.
-id: 366, businessId: 16, username: super_shopper, rating: 4, comment: SuperMart in Baden is well-stocked but could use more organic options.
-id: 367, businessId: 17, username: party_animal, rating: 5, comment: Had an amazing time at Bender. The atmosphere is fantastic!
-id: 368, businessId: 18, username: fun_seeker, rating: 4, comment: FunZone in Meilen is a great place for kids. Needs more activities for teens.
-id: 369, businessId: 19, username: work_hard, rating: 4, comment: Great co-working space at WorkHub. Could use more coffee options.
-id: 370, businessId: 20, username: entertainment_buff, rating: 5, comment: Love spending time at FunZone in Steinhausen. So many fun activities!
-id: 371, businessId: 1, username: foodie123, rating: 5, comment: Delights Bakery has the best pastries in town! Always fresh and delicious.
-id: 372, businessId: 2, username: shopaholic89, rating: 4, comment: Fresh Market has a great selection of products. Love the organic section.
-id: 373, businessId: 3, username: healthguru, rating: 3, comment: Wellness Pharmacy is okay, but the wait time is a bit long.
-id: 374, businessId: 4, username: fashionista77, rating: 5, comment: Chic Boutique has the latest fashion trends. Absolutely love shopping here!
-id: 375, businessId: 5, username: techgeek42, rating: 4, comment: Tech Hub has all the latest gadgets. Friendly staff and reasonable prices.
-id: 376, businessId: 6, username: momof3, rating: 5, comment: Toy Store is a paradise for kids. Great variety of toys.
-id: 377, businessId: 7, username: printmaster, rating: 3, comment: Print Shop has good quality prints but the service can be slow at times.
-id: 378, businessId: 8, username: homeowner123, rating: 4, comment: Furniture Store has beautiful furniture. Quality is top-notch.
-id: 379, businessId: 9, username: carfixer, rating: 2, comment: Car Repair did not meet my expectations. The repair took longer than estimated.
-id: 380, businessId: 10, username: beautylover, rating: 5, comment: Hair Salon gives the best haircuts. Highly recommend!
-id: 381, businessId: 11, username: shopaholic89, rating: 4, comment: SuperMart has everything you need. Good prices and friendly staff.
-id: 382, businessId: 12, username: foodlover, rating: 3, comment: GourmetBite has tasty food but the portions are small.
-id: 383, businessId: 13, username: gamer97, rating: 5, comment: FunZone is the best place for family entertainment. So much fun!
-id: 384, businessId: 14, username: workaholic, rating: 4, comment: WorkHub is a nice co-working space. Very professional environment.
-id: 385, businessId: 15, username: nightowl, rating: 5, comment: NightOwl is the best place to hang out at night. Great ambiance!
-id: 386, businessId: 16, username: shopper90, rating: 4, comment: SuperMart has a good variety of products. Conveniently located.
-id: 387, businessId: 17, username: partyking, rating: 5, comment: Bender is the ultimate nightlife spot. Always a great time!
-id: 388, businessId: 18, username: gamer97, rating: 3, comment: FunZone is fun but can get crowded on weekends.
-id: 389, businessId: 19, username: workaholic, rating: 4, comment: WorkHub is a decent place for working. Clean and quiet.
-id: 390, businessId: 20, username: gamer97, rating: 5, comment: FunZone at Steinhausen is my favorite! So many games to choose from.
-id: 391, businessId: 1, username: bakeryLover123, rating: 5, comment: Absolutely love the pastries here! Always fresh and delicious.
-id: 392, businessId: 2, username: shopperX, rating: 4, comment: Great selection of produce. Prices are reasonable.
-id: 393, businessId: 3, username: healthGuru, rating: 3, comment: The staff is kind, but the prices are quite high.
-id: 394, businessId: 4, username: fashionista89, rating: 4, comment: Trendy clothes, but wish they had more sizes available.
-id: 395, businessId: 5, username: techGeek, rating: 2, comment: Tech support could be better. Products are decent though.
-id: 396, businessId: 6, username: parentlife, rating: 5, comment: Perfect place to find toys for my kids. They love it!
-id: 397, businessId: 7, username: printMaster, rating: 4, comment: Efficient printing service. Slightly long wait times.
-id: 398, businessId: 8, username: homeLover, rating: 3, comment: Nice furniture selection. Prices are a bit steep.
-id: 399, businessId: 9, username: autoFix, rating: 4, comment: Reliable repair service. Fixed my car issue promptly.
-id: 400, businessId: 10, username: beautyBoss, rating: 5, comment: Best hair salon in the area! Loved the haircut I got.
-id: 401, businessId: 11, username: shopperX, rating: 4, comment: Convenient grocery store with everything I need.
-id: 402, businessId: 12, username: foodie44, rating: 5, comment: A hidden gem! Delicious food and great atmosphere.
-id: 403, businessId: 13, username: funSeeker, rating: 3, comment: Fun activities but a bit crowded at times.
-id: 404, businessId: 14, username: remoteWorker, rating: 4, comment: Great coworking space. Would be perfect with more amenities.
-id: 405, businessId: 15, username: nightOwl, rating: 5, comment: Love this place! Great vibes and music all night.
-id: 406, businessId: 16, username: shopperX, rating: 5, comment: Solid retail store with fantastic customer service.
-id: 407, businessId: 17, username: partyAnimal, rating: 4, comment: Had an amazing time here! Drinks were a bit pricey.
-id: 408, businessId: 18, username: thrillSeeker, rating: 3, comment: A lot of fun but could use some updates.
-id: 409, businessId: 19, username: freelancer, rating: 4, comment: Convenient workspace with great internet.
-id: 410, businessId: 20, username: familyFun, rating: 5, comment: Always fun for the kids! A great family spot.
-id: 411, businessId: 1, username: john_doe, rating: 5, comment: The bread here is absolutely amazing! Fresh and delicious.
-id: 412, businessId: 2, username: jane_smith, rating: 4, comment: Great selection of fresh produce, but a bit pricey.
-id: 413, businessId: 3, username: health_enthusiast, rating: 5, comment: The pharmacists are very knowledgeable and helpful.
-id: 414, businessId: 4, username: fashionista77, rating: 3, comment: Nice boutique, but the selection could be larger.
-id: 415, businessId: 5, username: tech_guru, rating: 5, comment: Best place to find the latest tech gadgets!
-id: 416, businessId: 6, username: toy_collector, rating: 4, comment: Great variety of toys, but some are a bit overpriced.
-id: 417, businessId: 7, username: print_master, rating: 5, comment: Excellent print quality and fast service.
-id: 418, businessId: 8, username: home_decorator, rating: 4, comment: Beautiful furniture but delivery took a bit long.
-id: 419, businessId: 9, username: car_lover, rating: 5, comment: Very reliable car repair service. Highly recommend.
-id: 420, businessId: 10, username: beauty_queen, rating: 3, comment: Average service at the hair salon, nothing special.
-id: 421, businessId: 11, username: shopper123, rating: 4, comment: Good selection of items, but the store can get crowded.
-id: 422, businessId: 12, username: foodie_lover, rating: 5, comment: Delicious food with a great ambiance. A must-visit!
-id: 423, businessId: 13, username: fun_seeker, rating: 5, comment: Amazing entertainment zone with lots of activities.
-id: 424, businessId: 14, username: work_enthusiast, rating: 4, comment: Great place to work with excellent facilities.
-id: 425, businessId: 15, username: night_owl, rating: 4, comment: Fun nightlife spot, but can get too crowded.
-id: 426, businessId: 16, username: super_shopper, rating: 5, comment: Good variety, clean store, and friendly staff.
-id: 427, businessId: 17, username: party_animal, rating: 4, comment: Great place to party, but the drinks are expensive.
-id: 428, businessId: 18, username: game_lover, rating: 5, comment: Fantastic place to have fun with friends!
-id: 429, businessId: 19, username: office_worker, rating: 4, comment: Good office space, but the internet can be slow.
-id: 430, businessId: 20, username: arcade_enthusiast, rating: 5, comment: Best arcade ever! Lots of games and great prizes.
-id: 431, businessId: 1, username: ChocoLover22, rating: 5, comment: Delights Bakery has the best croissants I've ever tasted! Highly recommend.
-id: 432, businessId: 3, username: HealthGuru, rating: 4, comment: Wellness Pharmacy is well-stocked and the staff are very knowledgeable.
-id: 433, businessId: 5, username: GadgetGal, rating: 4, comment: Tech Hub offers a great selection of electronics at reasonable prices.
-id: 434, businessId: 8, username: FurnitureFanatic, rating: 3, comment: Furniture Store has quality items but the prices are a bit high.
-id: 435, businessId: 12, username: Foodie123, rating: 5, comment: GourmetBite is an absolute gem! The food is exquisite and the ambiance is perfect.
-id: 436, businessId: 18, username: FunLover9, rating: 4, comment: FunZone is a great place for a fun family day out with many entertaining options.
-id: 437, businessId: 20, username: AdventureSeeker, rating: 5, comment: FunZone in Steinhausen is spectacular! My kids had a blast.
-id: 438, businessId: 22, username: CaffeineAddict, rating: 4, comment: WaveCafe offers great coffee and a cozy atmosphere. Perfect for catching up with friends.
-id: 439, businessId: 24, username: CoffeeConnoisseur, rating: 5, comment: WaveCafe in Escholzmatt is a hidden gem! The pastries are divine.
-id: 440, businessId: 26, username: LatteLover, rating: 4, comment: WaveCafe in Braunau has great lattes and a relaxing environment.
-id: 441, businessId: 28, username: CafeCritic, rating: 3, comment: WaveCafe in Unterschachen is nice but a bit small.
-id: 442, businessId: 30, username: FineDiner007, rating: 5, comment: RestoLuxe offers an amazing dining experience with gourmet dishes.
-id: 443, businessId: 36, username: NatureLover51, rating: 4, comment: Green Meadow Cafe has a lovely view and fresh, organic food.
-id: 444, businessId: 37, username: DeliDiva, rating: 5, comment: Riviera Deli has an excellent selection of high-quality meats and cheeses.
-id: 445, businessId: 40, username: MovieBuff88, rating: 4, comment: Starlight Cinema is a great place to catch a movie with comfortable seating.
-id: 446, businessId: 42, username: Bookworm101, rating: 5, comment: Cozy Books is a wonderful bookstore with a wide selection of books.
-id: 447, businessId: 63, username: CafeLover, rating: 5, comment: Café Corner in Willisau is fantastic! Great coffee and ambiance.
-id: 448, businessId: 64, username: BookNerd, rating: 4, comment: Book Haven has a great selection of both new and used books.
-id: 449, businessId: 66, username: FlowerFan, rating: 4, comment: Floral Boutique in Auw has beautiful arrangements but is a bit pricey.
-id: 450, businessId: 74, username: CaféLover, rating: 5, comment: Bruchhüttli Café in Glarus Süd serves the best coffee in town!
-id: 451, businessId: 1, username: happy_baker, rating: 5, comment: Amazing bakery! Everything is always fresh and delicious.
-id: 452, businessId: 2, username: shopaholic23, rating: 4, comment: Great selection and friendly staff.
-id: 453, businessId: 3, username: health_nut, rating: 4, comment: Very knowledgeable pharmacists. Always a pleasure to visit.
-id: 454, businessId: 4, username: fashionista, rating: 5, comment: Chic Boutique is my go-to place for the latest trends.
-id: 455, businessId: 5, username: tech_guru, rating: 3, comment: Good variety of electronics, but prices could be better.
-id: 456, businessId: 6, username: toylover, rating: 5, comment: My kids love this store. So many toys to choose from!
-id: 457, businessId: 7, username: print_master, rating: 4, comment: Fast and reliable printing services.
-id: 458, businessId: 8, username: home_enthusiast, rating: 4, comment: Beautiful furniture pieces. High quality!
-id: 459, businessId: 9, username: carbuff, rating: 5, comment: Excellent car repair service! Highly recommend.
-id: 460, businessId: 10, username: beautyqueen, rating: 4, comment: Lovely salon with friendly staff. I always leave feeling pampered.
-id: 461, businessId: 11, username: martmaniac, rating: 4, comment: SuperMart has everything I need in one place.
-id: 462, businessId: 12, username: foodie101, rating: 5, comment: GourmetBite serves the best dishes in town.
-id: 463, businessId: 13, username: funseeker, rating: 5, comment: FunZone is the best place for family entertainment.
-id: 464, businessId: 14, username: remote_worker, rating: 4, comment: Great place to get work done. Very quiet and comfortable.
-id: 465, businessId: 15, username: nightowl21, rating: 5, comment: NightOwl is the perfect spot for a night out.
-id: 466, businessId: 16, username: shopholicqueen, rating: 3, comment: Good variety but some products are overpriced.
-id: 467, businessId: 17, username: partylover, rating: 4, comment: Bender is fantastic for nightlife. Great atmosphere!
-id: 468, businessId: 18, username: gamingfan, rating: 4, comment: FunZone never disappoints. Always a great time.
-id: 469, businessId: 19, username: workspaceaddict, rating: 5, comment: WorkHub offers the best co-working spaces.
-id: 470, businessId: 20, username: entertainmentjunkie, rating: 5, comment: Every visit to FunZone is a new adventure. Love it!
+_id: 66bca6fbdd2ec6bd744b1106, username: AliceGreen, rating: 5, comment: Fresh and delicious pastries! Highly recommend., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b1107, username: TomHardy, rating: 4, comment: Wide variety of fresh produce. A bit expensive though., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1108, username: SaraLee, rating: 4, comment: Helpful staff and great selection of vitamins., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1109, username: NickFury, rating: 3, comment: Trendy collection but the prices are high., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b110a, username: BruceWayne, rating: 5, comment: Got my laptop repaired here. Excellent service., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b110b, username: OliverTwist, rating: 4, comment: Good selection of toys, my kids love this place!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b110c, username: EmilyClarke, rating: 5, comment: Quick printing services with friendly staff., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b110d, username: LucasPerez, rating: 2, comment: Beautiful furniture, but very pricey., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b110e, username: SophiaM, rating: 5, comment: Best car repair service in town! Highly recommend., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b110f, username: LiamNeeson, rating: 4, comment: Great haircuts, very professional staff., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1110, username: GraceHopper, rating: 4, comment: Good grocery store with lots of variety., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1111, username: SamWilson, rating: 5, comment: Amazing food and friendly service., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b1112, username: CatherineZ, rating: 4, comment: Lots of entertainment options, my kids had a great time., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b1113, username: ElenaGilbert, rating: 3, comment: Decent place to work, but a bit noisy., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1114, username: PeterParker, rating: 4, comment: Nice atmosphere, great cocktails., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1115, username: DianaPrince, rating: 4, comment: Great collection of fresh groceries at reasonable prices., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b1116, username: JohnSnow, rating: 5, comment: The best nightlife experience in the area., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b1117, username: TonyStark, rating: 5, comment: Fun arcade games and activities for all ages., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b1118, username: NatashaRomanoff, rating: 5, comment: Perfect place for getting work done., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b1119, username: SteveRogers, rating: 4, comment: Kids had a blast, definitely worth a visit., businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca6fbdd2ec6bd744b111a, username: alice123, rating: 5, comment: Fantastic bakery! The pastries are always fresh and tasty., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b111b, username: johnDoe, rating: 4, comment: Great selection of fresh produce and friendly staff., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b111c, username: healthFreak, rating: 5, comment: Excellent pharmacy with knowledgeable pharmacists., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b111d, username: fashionista55, rating: 3, comment: Nice boutique with trendy clothes but can be a bit pricey., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b111e, username: techGuru, rating: 4, comment: Awesome electronics store, found everything I needed., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b111f, username: parentParadise, rating: 2, comment: The store has a decent selection of toys but the prices are high., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b1120, username: printMaster, rating: 5, comment: Excellent print quality and fast service., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b1121, username: homeLover, rating: 4, comment: Great store for furniture, very stylish pieces., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b1122, username: carDoctor, rating: 5, comment: Best car repair service around. Very professional., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b1123, username: hairDivine, rating: 3, comment: Good hair salon but the wait time was too long., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1124, username: shopaholic, rating: 4, comment: SuperMart has everything you need under one roof., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1125, username: foodieHeaven, rating: 5, comment: GourmetBite serves delicious and high-quality food., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b1126, username: funTime, rating: 4, comment: FunZone is a great place for entertainment, so many activities!, businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b1127, username: busyBee, rating: 3, comment: WorkHub is good but it can get quite crowded at times., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1128, username: nightOut, rating: 5, comment: NightOwl is the best for nightlife. Great ambiance!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1129, username: entertainMe, rating: 2, comment: I found FunZone to be a bit too noisy and chaotic., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b112a, username: officeWorker, rating: 4, comment: Love the facilities at WorkHub, very modern and clean., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b112b, username: gardenLover, rating: 5, comment: Green Meadow Cafe has such a peaceful atmosphere and great coffee., businessId: 66bc9933dd2ec6bd744b10c5
+_id: 66bca6fbdd2ec6bd744b112c, username: quickBite, rating: 3, comment: Quick Eats is decent but nothing special., businessId: 66bc9933dd2ec6bd744b10ca
+_id: 66bca6fbdd2ec6bd744b112d, username: bookWorm, rating: 4, comment: Cozy Books has a great selection of books and a comfortable reading area., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca6fbdd2ec6bd744b112e, username: Maria95, rating: 5, comment: Excellent service and delicious bread! Will visit again for sure., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b112f, username: JohnDoe, rating: 4, comment: Great products but a bit pricey. Overall, a good place to shop., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1130, username: HealthGuru, rating: 5, comment: The pharmacists are very knowledgeable and friendly. Highly recommend!, businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1131, username: FashionLover12, rating: 4, comment: Stylish clothes and great deals. Will definitely come back!, businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b1132, username: TechGuy, rating: 5, comment: Amazing selection of gadgets and helpful staff. A tech lover's paradise., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b1133, username: ParentLife, rating: 3, comment: The store has a good variety of toys but it's a bit cluttered., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b1134, username: PrintPro, rating: 4, comment: Quality prints and fast service. Just wish they had longer hours., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b1135, username: HomeMaker, rating: 5, comment: Beautiful furniture at reasonable prices. Loved their collection!, businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b1136, username: AutoFixer, rating: 4, comment: Good repair service but could improve on waiting time., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b1137, username: HairQueen, rating: 5, comment: Love my new hairstyle. The stylist was fantastic!, businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1138, username: MarketFan, rating: 3, comment: A decent market with good variety but parking is an issue., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1139, username: Foodie, rating: 5, comment: GourmetBite offers the best dining experience. Highly recommended!, businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b113a, username: GamerGirl, rating: 4, comment: FunZone is a great place for entertainment. Could use more variety., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b113b, username: OfficeKing, rating: 5, comment: Perfect space for meetings and work. Well-equipped and modern., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b113c, username: NightLifeLover, rating: 4, comment: Great atmosphere and music. Could improve the drink selection., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b113d, username: OptiFan, rating: 5, comment: Wonderful and knowledgeable staff. My go-to optician store!, businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca6fbdd2ec6bd744b113e, username: CafeLover, rating: 5, comment: Cozy atmosphere and great coffee. Highly recommend WaveCafe!, businessId: 66bc9933dd2ec6bd744b10b9
+_id: 66bca6fbdd2ec6bd744b113f, username: Techie, rating: 3, comment: Good range of electronics but the service was a bit slow., businessId: 66bc9933dd2ec6bd744b10bc
+_id: 66bca6fbdd2ec6bd744b1140, username: BistroBuddy, rating: 5, comment: Amazing food and excellent service! Will be back for sure., businessId: 66bc9933dd2ec6bd744b10df
+_id: 66bca6fbdd2ec6bd744b1141, username: Bookworm, rating: 5, comment: Cozy bookstore with a great selection. Spent hours here!, businessId: 66bc9933dd2ec6bd744b1101
+_id: 66bca6fbdd2ec6bd744b1142, username: happyeater92, rating: 5, comment: Absolutely loved the pastries here! Fresh and delightful., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b1143, username: marketmania, rating: 4, comment: Great selection of fresh produce and groceries. A bit pricey, but worth it., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1144, username: healthfirst99, rating: 3, comment: Decent pharmacy, but the waiting time can be long., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1145, username: fashionista45, rating: 4, comment: Trendy clothes at reasonable prices. Will visit again., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b1146, username: techenthusiast, rating: 5, comment: A heaven for tech lovers. Found everything I needed., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b1147, username: toytimmy, rating: 4, comment: My kids had a blast choosing their toys. Huge collection!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b1148, username: printingqueen, rating: 5, comment: Excellent quality prints and very efficient service., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b1149, username: homemaker55, rating: 4, comment: Beautiful furniture but a tad bit expensive., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b114a, username: carlover007, rating: 5, comment: Top-notch service. My car runs like new!, businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b114b, username: beautyguru, rating: 4, comment: Great atmosphere and skilled stylists. Bit of a wait time though., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b114c, username: retailtherapy, rating: 5, comment: Has everything I need under one roof. Very convenient., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b114d, username: foodie123, rating: 5, comment: Delicious food and friendly staff. Highly recommended., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b114e, username: funlover, rating: 4, comment: Lots of fun activities for the whole family., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b114f, username: workaholic, rating: 5, comment: Fantastic co-working space with all the amenities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1150, username: nightowl, rating: 5, comment: Perfect place to unwind after a long day., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1151, username: partygal, rating: 4, comment: Had a great time here. Music could be better though., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b1152, username: opticalgeek, rating: 5, comment: High-quality eyewear and thorough eye exams., businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca6fbdd2ec6bd744b1153, username: cafelover, rating: 4, comment: Lovely atmosphere and great coffee. Pastries could be fresher., businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca6fbdd2ec6bd744b1154, username: homedecorfan, rating: 5, comment: Unique home decor items. Will definitely visit again., businessId: 66bc9933dd2ec6bd744b10d1
+_id: 66bca6fbdd2ec6bd744b1155, username: outdoorfanatic, rating: 4, comment: Good selection of outdoor gear. Prices are a bit high., businessId: 66bc9933dd2ec6bd744b10dd
+_id: 66bca6fbdd2ec6bd744b1156, username: happyCustomer01, rating: 5, comment: Absolutely loved it! The bread is always fresh and delicious., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b1157, username: shopaholic99, rating: 4, comment: Great variety of products and friendly staff., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1158, username: medicExpert, rating: 5, comment: Helpful pharmacist and excellent service., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1159, username: fashionista10, rating: 3, comment: Nice collection, but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b115a, username: techGuru24, rating: 4, comment: Good selection of gadgets at reasonable prices., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b115b, username: funMommy33, rating: 5, comment: My kids love this store! Great toys., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b115c, username: printPro, rating: 4, comment: Reliable printing services., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b115d, username: homeMaker12, rating: 5, comment: Beautiful furniture and great quality., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b115e, username: carFanatic, rating: 3, comment: Average service for car repair., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b115f, username: styleQueen, rating: 5, comment: Excellent salon! My hair looks amazing!, businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1160, username: foodLover11, rating: 4, comment: Lots of options for daily groceries., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1161, username: fineDiner55, rating: 5, comment: Best dining experience so far! Must visit., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b1162, username: entertainMe, rating: 4, comment: Fun place to hang out with friends., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b1163, username: corporateGuy, rating: 4, comment: Great coworking space with all amenities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1164, username: partyAnimal, rating: 5, comment: Loved the nightlife here! A must-visit., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1165, username: musicLover99, rating: 3, comment: The venue is okay, needs better acoustics., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b1166, username: familyFun, rating: 4, comment: Kids had a great time, we'll be back., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b1167, username: remoteWork, rating: 4, comment: Convenient for remote work with a nice ambiance., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b1168, username: adrenalineJunkie, rating: 5, comment: Best adventure experience ever!, businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca6fbdd2ec6bd744b1169, username: visionExpert, rating: 4, comment: Helped me find the perfect glasses., businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca6fbdd2ec6bd744b116a, username: john_doe, rating: 5, comment: Excellent service and great quality products!, businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b116b, username: susan89, rating: 4, comment: Loved the environment and friendly staff., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b116c, username: mike_smith, rating: 3, comment: Good selection of items but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b116d, username: anna_belle, rating: 2, comment: Service was slow and staff seemed uninterested., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b116e, username: peter_pan, rating: 5, comment: Absolutely loved the product! Will definitely come back., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b116f, username: linda_martin, rating: 4, comment: Nice place with lots of variety., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1170, username: george_harrison, rating: 3, comment: It was okay, not what I expected., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b1171, username: rachel_green, rating: 1, comment: Terrible experience! Will never come back., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1172, username: monica_geller, rating: 4, comment: Enjoyed the customer service. Highly recommended!, businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b1173, username: chandler_bing, rating: 4, comment: Great ambiance and nice people., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1174, username: ross_geller, rating: 5, comment: Fantastic place! Very satisfied with my visit., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b1175, username: phoebe_buffay, rating: 3, comment: Decent experience but room for improvement., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b1176, username: joey_tribbiani, rating: 5, comment: Amazing products! Five stars!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b1177, username: tony_stark, rating: 2, comment: Not impressed with the service., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1178, username: bruce_wayne, rating: 4, comment: Highly recommended for quality and service., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b1179, username: clark_kent, rating: 3, comment: Good but could be better., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca6fbdd2ec6bd744b117a, username: bruce_banner, rating: 5, comment: Exceptional experience! Will return for sure., businessId: 66bc9933dd2ec6bd744b10c1
+_id: 66bca6fbdd2ec6bd744b117b, username: diana_prince, rating: 4, comment: Very happy with their service., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b117c, username: barry_allen, rating: 2, comment: Wasn't impressed with the product quality., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b117d, username: oliver_queen, rating: 1, comment: Very disappointing service and experience., businessId: 66bc9933dd2ec6bd744b10c3
+_id: 66bca6fbdd2ec6bd744b117e, username: john_doe98, rating: 4, comment: Great pastries and friendly staff!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b117f, username: susan88, rating: 3, comment: Fresh products but quite pricey., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1180, username: healthygirl, rating: 5, comment: Very helpful pharmacists and a wide range of wellness products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1181, username: fashionista77, rating: 4, comment: Chic designs and good quality clothes., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b1182, username: techgeek23, rating: 5, comment: Amazing customer service and great tech gadgets., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b1183, username: mommyoftwo, rating: 4, comment: A delightful store with lots of options for kids!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b1184, username: printit, rating: 3, comment: Good quality prints but the service was a bit slow., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b1185, username: home_decoration, rating: 4, comment: Beautiful furniture pieces and decor ideas., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b1186, username: carlovers, rating: 5, comment: Expert technicians and speedy service., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b1187, username: beautylover99, rating: 4, comment: Lovely ambiance and talented hairdressers., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1188, username: groceryguru, rating: 3, comment: Good variety but the prices could be better., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1189, username: gourmet_life, rating: 5, comment: Delicious food and impeccable service., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b118a, username: funseeker, rating: 4, comment: Great entertainment options for the whole family., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b118b, username: officework, rating: 3, comment: Decent workspace but could use some improvements., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b118c, username: partytime, rating: 5, comment: Best nightlife experience in town!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b118d, username: retailqueen, rating: 4, comment: Wide range of products and friendly staff., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b118e, username: floristlover, rating: 4, comment: Fresh and beautifully arranged flowers., businessId: 66bc9933dd2ec6bd744b10c8
+_id: 66bca6fbdd2ec6bd744b118f, username: cinemabuff, rating: 4, comment: Comfortable seating and good movie selection., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca6fbdd2ec6bd744b1190, username: bookworm, rating: 5, comment: Cozy atmosphere and a great selection of books., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca6fbdd2ec6bd744b1191, username: cafelover, rating: 5, comment: Best coffee in town and a lovely ambiance., businessId: 66bc9933dd2ec6bd744b10bd
+_id: 66bca6fbdd2ec6bd744b1192, username: sarah_jones, rating: 5, comment: Amazing pastries and the staff is very friendly!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b1193, username: mike_riley, rating: 4, comment: Great fresh produce but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b1194, username: anna_smith, rating: 3, comment: Good pharmacy but the waiting time was quite long., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b1195, username: john_doe, rating: 5, comment: Excellent collection of designer clothes., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b1196, username: lucy_liu, rating: 4, comment: Friendly staff and latest gadgets in stock., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b1197, username: mark_twain, rating: 2, comment: Limited toy selection, my kids were disappointed., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b1198, username: emily_clarke, rating: 4, comment: Great quality prints, highly recommend!, businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b1199, username: paul_rudd, rating: 5, comment: Beautiful and durable furniture., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b119a, username: debby_reynolds, rating: 3, comment: Good service but slightly high charges., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b119b, username: thomas_wayne, rating: 4, comment: Stylish haircuts and excellent service., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b119c, username: cathy_jordan, rating: 1, comment: Poor customer service, not satisfied., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b119d, username: aaron_taylor, rating: 5, comment: Absolutely delicious food., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b119e, username: judy_collins, rating: 3, comment: Good place for fun but a bit crowded., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b119f, username: brandon_lee, rating: 5, comment: Great workspace with a lot of amenities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b11a0, username: nancy_wright, rating: 4, comment: Good service and enjoyable environment., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b11a1, username: henry_liu, rating: 5, comment: The best place to shop for electronics., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b11a2, username: eva_green, rating: 4, comment: Fantastic night out, great music and ambiance., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b11a3, username: karen_baker, rating: 2, comment: Overpriced and the place was a bit dirty., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b11a4, username: george_martin, rating: 4, comment: Convenient location and excellent facilities., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b11a5, username: lucas_brown, rating: 5, comment: Amazing experience and lots of fun activities., businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca6fbdd2ec6bd744b11a6, username: johndoe123, rating: 5, comment: Absolutely loved the experience!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b11a7, username: janesmith456, rating: 4, comment: Great products but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b11a8, username: peter_parker, rating: 3, comment: Average service., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b11a9, username: brucewayne, rating: 5, comment: Excellent customer service., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b11aa, username: thor_odinson, rating: 2, comment: Not satisfied with the product quality., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b11ab, username: tony_stark, rating: 5, comment: Top-notch tech gadgets., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b11ac, username: natasharomanoff, rating: 4, comment: Good variety of products., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b11ad, username: steverogers, rating: 5, comment: Friendly staff and great service., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b11ae, username: wandamaximoff, rating: 1, comment: Very disappointed with the experience., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11af, username: vision, rating: 4, comment: Nice place with decent prices., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b11b0, username: tonyhawk, rating: 5, comment: Fantastic food and ambiance., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b11b1, username: batman, rating: 3, comment: Service could be improved., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b11b2, username: spiderman, rating: 4, comment: Had a fun time!, businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b11b3, username: wolverine, rating: 5, comment: Highly recommend this place., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b11b4, username: storm, rating: 2, comment: Not worth the price., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b11b5, username: cyclops, rating: 5, comment: Amazing selection of products., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b11b6, username: skype, rating: 4, comment: Great customer service but a bit crowded., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b11b7, username: aquaman, rating: 3, comment: It was okay, nothing special., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b11b8, username: flash, rating: 5, comment: Fast service and friendly staff., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b11b9, username: wonderwoman, rating: 1, comment: Very poor experience., businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca6fbdd2ec6bd744b11ba, username: happybaker, rating: 5, comment: The pastries here are divine! Absolutely love Delights Bakery., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b11bb, username: marketlover77, rating: 4, comment: Fresh Market has a great selection of products. Prices are a bit high, though., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b11bc, username: healthfanatic, rating: 5, comment: Wellness Pharmacy always has the supplements I need. Highly recommended., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b11bd, username: fashionista99, rating: 4, comment: Chic Boutique has lovely clothes, but wish they had more size options., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b11be, username: techgeek88, rating: 5, comment: Tech Hub is my go-to for any gadgets. Excellent service!, businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b11bf, username: toyfan123, rating: 4, comment: Toy Store has a good variety, kids love it here!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b11c0, username: printmaster, rating: 5, comment: Print Shop offers top-notch quality prints and quick service., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b11c1, username: homemaker87, rating: 4, comment: Furniture Store has beautiful collections. Delivery could be faster., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b11c2, username: autofanatic, rating: 5, comment: Car Repair provides efficient and reliable service., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11c3, username: hairstylist12, rating: 4, comment: Hair Salon has great stylists, but it's a bit pricey., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b11c4, username: shoppingspree, rating: 5, comment: SuperMart always has everything I need at great prices., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b11c5, username: foodcraver, rating: 4, comment: GourmetBite has delicious food but service can be slow during busy hours., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b11c6, username: playtime, rating: 5, comment: FunZone is an amazing place for family entertainment., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b11c7, username: workaholic, rating: 4, comment: WorkHub is a great place to rent office space. Wish they had more locations., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b11c8, username: nightowl, rating: 5, comment: NightOwl has a fantastic vibe and great drinks!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b11c9, username: gogreen, rating: 5, comment: OptiHealth is superb for all optical needs, highly recommended., businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca6fbdd2ec6bd744b11ca, username: cafelover12, rating: 4, comment: WaveCafe has a cozy atmosphere but their coffee could be better., businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca6fbdd2ec6bd744b11cb, username: explorerjoe, rating: 5, comment: Mountain Lodge is a perfect retreat. Beautiful views and great service., businessId: 66bc9933dd2ec6bd744b10c4
+_id: 66bca6fbdd2ec6bd744b11cc, username: delicacylover, rating: 5, comment: Riviera Deli has the best selections of delicacies., businessId: 66bc9933dd2ec6bd744b10c6
+_id: 66bca6fbdd2ec6bd744b11cd, username: craftymom, rating: 5, comment: WonderCrafts offers fantastic workshops that are really enjoyable., businessId: 66bc9933dd2ec6bd744b10ba
+_id: 66bca6fbdd2ec6bd744b11ce, username: happyBaker84, rating: 5, comment: Best bakery in town! The flavors are amazing and the staff is super friendly., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b11cf, username: shopper923, rating: 4, comment: Great selection of groceries and reasonably priced. Will come back., businessId: 66bc9933dd2ec6bd744b10e5
+_id: 66bca6fbdd2ec6bd744b11d0, username: techSavvy98, rating: 5, comment: Found exactly what I needed for my computer. Fantastic service!, businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b11d1, username: fashionista2023, rating: 3, comment: Clothing quality is good but I found the prices a bit high., businessId: 66bc9933dd2ec6bd744b10ce
+_id: 66bca6fbdd2ec6bd744b11d2, username: yummyCafeLover, rating: 5, comment: Lovely cafe, their coffee and pastries are to die for., businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca6fbdd2ec6bd744b11d3, username: bookworm75, rating: 4, comment: Nice little bookstore with a cozy ambiance., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca6fbdd2ec6bd744b11d4, username: healthNut34, rating: 4, comment: Wellness Pharmacy has a good variety of health products., businessId: 66bc9933dd2ec6bd744b10c7
+_id: 66bca6fbdd2ec6bd744b11d5, username: autoFan21, rating: 5, comment: Very efficient and thorough car repair service. Highly recommend., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11d6, username: artLover88, rating: 5, comment: Wonderful workshop with talented craftsmen., businessId: 66bc9933dd2ec6bd744b10ba
+_id: 66bca6fbdd2ec6bd744b11d7, username: gamer523, rating: 4, comment: FunZone is a great place to bring kids for some entertainment., businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca6fbdd2ec6bd744b11d8, username: beachyKeen, rating: 2, comment: The service was slow and the drinks were just okay., businessId: 66bc9933dd2ec6bd744b10b9
+_id: 66bca6fbdd2ec6bd744b11d9, username: happyHome, rating: 4, comment: Got some great new furniture here. Quite satisfied with the quality., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b11da, username: organicFan101, rating: 5, comment: Excellent variety of organic produce. Fresh and tasty!, businessId: 66bc9933dd2ec6bd744b10f1
+_id: 66bca6fbdd2ec6bd744b11db, username: nightOwl899, rating: 5, comment: Loved the atmosphere and the drinks at NightOwl., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b11dc, username: mechanix22, rating: 3, comment: Okay service but the prices are a bit steep., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11dd, username: movieBuff31, rating: 4, comment: Good movie experience but the seats were a little uncomfortable., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca6fbdd2ec6bd744b11de, username: natureLover2021, rating: 5, comment: Great spot for outdoor supplies. I found everything I needed., businessId: 66bc9933dd2ec6bd744b10dd
+_id: 66bca6fbdd2ec6bd744b11df, username: sweetTooth98, rating: 5, comment: Amazing candies, it felt like being in a wonderland!, businessId: 66bc9933dd2ec6bd744b1102
+_id: 66bca6fbdd2ec6bd744b11e0, username: cycleEnthusiast, rating: 5, comment: Great sports equipment and friendly staff., businessId: 66bc9933dd2ec6bd744b10cd
+_id: 66bca6fbdd2ec6bd744b11e1, username: foodie123, rating: 4, comment: Delicious food but the service was a bit slow., businessId: 66bc9933dd2ec6bd744b10df
+_id: 66bca6fbdd2ec6bd744b11e2, username: chocoLover92, rating: 5, comment: The best pastries I've ever tasted!, businessId: 66bc9933dd2ec6bd744b1101
+_id: 66bca6fbdd2ec6bd744b11e3, username: techGeek12, rating: 4, comment: Great place for all your electronics needs., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b11e4, username: fashionista88, rating: 3, comment: Decent collection but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b11e5, username: bookworm90, rating: 5, comment: Cozy atmosphere and a fantastic selection of books!, businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca6fbdd2ec6bd744b11e6, username: happyParent, rating: 4, comment: Lots of fun toys for kids at reasonable prices., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b11e7, username: gymRat76, rating: 5, comment: Top-notch facilities and friendly staff., businessId: 66bc9933dd2ec6bd744b10d9
+_id: 66bca6fbdd2ec6bd744b11e8, username: gourmetChef, rating: 5, comment: Delicious food and excellent service!, businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b11e9, username: natureLover, rating: 4, comment: Beautiful plants and helpful staff., businessId: 66bc9933dd2ec6bd744b10d0
+_id: 66bca6fbdd2ec6bd744b11ea, username: coffeeAddict, rating: 5, comment: Amazing coffee and a cozy place to relax., businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca6fbdd2ec6bd744b11eb, username: autoExpert, rating: 4, comment: Quick and efficient car repair service., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11ec, username: craftyDiva, rating: 5, comment: A paradise for craft supplies!, businessId: 66bc9933dd2ec6bd744b10ee
+_id: 66bca6fbdd2ec6bd744b11ed, username: healthyGuy, rating: 5, comment: Very knowledgeable pharmacists., businessId: 66bc9933dd2ec6bd744b10e2
+_id: 66bca6fbdd2ec6bd744b11ee, username: bargainHunter, rating: 4, comment: Good variety of groceries at affordable prices., businessId: 66bc9933dd2ec6bd744b10cf
+_id: 66bca6fbdd2ec6bd744b11ef, username: musicFan, rating: 3, comment: Not a lot of options but okay for quick purchases., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b11f0, username: mommyOfTwo, rating: 4, comment: Great place for entertaining kids., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b11f1, username: nightOwl, rating: 5, comment: Had an amazing time here! Great vibe!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b11f2, username: quickBite, rating: 2, comment: Food was mediocre, would not recommend., businessId: 66bc9933dd2ec6bd744b10ca
+_id: 66bca6fbdd2ec6bd744b11f3, username: techieGuy, rating: 5, comment: Fixed my laptop in no time, excellent service!, businessId: 66bc9933dd2ec6bd744b10dc
+_id: 66bca6fbdd2ec6bd744b11f4, username: spaLover, rating: 5, comment: Absolutely loved the spa treatments!, businessId: 66bc9933dd2ec6bd744b10d7
+_id: 66bca6fbdd2ec6bd744b11f5, username: greenThumb, rating: 3, comment: Good variety but could use more organic options., businessId: 66bc9933dd2ec6bd744b10d8
+_id: 66bca6fbdd2ec6bd744b11f6, username: layla_smith, rating: 5, comment: The quality of products at the Delights Bakery is unmatched. Always fresh and delicious., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca6fbdd2ec6bd744b11f7, username: maxwell_brown, rating: 4, comment: Fresh Market has a wide variety of products. Prices are a bit high though., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca6fbdd2ec6bd744b11f8, username: kelly_jones, rating: 5, comment: Wellness Pharmacy staff are very knowledgeable and helpful. Great place for health needs., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca6fbdd2ec6bd744b11f9, username: ethan_clark, rating: 3, comment: Chic Boutique has stylish items but the store is often crowded., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca6fbdd2ec6bd744b11fa, username: mia_taylor, rating: 4, comment: Tech Hub offers a good selection of electronics. Some items could be better priced., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca6fbdd2ec6bd744b11fb, username: lucas_walker, rating: 5, comment: Toy Store has fantastic toys for kids. My children love it!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca6fbdd2ec6bd744b11fc, username: charlotte_harris, rating: 5, comment: Print Shop provides exceptional printing services. Always on time!, businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca6fbdd2ec6bd744b11fd, username: oliver_green, rating: 4, comment: Furniture Store has beautiful furniture. Delivery service could be faster., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca6fbdd2ec6bd744b11fe, username: amelia_adams, rating: 5, comment: Car Repair service is top-notch. They fixed my car perfectly., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca6fbdd2ec6bd744b11ff, username: james_parker, rating: 3, comment: Hair Salon is decent. Friendly staff but the wait time can be long., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca6fbdd2ec6bd744b1200, username: ella_evans, rating: 4, comment: SuperMart has good product variety. It can get too busy during evenings., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca6fbdd2ec6bd744b1201, username: noah_lewis, rating: 5, comment: GourmetBite offers an amazing dining experience. Food is always delicious., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca6fbdd2ec6bd744b1202, username: emma_wright, rating: 4, comment: FunZone is a great entertainment spot. The kids always enjoy it., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca6fbdd2ec6bd744b1203, username: aiden_hall, rating: 5, comment: WorkHub is a fantastic place to work. Very professional environment., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca6fbdd2ec6bd744b1204, username: sophia_king, rating: 3, comment: NightOwl has great music but the drinks are overpriced., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca6fbdd2ec6bd744b1205, username: mason_schmidt, rating: 5, comment: SuperMart in Baden is very convenient with a good selection of items., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca6fbdd2ec6bd744b1206, username: harper_forester, rating: 4, comment: Bender is a cool nightlife spot, though it can get too noisy at times., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca6fbdd2ec6bd744b1207, username: logan_brooks, rating: 5, comment: FunZone in Meilen is awesome! Great place for family entertainment., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca6fbdd2ec6bd744b1208, username: ava_foster, rating: 4, comment: WorkHub in Gümmenen is very comfortable and well organized., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca6fbdd2ec6bd744b1209, username: benjamin_griffin, rating: 3, comment: FunZone in Steinhausen is fun but some equipment needs maintenance., businessId: 66bc9933dd2ec6bd744b10b5
+_id: 66bca76fdd2ec6bd744b120a, username: johndoe123, rating: 5, comment: Amazing bakery with delicious pastries!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca76fdd2ec6bd744b120b, username: alice2020, rating: 4, comment: Great selection of fresh produce., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca76fdd2ec6bd744b120c, username: healthguru, rating: 5, comment: Helpful staff and a wide range of health products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca76fdd2ec6bd744b120d, username: fashionista45, rating: 4, comment: Chic and trendy fashion items., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca76fdd2ec6bd744b120e, username: techlover89, rating: 3, comment: Good variety of electronics but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca76fdd2ec6bd744b120f, username: happyparent, rating: 5, comment: Wide range of toys for kids of all ages., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca76fdd2ec6bd744b1210, username: printmaster, rating: 4, comment: Reliable printing services at affordable prices., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca76fdd2ec6bd744b1211, username: homemaker, rating: 5, comment: Amazing furniture collection, highly recommend!, businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca76fdd2ec6bd744b1212, username: carlovers, rating: 4, comment: Efficient car repair service with friendly staff., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca76fdd2ec6bd744b1213, username: beautyqueen, rating: 5, comment: Best hair salon in town!, businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca76fdd2ec6bd744b1214, username: yummyfoodie, rating: 2, comment: The food was average and not worth the price., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca76fdd2ec6bd744b1215, username: gamemerlin, rating: 4, comment: Fun place for kids and adults alike., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca76fdd2ec6bd744b1216, username: entrepreneur, rating: 5, comment: Great workspace with excellent amenities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca76fdd2ec6bd744b1217, username: nightowl123, rating: 4, comment: Great place to hang out late at night., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca76fdd2ec6bd744b1218, username: happyshopper, rating: 3, comment: Decent shopping mall, but could be better., businessId: 66bc9933dd2ec6bd744b10c1
+_id: 66bca76fdd2ec6bd744b1219, username: mountainlover, rating: 5, comment: Perfect place for outdoor gear!, businessId: 66bc9933dd2ec6bd744b10cd
+_id: 66bca76fdd2ec6bd744b121a, username: cinephile, rating: 4, comment: Great cinema experience, but the popcorn was overpriced., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca76fdd2ec6bd744b121b, username: bookworm, rating: 5, comment: Excellent bookstore with a wide selection., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca76fdd2ec6bd744b121c, username: foodie57, rating: 4, comment: Delicious deli items, loved the cheese selection., businessId: 66bc9933dd2ec6bd744b10c6
+_id: 66bca76fdd2ec6bd744b121d, username: wellnessfan, rating: 5, comment: Great wellness pharmacy with friendly staff., businessId: 66bc9933dd2ec6bd744b10c7
+_id: 66bca76fdd2ec6bd744b121e, username: happy_customer_123, rating: 5, comment: Wonderful bakery! The pastries are always fresh and delicious., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca76fdd2ec6bd744b121f, username: marketlover22, rating: 4, comment: Great selection of fresh produce and friendly staff., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca76fdd2ec6bd744b1220, username: wellnesswarrior, rating: 5, comment: Excellent pharmacy with holistic health products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca76fdd2ec6bd744b1221, username: fashionenthusiast, rating: 3, comment: Chic designs but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca76fdd2ec6bd744b1222, username: techgeek45, rating: 4, comment: Tech Hub has the latest gadgets at competitive prices., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca76fdd2ec6bd744b1223, username: parent_world, rating: 5, comment: Amazing variety of toys. My kids love it!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca76fdd2ec6bd744b1224, username: print_master_91, rating: 4, comment: Efficient service and good quality prints., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca76fdd2ec6bd744b1225, username: home_decoration_fan, rating: 3, comment: The furniture is nice but limited in options., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca76fdd2ec6bd744b1226, username: car_guy99, rating: 4, comment: Reliable car repair services. Highly recommended!, businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca76fdd2ec6bd744b1227, username: beautyqueen77, rating: 5, comment: Lovely hair salon with professional staff., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca76fdd2ec6bd744b1228, username: groceryguru, rating: 4, comment: Convenient location and wide range of products., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca76fdd2ec6bd744b1229, username: foodlover_42, rating: 5, comment: GourmetBite serves the best cuisines in town!, businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca76fdd2ec6bd744b122a, username: partylover, rating: 4, comment: Great fun at FunZone! A perfect family outing spot., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca76fdd2ec6bd744b122b, username: officepro, rating: 4, comment: WorkHub has great workspaces and amenities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca76fdd2ec6bd744b122c, username: nightowl23, rating: 5, comment: Fantastic nightlife experience! Always a great time., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca76fdd2ec6bd744b122d, username: supermarketfan, rating: 3, comment: SuperMart is okay but could improve on customer service., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca76fdd2ec6bd744b122e, username: happy_customer_456, rating: 5, comment: WaveCafe has the best coffee and pastries., businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca76fdd2ec6bd744b122f, username: health_conscious_89, rating: 4, comment: OptiHealth provides excellent vision care services., businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca76fdd2ec6bd744b1230, username: florafan, rating: 5, comment: Blooming Florist provides beautiful floral arrangements., businessId: 66bc9933dd2ec6bd744b10c8
+_id: 66bca76fdd2ec6bd744b1231, username: moviebuff99, rating: 4, comment: Starlight Cinema offers a great movie experience., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca76fdd2ec6bd744b1232, username: JaneDoe87, rating: 5, comment: Delights Bakery has the best pastries in town!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca76fdd2ec6bd744b1233, username: MarkSmith22, rating: 4, comment: Fresh Market offers a great variety of produce!, businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca76fdd2ec6bd744b1234, username: HealthGuru, rating: 3, comment: Wellness Pharmacy is decent, but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca76fdd2ec6bd744b1235, username: Fashionista88, rating: 4, comment: Chic Boutique has trendy clothes but limited sizes., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca76fdd2ec6bd744b1236, username: TechLover, rating: 5, comment: Tech Hub is my go-to store for all gadgets., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca76fdd2ec6bd744b1237, username: ToyFan123, rating: 4, comment: The Toy Store has a wonderful collection for kids., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca76fdd2ec6bd744b1238, username: PrintExpert, rating: 5, comment: Print Shop offers high-quality printing services., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca76fdd2ec6bd744b1239, username: HomeMaker, rating: 3, comment: Furniture Store has good furniture but delivery takes time., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca76fdd2ec6bd744b123a, username: CarGuy1980, rating: 5, comment: Car Repair is quick and professional., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca76fdd2ec6bd744b123b, username: StylishSarah, rating: 4, comment: Hair Salon offers good service but can be crowded., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca76fdd2ec6bd744b123c, username: Foodie123, rating: 5, comment: GourmetBite has delicious food and great ambiance., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca76fdd2ec6bd744b123d, username: FitnessFirst, rating: 4, comment: Peak Performance Gym is well-equipped but a bit expensive., businessId: 66bc9933dd2ec6bd744b10d9
+_id: 66bca76fdd2ec6bd744b123e, username: GreenThumb, rating: 5, comment: Green Thumb Nursery has a fantastic selection of plants., businessId: 66bc9933dd2ec6bd744b10d8
+_id: 66bca76fdd2ec6bd744b123f, username: MovieBuff, rating: 4, comment: Starlight Cinema offers a great movie-watching experience., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca76fdd2ec6bd744b1240, username: FlowerLover, rating: 5, comment: Floral Boutique has the most beautiful flower arrangements., businessId: 66bc9933dd2ec6bd744b10e3
+_id: 66bca76fdd2ec6bd744b1241, username: OpticWizard, rating: 4, comment: OptiHealth provides excellent services but a bit pricey., businessId: 66bc9933dd2ec6bd744b10b6
+_id: 66bca76fdd2ec6bd744b1242, username: CafeLover, rating: 5, comment: WaveCafe is a perfect spot for coffee lovers!, businessId: 66bc9933dd2ec6bd744b10b7
+_id: 66bca76fdd2ec6bd744b1243, username: TechSavvy, rating: 4, comment: ElectroWorld has a good collection of electronics., businessId: 66bc9933dd2ec6bd744b10bc
+_id: 66bca76fdd2ec6bd744b1244, username: GamerGuy, rating: 5, comment: FunZone is my favorite spot for gaming!, businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca76fdd2ec6bd744b1245, username: BookWorm, rating: 4, comment: Cozy Books has a nice selection but a bit cramped., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca76fdd2ec6bd744b1246, username: john_doe, rating: 5, comment: Excellent selection and friendly staff!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca76fdd2ec6bd744b1247, username: jane_smith, rating: 4, comment: Great place for fresh produce, but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca76fdd2ec6bd744b1248, username: mark_jones, rating: 3, comment: Convenient location but needs better parking., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca76fdd2ec6bd744b1249, username: lisa_white, rating: 5, comment: Fantastic customer service and quality items!, businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca76fdd2ec6bd744b124a, username: tom_clark, rating: 2, comment: Not a great selection of electronics., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca76fdd2ec6bd744b124b, username: nancy_martin, rating: 4, comment: My kids love this toy store!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca76fdd2ec6bd744b124c, username: greg_thompson, rating: 1, comment: Terrible printing quality., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca76fdd2ec6bd744b124d, username: amanda_lee, rating: 5, comment: Beautiful furniture and great service., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca76fdd2ec6bd744b124e, username: kevin_wilson, rating: 3, comment: Average service, just okay., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca76fdd2ec6bd744b124f, username: laura_brown, rating: 4, comment: Good haircuts at reasonable prices., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca76fdd2ec6bd744b1250, username: chris_miller, rating: 5, comment: Best grocery store in town!, businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca76fdd2ec6bd744b1251, username: mike_davis, rating: 2, comment: Food was cold and service was slow., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca76fdd2ec6bd744b1252, username: susan_wilson, rating: 3, comment: An okay place for entertainment, nothing special., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca76fdd2ec6bd744b1253, username: patrick_taylor, rating: 5, comment: Great place for working on projects., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca76fdd2ec6bd744b1254, username: brenda_moore, rating: 4, comment: Fun nightlife with great music!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca76fdd2ec6bd744b1255, username: nancy_johnson, rating: 5, comment: Incredible food and reasonable prices!, businessId: 66bc9933dd2ec6bd744b10ca
+_id: 66bca76fdd2ec6bd744b1256, username: ken_lee, rating: 2, comment: Staff was not helpful at all., businessId: 66bc9933dd2ec6bd744b10ff
+_id: 66bca76fdd2ec6bd744b1257, username: carla_harris, rating: 3, comment: Decent hardware store but limited stock., businessId: 66bc9933dd2ec6bd744b10f7
+_id: 66bca76fdd2ec6bd744b1258, username: george_green, rating: 4, comment: Very professional and efficient service., businessId: 66bc9933dd2ec6bd744b10d9
+_id: 66bca76fdd2ec6bd744b1259, username: emily_nguyen, rating: 5, comment: Wonderful variety of books and a comfy place to read., businessId: 66bc9933dd2ec6bd744b10cb
+_id: 66bca82bdd2ec6bd744b125b, username: john_doe, rating: 5, comment: Amazing pastries and great service!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca82bdd2ec6bd744b125c, username: jane_smith, rating: 3, comment: Good selection but a bit overpriced., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca82bdd2ec6bd744b125d, username: bob_builder, rating: 4, comment: Helpful staff and quick service., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca82bdd2ec6bd744b125e, username: alice_wonder, rating: 2, comment: Clothing quality could be better., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca82bdd2ec6bd744b125f, username: tech_guru, rating: 5, comment: High-quality electronics and great prices!, businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca82bdd2ec6bd744b1260, username: kid_fun, rating: 4, comment: My kids love the toys from here., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca82bdd2ec6bd744b1261, username: print_master, rating: 3, comment: Reliable printing services., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca82bdd2ec6bd744b1262, username: home_decorator, rating: 5, comment: Beautiful furniture and excellent customer service., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca82bdd2ec6bd744b1263, username: car_guy, rating: 4, comment: Good repair work but took longer than expected., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca82bdd2ec6bd744b1264, username: beauty_lover, rating: 5, comment: Lovely salon with friendly staff., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca82bdd2ec6bd744b1265, username: daily_shopper, rating: 3, comment: Convenient but crowded., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca82bdd2ec6bd744b1266, username: foodie1, rating: 5, comment: Delicious food and great ambiance!, businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca82bdd2ec6bd744b1267, username: fun_seeker, rating: 4, comment: Lots of fun activities for everyone., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b1268, username: office_worker, rating: 2, comment: Not enough workspace., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca82bdd2ec6bd744b1269, username: night_owl, rating: 4, comment: Great place for a night out!, businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca82bdd2ec6bd744b126a, username: retail_therapist, rating: 3, comment: Decent variety of products., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca82bdd2ec6bd744b126b, username: party_time, rating: 5, comment: Perfect venue for parties and events., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b126c, username: gamer01, rating: 4, comment: Fun place, but could use better maintenance., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b126d, username: health_enthusiast, rating: 5, comment: Great selection of health products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca82bdd2ec6bd744b126e, username: fashionista_22, rating: 3, comment: Trendy clothes but expensive., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca82bdd2ec6bd744b126f, username: AliceM, rating: 5, comment: Delightful pastries and wonderful service!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca82bdd2ec6bd744b1270, username: JohnDoe, rating: 4, comment: Great variety of fresh produce., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca82bdd2ec6bd744b1271, username: HealthGuru99, rating: 5, comment: Very helpful staff and extensive range of health products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca82bdd2ec6bd744b1272, username: Fashionista22, rating: 4, comment: Lovely boutique with unique clothing., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca82bdd2ec6bd744b1273, username: TechSavvy, rating: 5, comment: Top-notch electronics and customer service., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca82bdd2ec6bd744b1274, username: ToyLover, rating: 5, comment: Perfect place for toys. Kids love it!, businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca82bdd2ec6bd744b1275, username: PrintMaster, rating: 4, comment: Quick and high-quality printing services., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca82bdd2ec6bd744b1276, username: HomeMaker, rating: 5, comment: Beautiful furniture at reasonable prices., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca82bdd2ec6bd744b1277, username: CarFanatic, rating: 4, comment: Efficient and reliable car repair services., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca82bdd2ec6bd744b1278, username: BeautyQueen, rating: 5, comment: Fantastic haircuts and friendly staff., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca82bdd2ec6bd744b1279, username: Shopaholic, rating: 4, comment: Wide range of products available., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca82bdd2ec6bd744b127a, username: Foodie, rating: 5, comment: Delicious food and great ambiance., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca82bdd2ec6bd744b127b, username: GamerPro, rating: 4, comment: Fun arcade games and friendly environment., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b127c, username: OfficeWorker, rating: 5, comment: Convenient location and good facilities., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca82bdd2ec6bd744b127d, username: NightOwl, rating: 4, comment: Great place to hang out at night., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca82bdd2ec6bd744b127e, username: PartyAnimal, rating: 5, comment: Best nightlife experience!, businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca82bdd2ec6bd744b127f, username: FunSeeker, rating: 4, comment: Lots of fun activities for all ages., businessId: 66bc9933dd2ec6bd744b10b3
+_id: 66bca82bdd2ec6bd744b1280, username: RemoteWorker, rating: 5, comment: Perfect place to work remotely., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca82bdd2ec6bd744b1281, username: FlowerLover, rating: 4, comment: Beautiful and fresh flowers available., businessId: 66bc9933dd2ec6bd744b10c8
+_id: 66bca82bdd2ec6bd744b1282, username: MovieBuff, rating: 5, comment: Comfortable seating and great movie selections., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca82bdd2ec6bd744b1283, username: happy_baker, rating: 5, comment: Amazing bakery with delicious pastries and friendly staff!, businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca82bdd2ec6bd744b1284, username: freshshopper, rating: 4, comment: Great place for fresh produce, but could use a wider organic selection., businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca82bdd2ec6bd744b1285, username: healthnut, rating: 4, comment: Very knowledgeable staff and good selection of health products., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca82bdd2ec6bd744b1286, username: fashionista, rating: 3, comment: Nice boutique with trendy items, but a bit pricey., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca82bdd2ec6bd744b1287, username: techsavvy, rating: 5, comment: Best place to find the latest tech gadgets at great prices!, businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca82bdd2ec6bd744b1288, username: toylovr, rating: 4, comment: Wonderful toy store with a wide selection for kids of all ages., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca82bdd2ec6bd744b1289, username: printpro, rating: 5, comment: Excellent print quality and quick turnaround times., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca82bdd2ec6bd744b128a, username: homemaker, rating: 4, comment: Good selection of furniture, but delivery times can vary., businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca82bdd2ec6bd744b128b, username: carbuff, rating: 5, comment: Fast and reliable car repair service. Highly recommend!, businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca82bdd2ec6bd744b128c, username: styleguru, rating: 3, comment: Decent haircut but the stylist wasn't very friendly., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca82bdd2ec6bd744b128d, username: supermartfan, rating: 4, comment: Convenient location and great selection of everyday items., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca82bdd2ec6bd744b128e, username: foodie123, rating: 5, comment: Outstanding restaurant with delicious gourmet dishes!, businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca82bdd2ec6bd744b128f, username: funseeker, rating: 5, comment: Lots of fun activities for the whole family!, businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b1290, username: workaholic, rating: 4, comment: Great coworking space with all the amenities you need., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca82bdd2ec6bd744b1291, username: nightowl, rating: 5, comment: Best nightlife spot in town! Great drinks and atmosphere., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca82bdd2ec6bd744b1292, username: entertainmentguru, rating: 4, comment: Good fun, but the games can be a bit expensive., businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca82bdd2ec6bd744b1293, username: officepro, rating: 4, comment: Nice place to work, though the internet can be slow at times., businessId: 66bc9933dd2ec6bd744b10b4
+_id: 66bca82bdd2ec6bd744b1294, username: gardener, rating: 5, comment: Beautiful nursery with a wide selection of plants., businessId: 66bc9933dd2ec6bd744b10d0
+_id: 66bca82bdd2ec6bd744b1295, username: bakingqueen, rating: 5, comment: Best donuts in town!, businessId: 66bc9933dd2ec6bd744b10d4
+_id: 66bca82bdd2ec6bd744b1296, username: outdoorenthusiast, rating: 4, comment: Great selection of outdoor gear but a bit pricey., businessId: 66bc9933dd2ec6bd744b10d2
+_id: 66bca82bdd2ec6bd744b1297, username: anna_x, rating: 5, comment: The pastries are divine! Will definitely come back., businessId: 66bc9933dd2ec6bd744b10a2
+_id: 66bca82bdd2ec6bd744b1298, username: john_doe90, rating: 4, comment: Fresh produce and friendly staff. Recommended!, businessId: 66bc9933dd2ec6bd744b10a3
+_id: 66bca82bdd2ec6bd744b1299, username: health_guru21, rating: 3, comment: Good pharmacy but the wait time can be long., businessId: 66bc9933dd2ec6bd744b10a4
+_id: 66bca82bdd2ec6bd744b129a, username: fashionista88, rating: 5, comment: Love the unique fashion pieces here., businessId: 66bc9933dd2ec6bd744b10a5
+_id: 66bca82bdd2ec6bd744b129b, username: tech_savvy, rating: 4, comment: Great selection of electronics. Highly recommend., businessId: 66bc9933dd2ec6bd744b10a6
+_id: 66bca82bdd2ec6bd744b129c, username: happy_kids_mom, rating: 5, comment: My kids love this store! Great toys., businessId: 66bc9933dd2ec6bd744b10a7
+_id: 66bca82bdd2ec6bd744b129d, username: print_wizard, rating: 4, comment: Good service and quality prints., businessId: 66bc9933dd2ec6bd744b10a8
+_id: 66bca82bdd2ec6bd744b129e, username: home_dec_inspo, rating: 5, comment: Unique furniture, perfect for my new home!, businessId: 66bc9933dd2ec6bd744b10a9
+_id: 66bca82bdd2ec6bd744b129f, username: car_enthusiast, rating: 3, comment: Average service, but reasonably priced., businessId: 66bc9933dd2ec6bd744b10aa
+_id: 66bca82bdd2ec6bd744b12a0, username: hair_love23, rating: 5, comment: Great stylists! Love my new haircut., businessId: 66bc9933dd2ec6bd744b10ab
+_id: 66bca82bdd2ec6bd744b12a1, username: shopaholic, rating: 4, comment: Nice store with a variety of items., businessId: 66bc9933dd2ec6bd744b10ac
+_id: 66bca82bdd2ec6bd744b12a2, username: foodie_paradise, rating: 5, comment: Delicious gourmet bites, perfect for food lovers., businessId: 66bc9933dd2ec6bd744b10ad
+_id: 66bca82bdd2ec6bd744b12a3, username: fun_times, rating: 4, comment: Great place for entertainment and family fun., businessId: 66bc9933dd2ec6bd744b10ae
+_id: 66bca82bdd2ec6bd744b12a4, username: workaholic, rating: 5, comment: Comfortable and well-equipped workspaces., businessId: 66bc9933dd2ec6bd744b10af
+_id: 66bca82bdd2ec6bd744b12a5, username: night_life_explorer, rating: 3, comment: Decent nightlife spot, but could use some improvements., businessId: 66bc9933dd2ec6bd744b10b0
+_id: 66bca82bdd2ec6bd744b12a6, username: retail_therapist, rating: 4, comment: Convenient and well-stocked retail store., businessId: 66bc9933dd2ec6bd744b10b1
+_id: 66bca82bdd2ec6bd744b12a7, username: party_lover, rating: 5, comment: Amazing nightlife experiences every weekend!, businessId: 66bc9933dd2ec6bd744b10b2
+_id: 66bca82bdd2ec6bd744b12a8, username: movie_buff, rating: 4, comment: Comfortable seating and great movie selection., businessId: 66bc9933dd2ec6bd744b10c9
+_id: 66bca82bdd2ec6bd744b12a9, username: quick_bites_fan, rating: 4, comment: Tasty and quick food options. Perfect for a busy day., businessId: 66bc9933dd2ec6bd744b10ca
+_id: 66bca82bdd2ec6bd744b12aa, username: bookworm, rating: 5, comment: Cozy bookstore with a wide selection of books., businessId: 66bc9933dd2ec6bd744b10cb

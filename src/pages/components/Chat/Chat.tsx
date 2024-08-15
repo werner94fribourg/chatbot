@@ -45,7 +45,14 @@ const Chat: NextPage = () => {
           {answers.map((answer, i) => (
             <React.Fragment key={i}>
               <p className={styles.left}>
-                <span>{answer}</span>
+                <span>
+                  {answer.split('\n').map((line, j) => (
+                    <React.Fragment key={`${i}-${j}`}>
+                      {line}
+                      <br />
+                    </React.Fragment>
+                  ))}
+                </span>
               </p>
               {questions[i] && (
                 <p className={styles.right}>

@@ -6,6 +6,8 @@ import {
   OPENAI,
   OPENAI_MODEL,
   REVIEWS_DATA_FILE,
+  AZURE,
+  AZURE_BASE_MODEL,
 } from './globals';
 import {
   ChatCompletionTool,
@@ -23,6 +25,8 @@ const {
 } = process;
 
 let BUSINESSES: Business[] | null = null;
+
+let REVIEWS: Review[] | null = null;
 
 export interface Address {
   street?: string;
@@ -50,7 +54,8 @@ export interface BusinessAddress {
 }
 
 export interface Business {
-  id: number;
+  _id?: string;
+  id?: string;
   name: string;
   type: string;
   address: BusinessAddress;
@@ -59,7 +64,8 @@ export interface Business {
 }
 
 export interface Review {
-  id: number;
+  _id?: string;
+  id?: string;
   businessId: number;
   username: string;
   rating: number;
@@ -131,12 +137,46 @@ export const transformToString = (item: any): string => {
 };
 
 export const getAllBusinesses = async () => {
-  if (BUSINESSES === null)
+  if (BUSINESSES === null) {
     BUSINESSES = JSON.parse(
       (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf8')).toString()
     ) as Business[];
 
+    BUSINESSES = BUSINESSES.map(business => {
+      const newBusiness = { ...business };
+      newBusiness.id = newBusiness._id;
+
+      delete business._id;
+
+      return newBusiness;
+    });
+  }
+
   return BUSINESSES.map(business => transformToString(business)).join('\n');
+};
+
+export function shuffle(array: any[]) {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+
+  return newArray;
+}
+
+export const getAllReviews = async () => {
+  if (REVIEWS === null)
+    REVIEWS = JSON.parse(
+      (await promisify(readFile)(REVIEWS_DATA_FILE, 'utf8')).toString()
+    ) as Review[];
+
+  const reviewString = shuffle(REVIEWS)
+    .splice(50)
+    .map(review => transformToString(review))
+    .join('\n');
+
+  return reviewString;
 };
 
 export const handleInvokeFunction = async (
@@ -195,25 +235,29 @@ export const generatorChat: (
   context: ChatCompletionMessageParam[],
   handlers?: Handler[],
   tools?: ChatCompletionTool[]
-) => Promise<string> = async (context, handlers = [], tools = []) => {
+) => Promise<
+  [string, (ChatCompletionMessageParam | ChatCompletionMessage)[]]
+> = async (context, handlers = [], tools = []) => {
   if (tools.length === 0) {
     const {
       choices: [
         {
+          message,
           message: { content },
         },
       ],
-    } = await OPENAI.chat.completions.create({
-      model: OPENAI_MODEL,
+    } = await AZURE.chat.completions.create({
+      model: AZURE_BASE_MODEL,
       messages: context,
     });
+    const res = content !== null ? content : '';
 
-    return content !== null ? content : '';
+    return [content as string, [...context, message]];
   }
   const {
     choices: [{ message, finish_reason }],
-  } = await OPENAI.chat.completions.create({
-    model: OPENAI_MODEL,
+  } = await AZURE.chat.completions.create({
+    model: AZURE_BASE_MODEL,
     messages: context,
     tools,
     tool_choice: 'auto',
@@ -221,13 +265,15 @@ export const generatorChat: (
 
   const willInvokeFunction = finish_reason === 'tool_calls';
 
-  if (!willInvokeFunction) return message.content as string;
+  if (!willInvokeFunction) {
+    return [message.content as string, [...context, message]];
+  }
 
   const newContext = await handleInvokeFunction(context, message, handlers);
 
   if (newContext) return generatorChat(newContext, handlers, tools);
 
-  throw new Error('Error while generating the businesses');
+  throw new Error('Error while using the generator');
 };
 
 export const getTrainingFile = async (path: string, client: AzureOpenAI) => {

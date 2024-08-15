@@ -25,11 +25,12 @@ export async function POST(req: NextRequest) {
     const answer = await getRecommendations(prompt);
 
     return NextResponse.json({ status: 'success', data: { answer } });
-  } catch (err) {
+  } catch (error) {
     return NextResponse.json(
       {
         status: 'error',
         message: 'The server encountered a problem. Try again later.',
+        error,
       },
       { status: 500 }
     );

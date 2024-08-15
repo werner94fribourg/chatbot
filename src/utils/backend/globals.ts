@@ -22,7 +22,9 @@ export const OPENAI_MODEL = 'gpt-4o';
 export const SEARCH_ENDPOINT =
   'https://bizbot-search-service.search.windows.net';
 
-export const SEARCH_INDEX_NAME = 'recommendation-index-2';
+export const SEARCH_KEYWORD_INDEX_NAME = 'recommendation-query-search';
+
+export const SEARCH_SEMANTIC_INDEX_NAME = 'review-semantic-index';
 
 export const ROOT_FOLDER = nextConfig.serverRuntimeConfig.PROJECT_ROOT;
 

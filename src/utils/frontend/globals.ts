@@ -9,7 +9,7 @@ export const REVIEW_URL = API_URL + '/reviews';
 export const RECOMMENDATIONS_URL = API_URL + '/recommendations';
 
 export const BUSINESS_COLUMNS: GridColDef[] = [
-  { field: 'id', headerName: 'ID', width: 100 },
+  { field: 'id', headerName: 'ID', width: 250 },
   { field: 'name', headerName: 'Name', width: 220 },
   { field: 'type', headerName: 'Type', width: 180 },
   {
@@ -53,9 +53,9 @@ export const REVIEWS_COLUMNS: GridColDef[] = [
   {
     field: 'id',
     headerName: 'ID',
-    width: 100,
+    width: 200,
   },
-  { field: 'businessId', headerName: 'Rated Business ID', width: 200 },
+  { field: 'businessId', headerName: 'Rated Business ID', width: 250 },
   { field: 'username', headerName: 'Username', width: 200 },
   { field: 'rating', headerName: 'Rating', width: 70 },
   { field: 'comment', headerName: 'Comment', width: 400 },

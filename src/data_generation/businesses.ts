@@ -73,21 +73,12 @@ const HANDLERS: Handler[] = [
 ];
 
 export const generate = async () => {
-  const content = await generatorChat(CONTEXT, HANDLERS, TOOLS);
+  const [content] = await generatorChat(CONTEXT, HANDLERS, TOOLS);
   const businesses = JSON.parse(extractJSONString(content)) as Business[];
 
   const previousBusinesses = JSON.parse(
     (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf8')).toString()
   ) as Business[];
-
-  const maxId = previousBusinesses.reduce(
-    (max, business) => (business.id > max ? business.id : max),
-    -1
-  );
-
-  businesses.forEach(business => {
-    business.id += business.id + maxId;
-  });
 
   await promisify(writeFile)(
     BUSINESSES_DATA_FILE,
@@ -117,7 +108,7 @@ export const generateTextFile = async () => {
         ...business,
         latitude: lat,
         longitude: lng,
-        categories: getCategoryType(type),
+        /*categories: getCategoryType(type),*/
       });
     })
   ).join('\n');

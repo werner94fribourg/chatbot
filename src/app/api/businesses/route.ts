@@ -6,9 +6,18 @@ import { NextRequest, NextResponse } from 'next/server';
 import { promisify } from 'util';
 
 export async function GET(_: NextRequest) {
-  const businesses = JSON.parse(
+  let businesses = JSON.parse(
     (await promisify(readFile)(BUSINESSES_DATA_FILE, 'utf-8')).toString()
   ) as Business[];
+
+  businesses = businesses.map(business => {
+    const newBusiness = { ...business };
+    newBusiness.id = newBusiness._id;
+
+    delete business._id;
+
+    return newBusiness;
+  });
 
   return NextResponse.json({ status: 'success', data: { businesses } });
 }
