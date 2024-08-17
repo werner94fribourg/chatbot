@@ -1,4 +1,4 @@
-import { fetchChatbotAnswer } from '@/api_calls/calls';
+import { fetchChatbotAnswer, fetchClearContext } from '@/api_calls/calls';
 import { createSlice, Dispatch } from '@reduxjs/toolkit';
 
 interface ChatState {
@@ -9,7 +9,7 @@ interface ChatState {
 
 const initialState: ChatState = {
   questions: [],
-  answers: ["Hi, I'm Bizbot, How can I help you?"],
+  answers: ["Hi, I'm your friend Bizbot, How can I help you?"],
   isLoading: false,
 };
 
@@ -41,6 +41,18 @@ const chatSlice = createSlice({
       state.answers.push(message);
       state.isLoading = false;
     },
+    setLoadingState(state, action) {
+      const {
+        payload: { isLoading },
+      } = action;
+
+      state.isLoading = isLoading;
+    },
+    clearContext(state) {
+      state.answers = ["Hi, I'm your friend Bizbot, How can I help you?"];
+      state.questions = [];
+      state.isLoading = false;
+    },
   },
 });
 
@@ -57,4 +69,17 @@ export const askChatbot = async (question: string, dispatch: Dispatch) => {
   }
 
   dispatch(chatActions.addAnswer({ answer }));
+};
+
+export const clearContext = async (dispatch: Dispatch) => {
+  dispatch(chatActions.setLoadingState({ isLoading: true }));
+
+  const { valid } = await fetchClearContext();
+
+  if (!valid) {
+    dispatch(chatActions.setLoadingState({ isLoading: false }));
+    return;
+  }
+
+  dispatch(chatActions.clearContext());
 };

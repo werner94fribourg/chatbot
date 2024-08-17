@@ -1,4 +1,3 @@
-import { generate } from '@/data_generation/businesses';
 import { BUSINESSES_DATA_FILE } from '@/utils/backend/globals';
 import { Business } from '@/utils/backend/utils';
 import { readFile } from 'fs';
@@ -20,15 +19,4 @@ export async function GET(_: NextRequest) {
   });
 
   return NextResponse.json({ status: 'success', data: { businesses } });
-}
-
-export function PATCH(_: NextRequest) {
-  try {
-    generate();
-  } finally {
-    return NextResponse.json({
-      status: 'success',
-      message: 'Businesses generation successfully started.',
-    });
-  }
 }

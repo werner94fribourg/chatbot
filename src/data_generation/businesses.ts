@@ -29,7 +29,7 @@ const CONTEXT: ChatCompletionMessageParam[] = [
   {
     role: 'user',
     content:
-      'Generate me a JSON list of 10 random businesses having the following parameters:\nid, name, type, address, openingHour, closingHour. The opening and closing hours must randomly be between 8AM and 6PM. Represent the address as an object having the street, the postalCode, the city, the state, the country and the coordinates as a tuple [lat, lng].',
+      'Generate me a JSON list of 10 random businesses having the following parameters:\n_id (a mongodb Id), name, type, address, openingHour, closingHour. The opening and closing hours must randomly be between 8AM and 6PM. Represent the address as an object having the street, the postalCode, the city, the state, the country and the coordinates as a tuple [lat, lng].',
   },
 ];
 
@@ -89,6 +89,8 @@ export const generate = async () => {
   console.log(
     `Businesses' file updated at the location ${BUSINESSES_DATA_FILE}`
   );
+
+  return businesses;
 };
 
 export const generateTextFile = async () => {

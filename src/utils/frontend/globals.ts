@@ -4,9 +4,15 @@ export const API_URL = '/api';
 
 export const BUSINESS_URL = API_URL + '/businesses';
 
+export const GENERATE_BUSINESSES_URL = BUSINESS_URL + '/generate';
+
 export const REVIEW_URL = API_URL + '/reviews';
 
+export const GENERATE_REVIEWS_URL = REVIEW_URL + '/generate';
+
 export const RECOMMENDATIONS_URL = API_URL + '/recommendations';
+
+export const CLEAR_CONTEXT_URL = RECOMMENDATIONS_URL + '/clear';
 
 export const BUSINESS_COLUMNS: GridColDef[] = [
   { field: 'id', headerName: 'ID', width: 250 },

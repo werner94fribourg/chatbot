@@ -1,13 +1,13 @@
 import { NextPage } from 'next';
 import Image from 'next/image';
-import React, { FormEventHandler, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from './Chat.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
+import { faEraser, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { askChatbot } from '@/store/slices/chat';
-//import the css here
+import { askChatbot, clearContext } from '@/store/slices/chat';
+import icon from './QA_icon.png';
 
 const Chat: NextPage = () => {
   let hide = {
@@ -31,12 +31,21 @@ const Chat: NextPage = () => {
 
   const handleSend = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+  };
+
+  const handleBtnClick = (e: React.MouseEvent) => {
     if (isLoading) return;
     if (textRef.current === null) return;
+    const {
+      currentTarget: { id },
+    } = e;
 
-    askChatbot(textRef.current.value, dispatch);
+    if (id === 'submit-context') askChatbot(textRef.current.value, dispatch);
+    else clearContext(dispatch);
+
     textRef.current.value = '';
   };
+
   return (
     <div className={styles.chat}>
       <div className={styles.chatbox} style={chatopen ? show : hide}>
@@ -62,11 +71,24 @@ const Chat: NextPage = () => {
             </React.Fragment>
           ))}
         </div>
-        <form onSubmit={handleSend}>
+        <form id="formId" onSubmit={handleSend}>
           <div className={styles.footer}>
             <textarea cols={1} rows={4} ref={textRef} disabled={isLoading} />
             <button className={styles['submit-button']}>
-              <FontAwesomeIcon icon={faPaperPlane} size="6x" />
+              <FontAwesomeIcon
+                icon={faPaperPlane}
+                id="submit-context"
+                size="4x"
+                style={{ cursor: 'pointer' }}
+                onClick={handleBtnClick}
+              />
+              <FontAwesomeIcon
+                icon={faEraser}
+                id="clear-context"
+                size="4x"
+                style={{ cursor: 'pointer' }}
+                onClick={handleBtnClick}
+              />
             </button>
           </div>
         </form>
@@ -74,10 +96,11 @@ const Chat: NextPage = () => {
       <div className={styles.pop}>
         <Image
           height={40}
-          width={20}
+          width={40}
           onClick={toggle}
-          src="https://p7.hiclipart.com/preview/151/758/442/iphone-imessage-messages-logo-computer-icons-message.jpg"
-          alt=""
+          src={icon}
+          alt="Questions and Answers Icon"
+          style={{ height: 40, width: 40 }}
         />
       </div>
     </div>

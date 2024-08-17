@@ -71,8 +71,12 @@
       .submit-button {
         background-color: transparent;
         border: none;
-        cursor: pointer;
         padding: 0;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
       }
     }
   }

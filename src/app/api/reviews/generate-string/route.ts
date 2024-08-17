@@ -10,9 +10,12 @@ export async function PATCH(_: NextRequest) {
       string,
     });
   } catch (err) {
-    return NextResponse.json({
-      status: 'fail',
-      message: 'Error while trying to generate the string file.',
-    });
+    return NextResponse.json(
+      {
+        status: 'fail',
+        message: 'Error while trying to generate the string file.',
+      },
+      { status: 500 }
+    );
   }
 }

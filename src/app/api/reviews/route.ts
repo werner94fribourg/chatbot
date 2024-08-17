@@ -1,4 +1,3 @@
-import { generate } from '@/data_generation/reviews';
 import { REVIEWS_DATA_FILE } from '@/utils/backend/globals';
 import { Review } from '@/utils/backend/utils';
 import { readFile } from 'fs';
@@ -20,15 +19,4 @@ export async function GET(_: NextRequest) {
   });
 
   return NextResponse.json({ status: 'success', data: { reviews } });
-}
-
-export function PATCH(_: NextRequest) {
-  try {
-    for (let i = 0; i < 50; i++) generate();
-  } finally {
-    return NextResponse.json({
-      status: 'success',
-      message: 'Reviews generation successfully started.',
-    });
-  }
 }

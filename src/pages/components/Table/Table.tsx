@@ -1,8 +1,12 @@
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { NextPage } from 'next';
 
-const Table: NextPage<{ rows: object[]; columns: GridColDef[] }> = props => {
-  const { rows, columns } = props;
+const Table: NextPage<{
+  rows: object[];
+  columns: GridColDef[];
+  loading: boolean;
+}> = props => {
+  const { rows, columns, loading } = props;
 
   return (
     <div style={{ width: '100%' }}>
@@ -17,6 +21,13 @@ const Table: NextPage<{ rows: object[]; columns: GridColDef[] }> = props => {
         pageSizeOptions={[5, 10, 20]}
         checkboxSelection
         autoHeight={true}
+        loading={loading}
+        slotProps={{
+          loadingOverlay: {
+            variant: 'linear-progress',
+            noRowsVariant: 'skeleton',
+          },
+        }}
       />
     </div>
   );

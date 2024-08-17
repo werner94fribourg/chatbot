@@ -24,7 +24,7 @@ export const CONTEXT: ChatCompletionMessageParam[] = [
   {
     role: 'user',
     content:
-      'Generate me a list of 20 reviews of the existing businesses in JSON format as such: username, rating (between 1 to 5), comment and businessId (as a ObjectId reference for Mongodb). businessID is a reference to oid in the business list and should be displayed as follows: businessId: {"$oid": "the value of the business id."}.',
+      'Generate me a list of 20 reviews of the existing businesses in JSON format as such: _id (a mongodb Id), username, rating (between 1 to 5), comment and businessId (as a ObjectId reference for Mongodb). businessID is a reference to an id in the business list.',
   },
 ];
 
@@ -67,6 +67,8 @@ export const generate = async () => {
   );
 
   console.log(`Reviews' file updated at the location ${REVIEWS_DATA_FILE}`);
+
+  return reviews;
 };
 
 export const generateTextFile = async () => {
